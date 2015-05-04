@@ -1,0 +1,16 @@
+language: objective-c
+
+before_install:
+- brew update
+- brew outdated xctool || brew upgrade xctool
+- brew install carthage
+install: carthage build
+
+cache:
+  directories:
+  - Carthage/Build
+
+notifications:
+  email: false
+  slack:
+    secure: mAKiW6OFXNx2lQhixT5iT/Wg/wQ3vmTBdhe9lKMLaD27vOfvVVX5OQEbHGngd4qKUlY0eJOOesyNAhQuiRY+t2ZrjfNQVixaShNt/xZniJz0un4kO3v6HGbE/IURJ0sX7U7J1ZAQ0kJMNiGrobe2/eWpalM3SF7kmJ0rU62WWNY=
