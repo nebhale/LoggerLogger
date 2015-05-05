@@ -41,10 +41,6 @@
 		241291D51AF7AE3E005DC415 /* MessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291C01AF7A659005DC415 /* MessageFormatter.swift */; };
 		241291D61AF7AE3E005DC415 /* MessageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291BE1AF7A3A4005DC415 /* MessageProvider.swift */; };
 		241291D71AF7AE3E005DC415 /* MessageWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291BC1AF7A37F005DC415 /* MessageWriter.swift */; };
-		241292131AF7AF91005DC415 /* ExSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 241291FF1AF7AF91005DC415 /* ExSwift.h */; };
-		241292141AF7AF91005DC415 /* ExSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 241291FF1AF7AF91005DC415 /* ExSwift.h */; };
-		241292191AF7AF91005DC415 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 241292021AF7AF91005DC415 /* Info.plist */; };
-		2412921A1AF7AF91005DC415 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 241292021AF7AF91005DC415 /* Info.plist */; };
 		243A58961AF7B07500E4BB8F /* Basename.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A58951AF7B07500E4BB8F /* Basename.swift */; };
 		243A58981AF7B5BF00E4BB8F /* ConsoleMessageWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A58971AF7B5BF00E4BB8F /* ConsoleMessageWriter.swift */; };
 		243A58991AF7B5BF00E4BB8F /* ConsoleMessageWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A58971AF7B5BF00E4BB8F /* ConsoleMessageWriter.swift */; };
@@ -73,58 +69,6 @@
 		243A58B11AF7B6F800E4BB8F /* MessageWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291BC1AF7A37F005DC415 /* MessageWriter.swift */; };
 		243A58B21AF7B6FC00E4BB8F /* PlistConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A589A1AF7B6EA00E4BB8F /* PlistConfigurationProvider.swift */; };
 		243A58B31AF7B6FC00E4BB8F /* PlistConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A589A1AF7B6EA00E4BB8F /* PlistConfigurationProvider.swift */; };
-		243A58B71AF7CAE000E4BB8F /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291FA1AF7AF91005DC415 /* Array.swift */; };
-		243A58B81AF7CAE000E4BB8F /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291FB1AF7AF91005DC415 /* Bool.swift */; };
-		243A58B91AF7CAE000E4BB8F /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291FC1AF7AF91005DC415 /* Character.swift */; };
-		243A58BA1AF7CAE000E4BB8F /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291FD1AF7AF91005DC415 /* Dictionary.swift */; };
-		243A58BB1AF7CAE000E4BB8F /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291FE1AF7AF91005DC415 /* Double.swift */; };
-		243A58BC1AF7CAE000E4BB8F /* ExSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241292001AF7AF91005DC415 /* ExSwift.swift */; };
-		243A58BD1AF7CAE000E4BB8F /* Float.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241292011AF7AF91005DC415 /* Float.swift */; };
-		243A58BE1AF7CAE000E4BB8F /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241292031AF7AF91005DC415 /* Int.swift */; };
-		243A58BF1AF7CAE000E4BB8F /* NSArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241292041AF7AF91005DC415 /* NSArray.swift */; };
-		243A58C01AF7CAE000E4BB8F /* NSDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241292051AF7AF91005DC415 /* NSDate.swift */; };
-		243A58C11AF7CAE000E4BB8F /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241292061AF7AF91005DC415 /* Range.swift */; };
-		243A58C21AF7CAE000E4BB8F /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241292071AF7AF91005DC415 /* Sequence.swift */; };
-		243A58C31AF7CAE000E4BB8F /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241292081AF7AF91005DC415 /* String.swift */; };
-		243A58C41AF7CAE100E4BB8F /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291FA1AF7AF91005DC415 /* Array.swift */; };
-		243A58C51AF7CAE100E4BB8F /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291FB1AF7AF91005DC415 /* Bool.swift */; };
-		243A58C61AF7CAE100E4BB8F /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291FC1AF7AF91005DC415 /* Character.swift */; };
-		243A58C71AF7CAE100E4BB8F /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291FD1AF7AF91005DC415 /* Dictionary.swift */; };
-		243A58C81AF7CAE100E4BB8F /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291FE1AF7AF91005DC415 /* Double.swift */; };
-		243A58C91AF7CAE100E4BB8F /* ExSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241292001AF7AF91005DC415 /* ExSwift.swift */; };
-		243A58CA1AF7CAE100E4BB8F /* Float.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241292011AF7AF91005DC415 /* Float.swift */; };
-		243A58CB1AF7CAE100E4BB8F /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241292031AF7AF91005DC415 /* Int.swift */; };
-		243A58CC1AF7CAE100E4BB8F /* NSArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241292041AF7AF91005DC415 /* NSArray.swift */; };
-		243A58CD1AF7CAE100E4BB8F /* NSDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241292051AF7AF91005DC415 /* NSDate.swift */; };
-		243A58CE1AF7CAE100E4BB8F /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241292061AF7AF91005DC415 /* Range.swift */; };
-		243A58CF1AF7CAE100E4BB8F /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241292071AF7AF91005DC415 /* Sequence.swift */; };
-		243A58D01AF7CAE100E4BB8F /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241292081AF7AF91005DC415 /* String.swift */; };
-		243A58D11AF7CB3000E4BB8F /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241292081AF7AF91005DC415 /* String.swift */; };
-		243A58D21AF7CB3000E4BB8F /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241292081AF7AF91005DC415 /* String.swift */; };
-		243A58D31AF7CB4000E4BB8F /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291FA1AF7AF91005DC415 /* Array.swift */; };
-		243A58D41AF7CB4000E4BB8F /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291FB1AF7AF91005DC415 /* Bool.swift */; };
-		243A58D51AF7CB4000E4BB8F /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291FC1AF7AF91005DC415 /* Character.swift */; };
-		243A58D61AF7CB4000E4BB8F /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291FD1AF7AF91005DC415 /* Dictionary.swift */; };
-		243A58D71AF7CB4000E4BB8F /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291FE1AF7AF91005DC415 /* Double.swift */; };
-		243A58D81AF7CB4000E4BB8F /* ExSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241292001AF7AF91005DC415 /* ExSwift.swift */; };
-		243A58D91AF7CB4000E4BB8F /* Float.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241292011AF7AF91005DC415 /* Float.swift */; };
-		243A58DA1AF7CB4000E4BB8F /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241292031AF7AF91005DC415 /* Int.swift */; };
-		243A58DB1AF7CB4000E4BB8F /* NSArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241292041AF7AF91005DC415 /* NSArray.swift */; };
-		243A58DC1AF7CB4000E4BB8F /* NSDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241292051AF7AF91005DC415 /* NSDate.swift */; };
-		243A58DD1AF7CB4000E4BB8F /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241292061AF7AF91005DC415 /* Range.swift */; };
-		243A58DE1AF7CB4000E4BB8F /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241292071AF7AF91005DC415 /* Sequence.swift */; };
-		243A58DF1AF7CB4100E4BB8F /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291FA1AF7AF91005DC415 /* Array.swift */; };
-		243A58E01AF7CB4100E4BB8F /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291FB1AF7AF91005DC415 /* Bool.swift */; };
-		243A58E11AF7CB4100E4BB8F /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291FC1AF7AF91005DC415 /* Character.swift */; };
-		243A58E21AF7CB4100E4BB8F /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291FD1AF7AF91005DC415 /* Dictionary.swift */; };
-		243A58E31AF7CB4100E4BB8F /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291FE1AF7AF91005DC415 /* Double.swift */; };
-		243A58E41AF7CB4100E4BB8F /* ExSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241292001AF7AF91005DC415 /* ExSwift.swift */; };
-		243A58E51AF7CB4100E4BB8F /* Float.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241292011AF7AF91005DC415 /* Float.swift */; };
-		243A58E61AF7CB4100E4BB8F /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241292031AF7AF91005DC415 /* Int.swift */; };
-		243A58E71AF7CB4100E4BB8F /* NSArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241292041AF7AF91005DC415 /* NSArray.swift */; };
-		243A58E81AF7CB4100E4BB8F /* NSDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241292051AF7AF91005DC415 /* NSDate.swift */; };
-		243A58E91AF7CB4100E4BB8F /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241292061AF7AF91005DC415 /* Range.swift */; };
-		243A58EA1AF7CB4100E4BB8F /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241292071AF7AF91005DC415 /* Sequence.swift */; };
 		243A58EC1AF7CB9E00E4BB8F /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A58EB1AF7CB9D00E4BB8F /* Logger.swift */; };
 		243A58ED1AF7CBA100E4BB8F /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A58EB1AF7CB9D00E4BB8F /* Logger.swift */; };
 		243A58EE1AF7CBA200E4BB8F /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A58EB1AF7CB9D00E4BB8F /* Logger.swift */; };
@@ -175,6 +119,14 @@
 		2484921B1AF6B386000151A2 /* LoggerLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2484920F1AF6B386000151A2 /* LoggerLogger.framework */; };
 		2484923B1AF6BA83000151A2 /* LoggerLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248492301AF6BA83000151A2 /* LoggerLogger.framework */; };
 		248492491AF6BDD5000151A2 /* LoggerLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 248492141AF6B386000151A2 /* LoggerLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24D5A06D1AF897F000C536C7 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D5A06C1AF897F000C536C7 /* String.swift */; };
+		24D5A06E1AF8997F00C536C7 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D5A06C1AF897F000C536C7 /* String.swift */; };
+		24D5A06F1AF8998000C536C7 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D5A06C1AF897F000C536C7 /* String.swift */; };
+		24D5A0701AF8998100C536C7 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D5A06C1AF897F000C536C7 /* String.swift */; };
+		24D5A0721AF89AB000C536C7 /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D5A0711AF89AB000C536C7 /* Range.swift */; };
+		24D5A0731AF89AF100C536C7 /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D5A0711AF89AB000C536C7 /* Range.swift */; };
+		24D5A0741AF89AF100C536C7 /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D5A0711AF89AB000C536C7 /* Range.swift */; };
+		24D5A0751AF89AF200C536C7 /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D5A0711AF89AB000C536C7 /* Range.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -235,21 +187,6 @@
 		241291C21AF7A83F005DC415 /* InMemoryDateFormatterPool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InMemoryDateFormatterPool.swift; sourceTree = "<group>"; };
 		241291C41AF7AB0B005DC415 /* DateFormatterPool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatterPool.swift; sourceTree = "<group>"; };
 		241291C61AF7AB4E005DC415 /* DefaultMessageFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultMessageFormatter.swift; sourceTree = "<group>"; };
-		241291FA1AF7AF91005DC415 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
-		241291FB1AF7AF91005DC415 /* Bool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bool.swift; sourceTree = "<group>"; };
-		241291FC1AF7AF91005DC415 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
-		241291FD1AF7AF91005DC415 /* Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
-		241291FE1AF7AF91005DC415 /* Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
-		241291FF1AF7AF91005DC415 /* ExSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExSwift.h; sourceTree = "<group>"; };
-		241292001AF7AF91005DC415 /* ExSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExSwift.swift; sourceTree = "<group>"; };
-		241292011AF7AF91005DC415 /* Float.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Float.swift; sourceTree = "<group>"; };
-		241292021AF7AF91005DC415 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		241292031AF7AF91005DC415 /* Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
-		241292041AF7AF91005DC415 /* NSArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSArray.swift; sourceTree = "<group>"; };
-		241292051AF7AF91005DC415 /* NSDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDate.swift; sourceTree = "<group>"; };
-		241292061AF7AF91005DC415 /* Range.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Range.swift; sourceTree = "<group>"; };
-		241292071AF7AF91005DC415 /* Sequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sequence.swift; sourceTree = "<group>"; };
-		241292081AF7AF91005DC415 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		243A58951AF7B07500E4BB8F /* Basename.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Basename.swift; sourceTree = "<group>"; };
 		243A58971AF7B5BF00E4BB8F /* ConsoleMessageWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleMessageWriter.swift; sourceTree = "<group>"; };
 		243A589A1AF7B6EA00E4BB8F /* PlistConfigurationProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistConfigurationProvider.swift; sourceTree = "<group>"; };
@@ -279,6 +216,8 @@
 		248492201AF6B386000151A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		248492301AF6BA83000151A2 /* LoggerLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoggerLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2484923A1AF6BA83000151A2 /* LoggerLoggerTests-Mac.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LoggerLoggerTests-Mac.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D5A06C1AF897F000C536C7 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		24D5A0711AF89AB000C536C7 /* Range.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Range.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -319,29 +258,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		241291F91AF7AF91005DC415 /* ExSwift */ = {
-			isa = PBXGroup;
-			children = (
-				241291FA1AF7AF91005DC415 /* Array.swift */,
-				241291FB1AF7AF91005DC415 /* Bool.swift */,
-				241291FC1AF7AF91005DC415 /* Character.swift */,
-				241291FD1AF7AF91005DC415 /* Dictionary.swift */,
-				241291FE1AF7AF91005DC415 /* Double.swift */,
-				241291FF1AF7AF91005DC415 /* ExSwift.h */,
-				241292001AF7AF91005DC415 /* ExSwift.swift */,
-				241292011AF7AF91005DC415 /* Float.swift */,
-				241292021AF7AF91005DC415 /* Info.plist */,
-				241292031AF7AF91005DC415 /* Int.swift */,
-				241292041AF7AF91005DC415 /* NSArray.swift */,
-				241292051AF7AF91005DC415 /* NSDate.swift */,
-				241292061AF7AF91005DC415 /* Range.swift */,
-				241292071AF7AF91005DC415 /* Sequence.swift */,
-				241292081AF7AF91005DC415 /* String.swift */,
-			);
-			name = ExSwift;
-			path = ../Carthage/Checkouts/ExSwift/ExSwift;
-			sourceTree = "<group>";
-		};
 		248492051AF6B386000151A2 = {
 			isa = PBXGroup;
 			children = (
@@ -381,8 +297,10 @@
 				241291BC1AF7A37F005DC415 /* MessageWriter.swift */,
 				243A58F51AF7CC9300E4BB8F /* MessageWriterManager.swift */,
 				243A589A1AF7B6EA00E4BB8F /* PlistConfigurationProvider.swift */,
-				248492121AF6B386000151A2 /* Supporting Files */,
+				24D5A0711AF89AB000C536C7 /* Range.swift */,
+				24D5A06C1AF897F000C536C7 /* String.swift */,
 				243A59111AF7F96A00E4BB8F /* Synchronized.swift */,
+				248492121AF6B386000151A2 /* Supporting Files */,
 			);
 			path = LoggerLogger;
 			sourceTree = "<group>";
@@ -392,7 +310,6 @@
 			children = (
 				248492131AF6B386000151A2 /* Info.plist */,
 				248492141AF6B386000151A2 /* LoggerLogger.h */,
-				241291F91AF7AF91005DC415 /* ExSwift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -441,7 +358,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				248492151AF6B386000151A2 /* LoggerLogger.h in Headers */,
-				241292131AF7AF91005DC415 /* ExSwift.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,7 +366,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				248492491AF6BDD5000151A2 /* LoggerLogger.h in Headers */,
-				241292141AF7AF91005DC415 /* ExSwift.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,7 +494,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				241292191AF7AF91005DC415 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -599,7 +513,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2412921A1AF7AF91005DC415 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -626,31 +539,20 @@
 				241291BB1AF7A1E8005DC415 /* ConfigurationProvider.swift in Sources */,
 				241291C51AF7AB0B005DC415 /* DateFormatterPool.swift in Sources */,
 				243A58F11AF7CC1300E4BB8F /* ConfigurationProviderManager.swift in Sources */,
-				243A58CE1AF7CAE100E4BB8F /* Range.swift in Sources */,
+				24D5A0721AF89AB000C536C7 /* Range.swift in Sources */,
 				243A58EC1AF7CB9E00E4BB8F /* Logger.swift in Sources */,
-				243A58CB1AF7CAE100E4BB8F /* Int.swift in Sources */,
 				243A58F61AF7CC9300E4BB8F /* MessageWriterManager.swift in Sources */,
 				241291C71AF7AB4E005DC415 /* DefaultMessageFormatter.swift in Sources */,
 				241291C31AF7A83F005DC415 /* InMemoryDateFormatterPool.swift in Sources */,
-				243A58CC1AF7CAE100E4BB8F /* NSArray.swift in Sources */,
 				243A59141AF7F96E00E4BB8F /* Synchronized.swift in Sources */,
 				240E1C311AF6C3F400C93F4D /* Level.swift in Sources */,
 				241291C11AF7A659005DC415 /* MessageFormatter.swift in Sources */,
-				243A58C61AF7CAE100E4BB8F /* Character.swift in Sources */,
 				243A589B1AF7B6EA00E4BB8F /* PlistConfigurationProvider.swift in Sources */,
-				243A58CD1AF7CAE100E4BB8F /* NSDate.swift in Sources */,
-				243A58CF1AF7CAE100E4BB8F /* Sequence.swift in Sources */,
-				243A58D01AF7CAE100E4BB8F /* String.swift in Sources */,
-				243A58C51AF7CAE100E4BB8F /* Bool.swift in Sources */,
+				24D5A06D1AF897F000C536C7 /* String.swift in Sources */,
 				240E1C431AF73DDB00C93F4D /* MessagePosition.swift in Sources */,
-				243A58C41AF7CAE100E4BB8F /* Array.swift in Sources */,
 				241291BF1AF7A3A4005DC415 /* MessageProvider.swift in Sources */,
 				243A58961AF7B07500E4BB8F /* Basename.swift in Sources */,
-				243A58C71AF7CAE100E4BB8F /* Dictionary.swift in Sources */,
-				243A58C91AF7CAE100E4BB8F /* ExSwift.swift in Sources */,
-				243A58CA1AF7CAE100E4BB8F /* Float.swift in Sources */,
 				243A58981AF7B5BF00E4BB8F /* ConsoleMessageWriter.swift in Sources */,
-				243A58C81AF7CAE100E4BB8F /* Double.swift in Sources */,
 				241291BD1AF7A37F005DC415 /* MessageWriter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -659,44 +561,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				243A58E71AF7CB4100E4BB8F /* NSArray.swift in Sources */,
-				243A58E51AF7CB4100E4BB8F /* Float.swift in Sources */,
+				24D5A0701AF8998100C536C7 /* String.swift in Sources */,
 				241291B11AF799F6005DC415 /* Level.swift in Sources */,
 				243A59171AF7FC2300E4BB8F /* InMemoryDateFormatterPoolSpec.swift in Sources */,
 				243A590F1AF7F3E600E4BB8F /* DefaultMessageFormatterSpec.swift in Sources */,
 				243A591A1AF7FD7400E4BB8F /* LevelSpec.swift in Sources */,
 				243A589E1AF7B6F700E4BB8F /* Configuration.swift in Sources */,
-				243A58E41AF7CB4100E4BB8F /* ExSwift.swift in Sources */,
-				243A58E21AF7CB4100E4BB8F /* Dictionary.swift in Sources */,
 				243A58F71AF7CC9300E4BB8F /* MessageWriterManager.swift in Sources */,
 				243A58A21AF7B6F700E4BB8F /* DefaultMessageFormatter.swift in Sources */,
 				243A589D1AF7B6F700E4BB8F /* Basename.swift in Sources */,
+				24D5A0751AF89AF200C536C7 /* Range.swift in Sources */,
 				243A58A61AF7B6F700E4BB8F /* MessageWriter.swift in Sources */,
-				243A58DF1AF7CB4100E4BB8F /* Array.swift in Sources */,
 				243A58A51AF7B6F700E4BB8F /* MessageProvider.swift in Sources */,
 				243A58EF1AF7CBA200E4BB8F /* Logger.swift in Sources */,
 				243A59091AF7D3CF00E4BB8F /* ConfigurationSpec.swift in Sources */,
 				243A58F41AF7CC6800E4BB8F /* ConfigurationProviderManager.swift in Sources */,
-				243A58EA1AF7CB4100E4BB8F /* Sequence.swift in Sources */,
 				243A59121AF7F96A00E4BB8F /* Synchronized.swift in Sources */,
 				241291AF1AF799E6005DC415 /* MessagePosition.swift in Sources */,
 				241291AA1AF799C5005DC415 /* MessagePositionSpec.swift in Sources */,
-				243A58E11AF7CB4100E4BB8F /* Character.swift in Sources */,
-				243A58E81AF7CB4100E4BB8F /* NSDate.swift in Sources */,
-				243A58E91AF7CB4100E4BB8F /* Range.swift in Sources */,
 				243A590C1AF7EE5500E4BB8F /* ConsoleMessageWriterSpec.swift in Sources */,
 				243A59201AF8004D00E4BB8F /* PlistConfigurationProviderSpec.swift in Sources */,
 				243A59031AF7D36000E4BB8F /* BasenameSpec.swift in Sources */,
 				243A58B21AF7B6FC00E4BB8F /* PlistConfigurationProvider.swift in Sources */,
-				243A58E01AF7CB4100E4BB8F /* Bool.swift in Sources */,
 				243A58A31AF7B6F700E4BB8F /* InMemoryDateFormatterPool.swift in Sources */,
 				243A58A41AF7B6F700E4BB8F /* MessageFormatter.swift in Sources */,
 				243A589F1AF7B6F700E4BB8F /* ConfigurationProvider.swift in Sources */,
-				243A58E61AF7CB4100E4BB8F /* Int.swift in Sources */,
-				243A58D21AF7CB3000E4BB8F /* String.swift in Sources */,
 				243A58A11AF7B6F700E4BB8F /* DateFormatterPool.swift in Sources */,
 				243A59061AF7D39000E4BB8F /* ConfigurationProviderManagerSpec.swift in Sources */,
-				243A58E31AF7CB4100E4BB8F /* Double.swift in Sources */,
 				243A59001AF7D33300E4BB8F /* MessageWriterManagerSpec.swift in Sources */,
 				243A591D1AF7FDAA00E4BB8F /* LoggerSpec.swift in Sources */,
 				243A58A01AF7B6F700E4BB8F /* ConsoleMessageWriter.swift in Sources */,
@@ -711,31 +602,20 @@
 				243A58991AF7B5BF00E4BB8F /* ConsoleMessageWriter.swift in Sources */,
 				241291D11AF7AE3E005DC415 /* ConfigurationProvider.swift in Sources */,
 				243A58F31AF7CC6700E4BB8F /* ConfigurationProviderManager.swift in Sources */,
-				243A58C11AF7CAE000E4BB8F /* Range.swift in Sources */,
+				24D5A0741AF89AF100C536C7 /* Range.swift in Sources */,
 				243A58EE1AF7CBA200E4BB8F /* Logger.swift in Sources */,
-				243A58BE1AF7CAE000E4BB8F /* Int.swift in Sources */,
 				243A58F81AF7CC9300E4BB8F /* MessageWriterManager.swift in Sources */,
 				241291D21AF7AE3E005DC415 /* DateFormatterPool.swift in Sources */,
 				241291D31AF7AE3E005DC415 /* DefaultMessageFormatter.swift in Sources */,
-				243A58BF1AF7CAE000E4BB8F /* NSArray.swift in Sources */,
 				243A59151AF7F96F00E4BB8F /* Synchronized.swift in Sources */,
 				243A589C1AF7B6EA00E4BB8F /* PlistConfigurationProvider.swift in Sources */,
 				241291D41AF7AE3E005DC415 /* InMemoryDateFormatterPool.swift in Sources */,
-				243A58B91AF7CAE000E4BB8F /* Character.swift in Sources */,
 				241291AC1AF799CE005DC415 /* Level.swift in Sources */,
-				243A58C01AF7CAE000E4BB8F /* NSDate.swift in Sources */,
-				243A58C21AF7CAE000E4BB8F /* Sequence.swift in Sources */,
-				243A58C31AF7CAE000E4BB8F /* String.swift in Sources */,
-				243A58B81AF7CAE000E4BB8F /* Bool.swift in Sources */,
+				24D5A06F1AF8998000C536C7 /* String.swift in Sources */,
 				241291D51AF7AE3E005DC415 /* MessageFormatter.swift in Sources */,
-				243A58B71AF7CAE000E4BB8F /* Array.swift in Sources */,
 				241291AD1AF799D1005DC415 /* MessagePosition.swift in Sources */,
 				241291D61AF7AE3E005DC415 /* MessageProvider.swift in Sources */,
-				243A58BA1AF7CAE000E4BB8F /* Dictionary.swift in Sources */,
-				243A58BC1AF7CAE000E4BB8F /* ExSwift.swift in Sources */,
-				243A58BD1AF7CAE000E4BB8F /* Float.swift in Sources */,
 				243A58A71AF7B6F800E4BB8F /* Basename.swift in Sources */,
-				243A58BB1AF7CAE000E4BB8F /* Double.swift in Sources */,
 				241291D71AF7AE3E005DC415 /* MessageWriter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -744,44 +624,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				243A58DB1AF7CB4000E4BB8F /* NSArray.swift in Sources */,
-				243A58D91AF7CB4000E4BB8F /* Float.swift in Sources */,
+				24D5A06E1AF8997F00C536C7 /* String.swift in Sources */,
 				241291B01AF799F6005DC415 /* Level.swift in Sources */,
 				243A59181AF7FC2300E4BB8F /* InMemoryDateFormatterPoolSpec.swift in Sources */,
 				243A59101AF7F3E600E4BB8F /* DefaultMessageFormatterSpec.swift in Sources */,
 				243A591B1AF7FD7400E4BB8F /* LevelSpec.swift in Sources */,
 				243A58A91AF7B6F800E4BB8F /* Configuration.swift in Sources */,
-				243A58D81AF7CB4000E4BB8F /* ExSwift.swift in Sources */,
-				243A58D61AF7CB4000E4BB8F /* Dictionary.swift in Sources */,
 				243A58F91AF7CC9300E4BB8F /* MessageWriterManager.swift in Sources */,
 				243A58AD1AF7B6F800E4BB8F /* DefaultMessageFormatter.swift in Sources */,
 				243A58A81AF7B6F800E4BB8F /* Basename.swift in Sources */,
+				24D5A0731AF89AF100C536C7 /* Range.swift in Sources */,
 				243A58B11AF7B6F800E4BB8F /* MessageWriter.swift in Sources */,
-				243A58D31AF7CB4000E4BB8F /* Array.swift in Sources */,
 				243A58B01AF7B6F800E4BB8F /* MessageProvider.swift in Sources */,
 				243A58ED1AF7CBA100E4BB8F /* Logger.swift in Sources */,
 				243A590A1AF7D3CF00E4BB8F /* ConfigurationSpec.swift in Sources */,
 				243A58F21AF7CC6600E4BB8F /* ConfigurationProviderManager.swift in Sources */,
-				243A58DE1AF7CB4000E4BB8F /* Sequence.swift in Sources */,
 				243A59131AF7F96A00E4BB8F /* Synchronized.swift in Sources */,
 				241291AE1AF799E4005DC415 /* MessagePosition.swift in Sources */,
 				241291AB1AF799C8005DC415 /* MessagePositionSpec.swift in Sources */,
-				243A58D51AF7CB4000E4BB8F /* Character.swift in Sources */,
-				243A58DC1AF7CB4000E4BB8F /* NSDate.swift in Sources */,
-				243A58DD1AF7CB4000E4BB8F /* Range.swift in Sources */,
 				243A590D1AF7EE5500E4BB8F /* ConsoleMessageWriterSpec.swift in Sources */,
 				243A59211AF8004D00E4BB8F /* PlistConfigurationProviderSpec.swift in Sources */,
 				243A59041AF7D36000E4BB8F /* BasenameSpec.swift in Sources */,
 				243A58B31AF7B6FC00E4BB8F /* PlistConfigurationProvider.swift in Sources */,
-				243A58D41AF7CB4000E4BB8F /* Bool.swift in Sources */,
 				243A58AE1AF7B6F800E4BB8F /* InMemoryDateFormatterPool.swift in Sources */,
 				243A58AF1AF7B6F800E4BB8F /* MessageFormatter.swift in Sources */,
 				243A58AA1AF7B6F800E4BB8F /* ConfigurationProvider.swift in Sources */,
-				243A58DA1AF7CB4000E4BB8F /* Int.swift in Sources */,
-				243A58D11AF7CB3000E4BB8F /* String.swift in Sources */,
 				243A58AC1AF7B6F800E4BB8F /* DateFormatterPool.swift in Sources */,
 				243A59071AF7D39000E4BB8F /* ConfigurationProviderManagerSpec.swift in Sources */,
-				243A58D71AF7CB4000E4BB8F /* Double.swift in Sources */,
 				243A59011AF7D33300E4BB8F /* MessageWriterManagerSpec.swift in Sources */,
 				243A591E1AF7FDAA00E4BB8F /* LoggerSpec.swift in Sources */,
 				243A58AB1AF7B6F800E4BB8F /* ConsoleMessageWriter.swift in Sources */,
