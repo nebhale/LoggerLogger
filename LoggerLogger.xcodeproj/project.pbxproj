@@ -115,10 +115,8 @@
 		243A592D1AF8019600E4BB8F /* RootOnly.plist in Resources */ = {isa = PBXBuildFile; fileRef = 243A59251AF8019600E4BB8F /* RootOnly.plist */; };
 		243A592F1AF802B800E4BB8F /* Levels.plist in Resources */ = {isa = PBXBuildFile; fileRef = 243A592E1AF802B800E4BB8F /* Levels.plist */; };
 		243A59301AF802B800E4BB8F /* Levels.plist in Resources */ = {isa = PBXBuildFile; fileRef = 243A592E1AF802B800E4BB8F /* Levels.plist */; };
-		248492151AF6B386000151A2 /* LoggerLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 248492141AF6B386000151A2 /* LoggerLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2484921B1AF6B386000151A2 /* LoggerLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2484920F1AF6B386000151A2 /* LoggerLogger.framework */; };
 		2484923B1AF6BA83000151A2 /* LoggerLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248492301AF6BA83000151A2 /* LoggerLogger.framework */; };
-		248492491AF6BDD5000151A2 /* LoggerLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 248492141AF6B386000151A2 /* LoggerLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		24D5A06D1AF897F000C536C7 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D5A06C1AF897F000C536C7 /* String.swift */; };
 		24D5A06E1AF8997F00C536C7 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D5A06C1AF897F000C536C7 /* String.swift */; };
 		24D5A06F1AF8998000C536C7 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D5A06C1AF897F000C536C7 /* String.swift */; };
@@ -211,7 +209,6 @@
 		243A592E1AF802B800E4BB8F /* Levels.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Levels.plist; sourceTree = "<group>"; };
 		2484920F1AF6B386000151A2 /* LoggerLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoggerLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		248492131AF6B386000151A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		248492141AF6B386000151A2 /* LoggerLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoggerLogger.h; sourceTree = "<group>"; };
 		2484921A1AF6B386000151A2 /* LoggerLoggerTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LoggerLoggerTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		248492201AF6B386000151A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		248492301AF6BA83000151A2 /* LoggerLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoggerLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -309,7 +306,6 @@
 			isa = PBXGroup;
 			children = (
 				248492131AF6B386000151A2 /* Info.plist */,
-				248492141AF6B386000151A2 /* LoggerLogger.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -357,7 +353,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				248492151AF6B386000151A2 /* LoggerLogger.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,7 +360,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				248492491AF6BDD5000151A2 /* LoggerLogger.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
