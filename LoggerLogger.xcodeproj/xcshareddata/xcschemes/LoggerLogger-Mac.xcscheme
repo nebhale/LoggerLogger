@@ -29,8 +29,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "248492391AF6BA83000151A2"
-               BuildableName = "LoggerLoggerTests-Mac.xctest"
-               BlueprintName = "LoggerLoggerTests-Mac"
+               BuildableName = "LoggerLoggerSpecs-Mac.xctest"
+               BlueprintName = "LoggerLoggerSpecs-Mac"
                ReferencedContainer = "container:LoggerLogger.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,8 +47,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "248492391AF6BA83000151A2"
-               BuildableName = "LoggerLoggerTests-Mac.xctest"
-               BlueprintName = "LoggerLoggerTests-Mac"
+               BuildableName = "LoggerLoggerSpecs-Mac.xctest"
+               BlueprintName = "LoggerLoggerSpecs-Mac"
                ReferencedContainer = "container:LoggerLogger.xcodeproj">
             </BuildableReference>
          </TestableReference>

@@ -7,124 +7,120 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		240E1C311AF6C3F400C93F4D /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240E1C301AF6C3F400C93F4D /* Level.swift */; };
-		240E1C431AF73DDB00C93F4D /* MessagePosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240E1C421AF73DDB00C93F4D /* MessagePosition.swift */; };
-		240E1C4C1AF797F900C93F4D /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 240E1C4A1AF797F900C93F4D /* Nimble.framework */; };
-		240E1C4D1AF797F900C93F4D /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 240E1C4B1AF797F900C93F4D /* Quick.framework */; };
-		240E1C501AF7980C00C93F4D /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 240E1C4E1AF7980C00C93F4D /* Nimble.framework */; };
-		240E1C511AF7980C00C93F4D /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 240E1C4F1AF7980C00C93F4D /* Quick.framework */; };
-		241291AA1AF799C5005DC415 /* MessagePositionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240E1C481AF7972500C93F4D /* MessagePositionSpec.swift */; };
-		241291AB1AF799C8005DC415 /* MessagePositionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240E1C481AF7972500C93F4D /* MessagePositionSpec.swift */; };
-		241291AC1AF799CE005DC415 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240E1C301AF6C3F400C93F4D /* Level.swift */; };
-		241291AD1AF799D1005DC415 /* MessagePosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240E1C421AF73DDB00C93F4D /* MessagePosition.swift */; };
-		241291AE1AF799E4005DC415 /* MessagePosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240E1C421AF73DDB00C93F4D /* MessagePosition.swift */; };
-		241291AF1AF799E6005DC415 /* MessagePosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240E1C421AF73DDB00C93F4D /* MessagePosition.swift */; };
-		241291B01AF799F6005DC415 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240E1C301AF6C3F400C93F4D /* Level.swift */; };
-		241291B11AF799F6005DC415 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240E1C301AF6C3F400C93F4D /* Level.swift */; };
-		241291B31AF79AA2005DC415 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 240E1C4E1AF7980C00C93F4D /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		241291B41AF79AA2005DC415 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 240E1C4F1AF7980C00C93F4D /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		241291B61AF79AC0005DC415 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 240E1C4A1AF797F900C93F4D /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		241291B71AF79AC0005DC415 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 240E1C4B1AF797F900C93F4D /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		241291B91AF79F45005DC415 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291B81AF79F45005DC415 /* Configuration.swift */; };
-		241291BB1AF7A1E8005DC415 /* ConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291BA1AF7A1E8005DC415 /* ConfigurationProvider.swift */; };
-		241291BD1AF7A37F005DC415 /* MessageWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291BC1AF7A37F005DC415 /* MessageWriter.swift */; };
-		241291BF1AF7A3A4005DC415 /* MessageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291BE1AF7A3A4005DC415 /* MessageProvider.swift */; };
-		241291C11AF7A659005DC415 /* MessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291C01AF7A659005DC415 /* MessageFormatter.swift */; };
-		241291C31AF7A83F005DC415 /* InMemoryDateFormatterPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291C21AF7A83F005DC415 /* InMemoryDateFormatterPool.swift */; };
-		241291C51AF7AB0B005DC415 /* DateFormatterPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291C41AF7AB0B005DC415 /* DateFormatterPool.swift */; };
-		241291C71AF7AB4E005DC415 /* DefaultMessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291C61AF7AB4E005DC415 /* DefaultMessageFormatter.swift */; };
-		241291D01AF7AE3E005DC415 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291B81AF79F45005DC415 /* Configuration.swift */; };
-		241291D11AF7AE3E005DC415 /* ConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291BA1AF7A1E8005DC415 /* ConfigurationProvider.swift */; };
-		241291D21AF7AE3E005DC415 /* DateFormatterPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291C41AF7AB0B005DC415 /* DateFormatterPool.swift */; };
-		241291D31AF7AE3E005DC415 /* DefaultMessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291C61AF7AB4E005DC415 /* DefaultMessageFormatter.swift */; };
-		241291D41AF7AE3E005DC415 /* InMemoryDateFormatterPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291C21AF7A83F005DC415 /* InMemoryDateFormatterPool.swift */; };
-		241291D51AF7AE3E005DC415 /* MessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291C01AF7A659005DC415 /* MessageFormatter.swift */; };
-		241291D61AF7AE3E005DC415 /* MessageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291BE1AF7A3A4005DC415 /* MessageProvider.swift */; };
-		241291D71AF7AE3E005DC415 /* MessageWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291BC1AF7A37F005DC415 /* MessageWriter.swift */; };
-		243A58961AF7B07500E4BB8F /* Basename.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A58951AF7B07500E4BB8F /* Basename.swift */; };
-		243A58981AF7B5BF00E4BB8F /* ConsoleMessageWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A58971AF7B5BF00E4BB8F /* ConsoleMessageWriter.swift */; };
-		243A58991AF7B5BF00E4BB8F /* ConsoleMessageWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A58971AF7B5BF00E4BB8F /* ConsoleMessageWriter.swift */; };
-		243A589B1AF7B6EA00E4BB8F /* PlistConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A589A1AF7B6EA00E4BB8F /* PlistConfigurationProvider.swift */; };
-		243A589C1AF7B6EA00E4BB8F /* PlistConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A589A1AF7B6EA00E4BB8F /* PlistConfigurationProvider.swift */; };
-		243A589D1AF7B6F700E4BB8F /* Basename.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A58951AF7B07500E4BB8F /* Basename.swift */; };
-		243A589E1AF7B6F700E4BB8F /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291B81AF79F45005DC415 /* Configuration.swift */; };
-		243A589F1AF7B6F700E4BB8F /* ConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291BA1AF7A1E8005DC415 /* ConfigurationProvider.swift */; };
-		243A58A01AF7B6F700E4BB8F /* ConsoleMessageWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A58971AF7B5BF00E4BB8F /* ConsoleMessageWriter.swift */; };
-		243A58A11AF7B6F700E4BB8F /* DateFormatterPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291C41AF7AB0B005DC415 /* DateFormatterPool.swift */; };
-		243A58A21AF7B6F700E4BB8F /* DefaultMessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291C61AF7AB4E005DC415 /* DefaultMessageFormatter.swift */; };
-		243A58A31AF7B6F700E4BB8F /* InMemoryDateFormatterPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291C21AF7A83F005DC415 /* InMemoryDateFormatterPool.swift */; };
-		243A58A41AF7B6F700E4BB8F /* MessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291C01AF7A659005DC415 /* MessageFormatter.swift */; };
-		243A58A51AF7B6F700E4BB8F /* MessageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291BE1AF7A3A4005DC415 /* MessageProvider.swift */; };
-		243A58A61AF7B6F700E4BB8F /* MessageWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291BC1AF7A37F005DC415 /* MessageWriter.swift */; };
-		243A58A71AF7B6F800E4BB8F /* Basename.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A58951AF7B07500E4BB8F /* Basename.swift */; };
-		243A58A81AF7B6F800E4BB8F /* Basename.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A58951AF7B07500E4BB8F /* Basename.swift */; };
-		243A58A91AF7B6F800E4BB8F /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291B81AF79F45005DC415 /* Configuration.swift */; };
-		243A58AA1AF7B6F800E4BB8F /* ConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291BA1AF7A1E8005DC415 /* ConfigurationProvider.swift */; };
-		243A58AB1AF7B6F800E4BB8F /* ConsoleMessageWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A58971AF7B5BF00E4BB8F /* ConsoleMessageWriter.swift */; };
-		243A58AC1AF7B6F800E4BB8F /* DateFormatterPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291C41AF7AB0B005DC415 /* DateFormatterPool.swift */; };
-		243A58AD1AF7B6F800E4BB8F /* DefaultMessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291C61AF7AB4E005DC415 /* DefaultMessageFormatter.swift */; };
-		243A58AE1AF7B6F800E4BB8F /* InMemoryDateFormatterPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291C21AF7A83F005DC415 /* InMemoryDateFormatterPool.swift */; };
-		243A58AF1AF7B6F800E4BB8F /* MessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291C01AF7A659005DC415 /* MessageFormatter.swift */; };
-		243A58B01AF7B6F800E4BB8F /* MessageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291BE1AF7A3A4005DC415 /* MessageProvider.swift */; };
-		243A58B11AF7B6F800E4BB8F /* MessageWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241291BC1AF7A37F005DC415 /* MessageWriter.swift */; };
-		243A58B21AF7B6FC00E4BB8F /* PlistConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A589A1AF7B6EA00E4BB8F /* PlistConfigurationProvider.swift */; };
-		243A58B31AF7B6FC00E4BB8F /* PlistConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A589A1AF7B6EA00E4BB8F /* PlistConfigurationProvider.swift */; };
-		243A58EC1AF7CB9E00E4BB8F /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A58EB1AF7CB9D00E4BB8F /* Logger.swift */; };
-		243A58ED1AF7CBA100E4BB8F /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A58EB1AF7CB9D00E4BB8F /* Logger.swift */; };
-		243A58EE1AF7CBA200E4BB8F /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A58EB1AF7CB9D00E4BB8F /* Logger.swift */; };
-		243A58EF1AF7CBA200E4BB8F /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A58EB1AF7CB9D00E4BB8F /* Logger.swift */; };
-		243A58F11AF7CC1300E4BB8F /* ConfigurationProviderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A58F01AF7CC1300E4BB8F /* ConfigurationProviderManager.swift */; };
-		243A58F21AF7CC6600E4BB8F /* ConfigurationProviderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A58F01AF7CC1300E4BB8F /* ConfigurationProviderManager.swift */; };
-		243A58F31AF7CC6700E4BB8F /* ConfigurationProviderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A58F01AF7CC1300E4BB8F /* ConfigurationProviderManager.swift */; };
-		243A58F41AF7CC6800E4BB8F /* ConfigurationProviderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A58F01AF7CC1300E4BB8F /* ConfigurationProviderManager.swift */; };
-		243A58F61AF7CC9300E4BB8F /* MessageWriterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A58F51AF7CC9300E4BB8F /* MessageWriterManager.swift */; };
-		243A58F71AF7CC9300E4BB8F /* MessageWriterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A58F51AF7CC9300E4BB8F /* MessageWriterManager.swift */; };
-		243A58F81AF7CC9300E4BB8F /* MessageWriterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A58F51AF7CC9300E4BB8F /* MessageWriterManager.swift */; };
-		243A58F91AF7CC9300E4BB8F /* MessageWriterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A58F51AF7CC9300E4BB8F /* MessageWriterManager.swift */; };
-		243A59001AF7D33300E4BB8F /* MessageWriterManagerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A58FF1AF7D33300E4BB8F /* MessageWriterManagerSpec.swift */; };
-		243A59011AF7D33300E4BB8F /* MessageWriterManagerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A58FF1AF7D33300E4BB8F /* MessageWriterManagerSpec.swift */; };
-		243A59031AF7D36000E4BB8F /* BasenameSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A59021AF7D36000E4BB8F /* BasenameSpec.swift */; };
-		243A59041AF7D36000E4BB8F /* BasenameSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A59021AF7D36000E4BB8F /* BasenameSpec.swift */; };
-		243A59061AF7D39000E4BB8F /* ConfigurationProviderManagerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A59051AF7D39000E4BB8F /* ConfigurationProviderManagerSpec.swift */; };
-		243A59071AF7D39000E4BB8F /* ConfigurationProviderManagerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A59051AF7D39000E4BB8F /* ConfigurationProviderManagerSpec.swift */; };
-		243A59091AF7D3CF00E4BB8F /* ConfigurationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A59081AF7D3CF00E4BB8F /* ConfigurationSpec.swift */; };
-		243A590A1AF7D3CF00E4BB8F /* ConfigurationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A59081AF7D3CF00E4BB8F /* ConfigurationSpec.swift */; };
-		243A590C1AF7EE5500E4BB8F /* ConsoleMessageWriterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A590B1AF7EE5500E4BB8F /* ConsoleMessageWriterSpec.swift */; };
-		243A590D1AF7EE5500E4BB8F /* ConsoleMessageWriterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A590B1AF7EE5500E4BB8F /* ConsoleMessageWriterSpec.swift */; };
-		243A590F1AF7F3E600E4BB8F /* DefaultMessageFormatterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A590E1AF7F3E600E4BB8F /* DefaultMessageFormatterSpec.swift */; };
-		243A59101AF7F3E600E4BB8F /* DefaultMessageFormatterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A590E1AF7F3E600E4BB8F /* DefaultMessageFormatterSpec.swift */; };
-		243A59121AF7F96A00E4BB8F /* Synchronized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A59111AF7F96A00E4BB8F /* Synchronized.swift */; };
-		243A59131AF7F96A00E4BB8F /* Synchronized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A59111AF7F96A00E4BB8F /* Synchronized.swift */; };
-		243A59141AF7F96E00E4BB8F /* Synchronized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A59111AF7F96A00E4BB8F /* Synchronized.swift */; };
-		243A59151AF7F96F00E4BB8F /* Synchronized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A59111AF7F96A00E4BB8F /* Synchronized.swift */; };
-		243A59171AF7FC2300E4BB8F /* InMemoryDateFormatterPoolSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A59161AF7FC2300E4BB8F /* InMemoryDateFormatterPoolSpec.swift */; };
-		243A59181AF7FC2300E4BB8F /* InMemoryDateFormatterPoolSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A59161AF7FC2300E4BB8F /* InMemoryDateFormatterPoolSpec.swift */; };
-		243A591A1AF7FD7400E4BB8F /* LevelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A59191AF7FD7400E4BB8F /* LevelSpec.swift */; };
-		243A591B1AF7FD7400E4BB8F /* LevelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A59191AF7FD7400E4BB8F /* LevelSpec.swift */; };
-		243A591D1AF7FDAA00E4BB8F /* LoggerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A591C1AF7FDAA00E4BB8F /* LoggerSpec.swift */; };
-		243A591E1AF7FDAA00E4BB8F /* LoggerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A591C1AF7FDAA00E4BB8F /* LoggerSpec.swift */; };
-		243A59201AF8004D00E4BB8F /* PlistConfigurationProviderSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A591F1AF8004D00E4BB8F /* PlistConfigurationProviderSpec.swift */; };
-		243A59211AF8004D00E4BB8F /* PlistConfigurationProviderSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243A591F1AF8004D00E4BB8F /* PlistConfigurationProviderSpec.swift */; };
-		243A59261AF8019600E4BB8F /* FormatSet.plist in Resources */ = {isa = PBXBuildFile; fileRef = 243A59221AF8019600E4BB8F /* FormatSet.plist */; };
-		243A59271AF8019600E4BB8F /* FormatSet.plist in Resources */ = {isa = PBXBuildFile; fileRef = 243A59221AF8019600E4BB8F /* FormatSet.plist */; };
-		243A59281AF8019600E4BB8F /* LevelSet.plist in Resources */ = {isa = PBXBuildFile; fileRef = 243A59231AF8019600E4BB8F /* LevelSet.plist */; };
-		243A59291AF8019600E4BB8F /* LevelSet.plist in Resources */ = {isa = PBXBuildFile; fileRef = 243A59231AF8019600E4BB8F /* LevelSet.plist */; };
-		243A592A1AF8019600E4BB8F /* Named.plist in Resources */ = {isa = PBXBuildFile; fileRef = 243A59241AF8019600E4BB8F /* Named.plist */; };
-		243A592B1AF8019600E4BB8F /* Named.plist in Resources */ = {isa = PBXBuildFile; fileRef = 243A59241AF8019600E4BB8F /* Named.plist */; };
-		243A592C1AF8019600E4BB8F /* RootOnly.plist in Resources */ = {isa = PBXBuildFile; fileRef = 243A59251AF8019600E4BB8F /* RootOnly.plist */; };
-		243A592D1AF8019600E4BB8F /* RootOnly.plist in Resources */ = {isa = PBXBuildFile; fileRef = 243A59251AF8019600E4BB8F /* RootOnly.plist */; };
-		243A592F1AF802B800E4BB8F /* Levels.plist in Resources */ = {isa = PBXBuildFile; fileRef = 243A592E1AF802B800E4BB8F /* Levels.plist */; };
-		243A59301AF802B800E4BB8F /* Levels.plist in Resources */ = {isa = PBXBuildFile; fileRef = 243A592E1AF802B800E4BB8F /* Levels.plist */; };
 		2484921B1AF6B386000151A2 /* LoggerLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2484920F1AF6B386000151A2 /* LoggerLogger.framework */; };
 		2484923B1AF6BA83000151A2 /* LoggerLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248492301AF6BA83000151A2 /* LoggerLogger.framework */; };
-		24D5A06D1AF897F000C536C7 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D5A06C1AF897F000C536C7 /* String.swift */; };
-		24D5A06E1AF8997F00C536C7 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D5A06C1AF897F000C536C7 /* String.swift */; };
-		24D5A06F1AF8998000C536C7 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D5A06C1AF897F000C536C7 /* String.swift */; };
-		24D5A0701AF8998100C536C7 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D5A06C1AF897F000C536C7 /* String.swift */; };
-		24D5A0721AF89AB000C536C7 /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D5A0711AF89AB000C536C7 /* Range.swift */; };
-		24D5A0731AF89AF100C536C7 /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D5A0711AF89AB000C536C7 /* Range.swift */; };
-		24D5A0741AF89AF100C536C7 /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D5A0711AF89AB000C536C7 /* Range.swift */; };
-		24D5A0751AF89AF200C536C7 /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D5A0711AF89AB000C536C7 /* Range.swift */; };
+		24E1C2F41AFA58E300FB689B /* Basename.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E01AFA58E300FB689B /* Basename.swift */; };
+		24E1C2F51AFA58E300FB689B /* Basename.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E01AFA58E300FB689B /* Basename.swift */; };
+		24E1C2F61AFA58E300FB689B /* Basename.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E01AFA58E300FB689B /* Basename.swift */; };
+		24E1C2F71AFA58E300FB689B /* Basename.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E01AFA58E300FB689B /* Basename.swift */; };
+		24E1C2F81AFA58E300FB689B /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E11AFA58E300FB689B /* Configuration.swift */; };
+		24E1C2F91AFA58E300FB689B /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E11AFA58E300FB689B /* Configuration.swift */; };
+		24E1C2FA1AFA58E300FB689B /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E11AFA58E300FB689B /* Configuration.swift */; };
+		24E1C2FB1AFA58E300FB689B /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E11AFA58E300FB689B /* Configuration.swift */; };
+		24E1C2FC1AFA58E300FB689B /* ConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E21AFA58E300FB689B /* ConfigurationProvider.swift */; };
+		24E1C2FD1AFA58E300FB689B /* ConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E21AFA58E300FB689B /* ConfigurationProvider.swift */; };
+		24E1C2FE1AFA58E300FB689B /* ConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E21AFA58E300FB689B /* ConfigurationProvider.swift */; };
+		24E1C2FF1AFA58E300FB689B /* ConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E21AFA58E300FB689B /* ConfigurationProvider.swift */; };
+		24E1C3001AFA58E300FB689B /* ConfigurationProviderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E31AFA58E300FB689B /* ConfigurationProviderManager.swift */; };
+		24E1C3011AFA58E300FB689B /* ConfigurationProviderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E31AFA58E300FB689B /* ConfigurationProviderManager.swift */; };
+		24E1C3021AFA58E300FB689B /* ConfigurationProviderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E31AFA58E300FB689B /* ConfigurationProviderManager.swift */; };
+		24E1C3031AFA58E300FB689B /* ConfigurationProviderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E31AFA58E300FB689B /* ConfigurationProviderManager.swift */; };
+		24E1C3041AFA58E300FB689B /* ConsoleMessageWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E41AFA58E300FB689B /* ConsoleMessageWriter.swift */; };
+		24E1C3051AFA58E300FB689B /* ConsoleMessageWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E41AFA58E300FB689B /* ConsoleMessageWriter.swift */; };
+		24E1C3061AFA58E300FB689B /* ConsoleMessageWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E41AFA58E300FB689B /* ConsoleMessageWriter.swift */; };
+		24E1C3071AFA58E300FB689B /* ConsoleMessageWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E41AFA58E300FB689B /* ConsoleMessageWriter.swift */; };
+		24E1C3081AFA58E300FB689B /* DateFormatterPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E51AFA58E300FB689B /* DateFormatterPool.swift */; };
+		24E1C3091AFA58E300FB689B /* DateFormatterPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E51AFA58E300FB689B /* DateFormatterPool.swift */; };
+		24E1C30A1AFA58E300FB689B /* DateFormatterPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E51AFA58E300FB689B /* DateFormatterPool.swift */; };
+		24E1C30B1AFA58E300FB689B /* DateFormatterPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E51AFA58E300FB689B /* DateFormatterPool.swift */; };
+		24E1C30C1AFA58E300FB689B /* DefaultMessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E61AFA58E300FB689B /* DefaultMessageFormatter.swift */; };
+		24E1C30D1AFA58E300FB689B /* DefaultMessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E61AFA58E300FB689B /* DefaultMessageFormatter.swift */; };
+		24E1C30E1AFA58E300FB689B /* DefaultMessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E61AFA58E300FB689B /* DefaultMessageFormatter.swift */; };
+		24E1C30F1AFA58E300FB689B /* DefaultMessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E61AFA58E300FB689B /* DefaultMessageFormatter.swift */; };
+		24E1C3141AFA58E300FB689B /* InMemoryDateFormatterPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E81AFA58E300FB689B /* InMemoryDateFormatterPool.swift */; };
+		24E1C3151AFA58E300FB689B /* InMemoryDateFormatterPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E81AFA58E300FB689B /* InMemoryDateFormatterPool.swift */; };
+		24E1C3161AFA58E300FB689B /* InMemoryDateFormatterPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E81AFA58E300FB689B /* InMemoryDateFormatterPool.swift */; };
+		24E1C3171AFA58E300FB689B /* InMemoryDateFormatterPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E81AFA58E300FB689B /* InMemoryDateFormatterPool.swift */; };
+		24E1C3181AFA58E300FB689B /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E91AFA58E300FB689B /* Level.swift */; };
+		24E1C3191AFA58E300FB689B /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E91AFA58E300FB689B /* Level.swift */; };
+		24E1C31A1AFA58E300FB689B /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E91AFA58E300FB689B /* Level.swift */; };
+		24E1C31B1AFA58E300FB689B /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E91AFA58E300FB689B /* Level.swift */; };
+		24E1C31C1AFA58E300FB689B /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EA1AFA58E300FB689B /* Logger.swift */; };
+		24E1C31D1AFA58E300FB689B /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EA1AFA58E300FB689B /* Logger.swift */; };
+		24E1C31E1AFA58E300FB689B /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EA1AFA58E300FB689B /* Logger.swift */; };
+		24E1C31F1AFA58E300FB689B /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EA1AFA58E300FB689B /* Logger.swift */; };
+		24E1C3201AFA58E300FB689B /* MessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EB1AFA58E300FB689B /* MessageFormatter.swift */; };
+		24E1C3211AFA58E300FB689B /* MessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EB1AFA58E300FB689B /* MessageFormatter.swift */; };
+		24E1C3221AFA58E300FB689B /* MessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EB1AFA58E300FB689B /* MessageFormatter.swift */; };
+		24E1C3231AFA58E300FB689B /* MessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EB1AFA58E300FB689B /* MessageFormatter.swift */; };
+		24E1C3241AFA58E300FB689B /* MessagePosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EC1AFA58E300FB689B /* MessagePosition.swift */; };
+		24E1C3251AFA58E300FB689B /* MessagePosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EC1AFA58E300FB689B /* MessagePosition.swift */; };
+		24E1C3261AFA58E300FB689B /* MessagePosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EC1AFA58E300FB689B /* MessagePosition.swift */; };
+		24E1C3271AFA58E300FB689B /* MessagePosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EC1AFA58E300FB689B /* MessagePosition.swift */; };
+		24E1C3281AFA58E300FB689B /* MessageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2ED1AFA58E300FB689B /* MessageProvider.swift */; };
+		24E1C3291AFA58E300FB689B /* MessageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2ED1AFA58E300FB689B /* MessageProvider.swift */; };
+		24E1C32A1AFA58E300FB689B /* MessageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2ED1AFA58E300FB689B /* MessageProvider.swift */; };
+		24E1C32B1AFA58E300FB689B /* MessageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2ED1AFA58E300FB689B /* MessageProvider.swift */; };
+		24E1C32C1AFA58E300FB689B /* MessageWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EE1AFA58E300FB689B /* MessageWriter.swift */; };
+		24E1C32D1AFA58E300FB689B /* MessageWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EE1AFA58E300FB689B /* MessageWriter.swift */; };
+		24E1C32E1AFA58E300FB689B /* MessageWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EE1AFA58E300FB689B /* MessageWriter.swift */; };
+		24E1C32F1AFA58E300FB689B /* MessageWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EE1AFA58E300FB689B /* MessageWriter.swift */; };
+		24E1C3301AFA58E300FB689B /* MessageWriterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EF1AFA58E300FB689B /* MessageWriterManager.swift */; };
+		24E1C3311AFA58E300FB689B /* MessageWriterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EF1AFA58E300FB689B /* MessageWriterManager.swift */; };
+		24E1C3321AFA58E300FB689B /* MessageWriterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EF1AFA58E300FB689B /* MessageWriterManager.swift */; };
+		24E1C3331AFA58E300FB689B /* MessageWriterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EF1AFA58E300FB689B /* MessageWriterManager.swift */; };
+		24E1C3341AFA58E300FB689B /* PlistConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F01AFA58E300FB689B /* PlistConfigurationProvider.swift */; };
+		24E1C3351AFA58E300FB689B /* PlistConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F01AFA58E300FB689B /* PlistConfigurationProvider.swift */; };
+		24E1C3361AFA58E300FB689B /* PlistConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F01AFA58E300FB689B /* PlistConfigurationProvider.swift */; };
+		24E1C3371AFA58E300FB689B /* PlistConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F01AFA58E300FB689B /* PlistConfigurationProvider.swift */; };
+		24E1C3381AFA58E300FB689B /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F11AFA58E300FB689B /* Range.swift */; };
+		24E1C3391AFA58E300FB689B /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F11AFA58E300FB689B /* Range.swift */; };
+		24E1C33A1AFA58E300FB689B /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F11AFA58E300FB689B /* Range.swift */; };
+		24E1C33B1AFA58E300FB689B /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F11AFA58E300FB689B /* Range.swift */; };
+		24E1C33C1AFA58E300FB689B /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F21AFA58E300FB689B /* String.swift */; };
+		24E1C33D1AFA58E300FB689B /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F21AFA58E300FB689B /* String.swift */; };
+		24E1C33E1AFA58E300FB689B /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F21AFA58E300FB689B /* String.swift */; };
+		24E1C33F1AFA58E300FB689B /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F21AFA58E300FB689B /* String.swift */; };
+		24E1C3401AFA58E300FB689B /* Synchronized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F31AFA58E300FB689B /* Synchronized.swift */; };
+		24E1C3411AFA58E300FB689B /* Synchronized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F31AFA58E300FB689B /* Synchronized.swift */; };
+		24E1C3421AFA58E300FB689B /* Synchronized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F31AFA58E300FB689B /* Synchronized.swift */; };
+		24E1C3431AFA58E300FB689B /* Synchronized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F31AFA58E300FB689B /* Synchronized.swift */; };
+		24E1C3521AFA58F800FB689B /* BasenameSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C3451AFA58F800FB689B /* BasenameSpec.swift */; };
+		24E1C3541AFA58F800FB689B /* BasenameSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C3451AFA58F800FB689B /* BasenameSpec.swift */; };
+		24E1C3561AFA58F800FB689B /* ConfigurationProviderManagerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C3461AFA58F800FB689B /* ConfigurationProviderManagerSpec.swift */; };
+		24E1C3581AFA58F800FB689B /* ConfigurationProviderManagerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C3461AFA58F800FB689B /* ConfigurationProviderManagerSpec.swift */; };
+		24E1C35A1AFA58F800FB689B /* ConfigurationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C3471AFA58F800FB689B /* ConfigurationSpec.swift */; };
+		24E1C35C1AFA58F800FB689B /* ConfigurationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C3471AFA58F800FB689B /* ConfigurationSpec.swift */; };
+		24E1C35E1AFA58F800FB689B /* ConsoleMessageWriterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C3481AFA58F800FB689B /* ConsoleMessageWriterSpec.swift */; };
+		24E1C3601AFA58F800FB689B /* ConsoleMessageWriterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C3481AFA58F800FB689B /* ConsoleMessageWriterSpec.swift */; };
+		24E1C3621AFA58F800FB689B /* DefaultMessageFormatterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C3491AFA58F800FB689B /* DefaultMessageFormatterSpec.swift */; };
+		24E1C3641AFA58F800FB689B /* DefaultMessageFormatterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C3491AFA58F800FB689B /* DefaultMessageFormatterSpec.swift */; };
+		24E1C36A1AFA58F800FB689B /* InMemoryDateFormatterPoolSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C34B1AFA58F800FB689B /* InMemoryDateFormatterPoolSpec.swift */; };
+		24E1C36C1AFA58F800FB689B /* InMemoryDateFormatterPoolSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C34B1AFA58F800FB689B /* InMemoryDateFormatterPoolSpec.swift */; };
+		24E1C36E1AFA58F800FB689B /* LevelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C34C1AFA58F800FB689B /* LevelSpec.swift */; };
+		24E1C3701AFA58F800FB689B /* LevelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C34C1AFA58F800FB689B /* LevelSpec.swift */; };
+		24E1C3721AFA58F800FB689B /* LoggerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C34D1AFA58F800FB689B /* LoggerSpec.swift */; };
+		24E1C3741AFA58F800FB689B /* LoggerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C34D1AFA58F800FB689B /* LoggerSpec.swift */; };
+		24E1C3761AFA58F800FB689B /* MessagePositionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C34E1AFA58F800FB689B /* MessagePositionSpec.swift */; };
+		24E1C3781AFA58F800FB689B /* MessagePositionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C34E1AFA58F800FB689B /* MessagePositionSpec.swift */; };
+		24E1C37A1AFA58F800FB689B /* MessageWriterManagerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C34F1AFA58F800FB689B /* MessageWriterManagerSpec.swift */; };
+		24E1C37C1AFA58F800FB689B /* MessageWriterManagerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C34F1AFA58F800FB689B /* MessageWriterManagerSpec.swift */; };
+		24E1C37E1AFA58F800FB689B /* PlistConfigurationProviderSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C3501AFA58F800FB689B /* PlistConfigurationProviderSpec.swift */; };
+		24E1C3801AFA58F800FB689B /* PlistConfigurationProviderSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C3501AFA58F800FB689B /* PlistConfigurationProviderSpec.swift */; };
+		24E1C3941AFA59A600FB689B /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E1C3921AFA59A600FB689B /* Nimble.framework */; };
+		24E1C3951AFA59A600FB689B /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E1C3931AFA59A600FB689B /* Quick.framework */; };
+		24E1C3981AFA59C900FB689B /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E1C3961AFA59C900FB689B /* Nimble.framework */; };
+		24E1C3991AFA59CA00FB689B /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E1C3971AFA59C900FB689B /* Quick.framework */; };
+		24E1C39A1AFA5A5B00FB689B /* FormatSet.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24E1C3821AFA591C00FB689B /* FormatSet.plist */; };
+		24E1C39B1AFA5A5B00FB689B /* Levels.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24E1C3831AFA591C00FB689B /* Levels.plist */; };
+		24E1C39C1AFA5A5B00FB689B /* LevelSet.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24E1C3841AFA591C00FB689B /* LevelSet.plist */; };
+		24E1C39D1AFA5A5B00FB689B /* Named.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24E1C3851AFA591C00FB689B /* Named.plist */; };
+		24E1C39E1AFA5A5B00FB689B /* RootOnly.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24E1C3861AFA591C00FB689B /* RootOnly.plist */; };
+		24E1C39F1AFA5A5C00FB689B /* FormatSet.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24E1C3821AFA591C00FB689B /* FormatSet.plist */; };
+		24E1C3A01AFA5A5C00FB689B /* Levels.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24E1C3831AFA591C00FB689B /* Levels.plist */; };
+		24E1C3A11AFA5A5C00FB689B /* LevelSet.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24E1C3841AFA591C00FB689B /* LevelSet.plist */; };
+		24E1C3A21AFA5A5C00FB689B /* Named.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24E1C3851AFA591C00FB689B /* Named.plist */; };
+		24E1C3A31AFA5A5C00FB689B /* RootOnly.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24E1C3861AFA591C00FB689B /* RootOnly.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,8 +147,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				241291B31AF79AA2005DC415 /* Nimble.framework in CopyFiles */,
-				241291B41AF79AA2005DC415 /* Quick.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,59 +156,57 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				241291B61AF79AC0005DC415 /* Nimble.framework in CopyFiles */,
-				241291B71AF79AC0005DC415 /* Quick.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		240E1C301AF6C3F400C93F4D /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
-		240E1C421AF73DDB00C93F4D /* MessagePosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagePosition.swift; sourceTree = "<group>"; };
-		240E1C481AF7972500C93F4D /* MessagePositionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagePositionSpec.swift; sourceTree = "<group>"; };
-		240E1C4A1AF797F900C93F4D /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = ../Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
-		240E1C4B1AF797F900C93F4D /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = ../Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
-		240E1C4E1AF7980C00C93F4D /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = ../Carthage/Build/Mac/Nimble.framework; sourceTree = "<group>"; };
-		240E1C4F1AF7980C00C93F4D /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = ../Carthage/Build/Mac/Quick.framework; sourceTree = "<group>"; };
-		241291B81AF79F45005DC415 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
-		241291BA1AF7A1E8005DC415 /* ConfigurationProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationProvider.swift; sourceTree = "<group>"; };
-		241291BC1AF7A37F005DC415 /* MessageWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageWriter.swift; sourceTree = "<group>"; };
-		241291BE1AF7A3A4005DC415 /* MessageProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageProvider.swift; sourceTree = "<group>"; };
-		241291C01AF7A659005DC415 /* MessageFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageFormatter.swift; sourceTree = "<group>"; };
-		241291C21AF7A83F005DC415 /* InMemoryDateFormatterPool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InMemoryDateFormatterPool.swift; sourceTree = "<group>"; };
-		241291C41AF7AB0B005DC415 /* DateFormatterPool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatterPool.swift; sourceTree = "<group>"; };
-		241291C61AF7AB4E005DC415 /* DefaultMessageFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultMessageFormatter.swift; sourceTree = "<group>"; };
-		243A58951AF7B07500E4BB8F /* Basename.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Basename.swift; sourceTree = "<group>"; };
-		243A58971AF7B5BF00E4BB8F /* ConsoleMessageWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleMessageWriter.swift; sourceTree = "<group>"; };
-		243A589A1AF7B6EA00E4BB8F /* PlistConfigurationProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistConfigurationProvider.swift; sourceTree = "<group>"; };
-		243A58EB1AF7CB9D00E4BB8F /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
-		243A58F01AF7CC1300E4BB8F /* ConfigurationProviderManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationProviderManager.swift; sourceTree = "<group>"; };
-		243A58F51AF7CC9300E4BB8F /* MessageWriterManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageWriterManager.swift; sourceTree = "<group>"; };
-		243A58FF1AF7D33300E4BB8F /* MessageWriterManagerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageWriterManagerSpec.swift; sourceTree = "<group>"; };
-		243A59021AF7D36000E4BB8F /* BasenameSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasenameSpec.swift; sourceTree = "<group>"; };
-		243A59051AF7D39000E4BB8F /* ConfigurationProviderManagerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationProviderManagerSpec.swift; sourceTree = "<group>"; };
-		243A59081AF7D3CF00E4BB8F /* ConfigurationSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationSpec.swift; sourceTree = "<group>"; };
-		243A590B1AF7EE5500E4BB8F /* ConsoleMessageWriterSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleMessageWriterSpec.swift; sourceTree = "<group>"; };
-		243A590E1AF7F3E600E4BB8F /* DefaultMessageFormatterSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultMessageFormatterSpec.swift; sourceTree = "<group>"; };
-		243A59111AF7F96A00E4BB8F /* Synchronized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Synchronized.swift; sourceTree = "<group>"; };
-		243A59161AF7FC2300E4BB8F /* InMemoryDateFormatterPoolSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InMemoryDateFormatterPoolSpec.swift; sourceTree = "<group>"; };
-		243A59191AF7FD7400E4BB8F /* LevelSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelSpec.swift; sourceTree = "<group>"; };
-		243A591C1AF7FDAA00E4BB8F /* LoggerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerSpec.swift; sourceTree = "<group>"; };
-		243A591F1AF8004D00E4BB8F /* PlistConfigurationProviderSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistConfigurationProviderSpec.swift; sourceTree = "<group>"; };
-		243A59221AF8019600E4BB8F /* FormatSet.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FormatSet.plist; sourceTree = "<group>"; };
-		243A59231AF8019600E4BB8F /* LevelSet.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LevelSet.plist; sourceTree = "<group>"; };
-		243A59241AF8019600E4BB8F /* Named.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Named.plist; sourceTree = "<group>"; };
-		243A59251AF8019600E4BB8F /* RootOnly.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RootOnly.plist; sourceTree = "<group>"; };
-		243A592E1AF802B800E4BB8F /* Levels.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Levels.plist; sourceTree = "<group>"; };
 		2484920F1AF6B386000151A2 /* LoggerLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoggerLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		248492131AF6B386000151A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2484921A1AF6B386000151A2 /* LoggerLoggerTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LoggerLoggerTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		248492201AF6B386000151A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2484921A1AF6B386000151A2 /* LoggerLoggerSpecs-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LoggerLoggerSpecs-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		248492301AF6BA83000151A2 /* LoggerLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoggerLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2484923A1AF6BA83000151A2 /* LoggerLoggerTests-Mac.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LoggerLoggerTests-Mac.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		24D5A06C1AF897F000C536C7 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
-		24D5A0711AF89AB000C536C7 /* Range.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Range.swift; sourceTree = "<group>"; };
+		2484923A1AF6BA83000151A2 /* LoggerLoggerSpecs-Mac.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LoggerLoggerSpecs-Mac.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24E1C2E01AFA58E300FB689B /* Basename.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Basename.swift; sourceTree = "<group>"; };
+		24E1C2E11AFA58E300FB689B /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		24E1C2E21AFA58E300FB689B /* ConfigurationProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationProvider.swift; sourceTree = "<group>"; };
+		24E1C2E31AFA58E300FB689B /* ConfigurationProviderManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationProviderManager.swift; sourceTree = "<group>"; };
+		24E1C2E41AFA58E300FB689B /* ConsoleMessageWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleMessageWriter.swift; sourceTree = "<group>"; };
+		24E1C2E51AFA58E300FB689B /* DateFormatterPool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatterPool.swift; sourceTree = "<group>"; };
+		24E1C2E61AFA58E300FB689B /* DefaultMessageFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultMessageFormatter.swift; sourceTree = "<group>"; };
+		24E1C2E71AFA58E300FB689B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24E1C2E81AFA58E300FB689B /* InMemoryDateFormatterPool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InMemoryDateFormatterPool.swift; sourceTree = "<group>"; };
+		24E1C2E91AFA58E300FB689B /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		24E1C2EA1AFA58E300FB689B /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		24E1C2EB1AFA58E300FB689B /* MessageFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageFormatter.swift; sourceTree = "<group>"; };
+		24E1C2EC1AFA58E300FB689B /* MessagePosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagePosition.swift; sourceTree = "<group>"; };
+		24E1C2ED1AFA58E300FB689B /* MessageProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageProvider.swift; sourceTree = "<group>"; };
+		24E1C2EE1AFA58E300FB689B /* MessageWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageWriter.swift; sourceTree = "<group>"; };
+		24E1C2EF1AFA58E300FB689B /* MessageWriterManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageWriterManager.swift; sourceTree = "<group>"; };
+		24E1C2F01AFA58E300FB689B /* PlistConfigurationProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistConfigurationProvider.swift; sourceTree = "<group>"; };
+		24E1C2F11AFA58E300FB689B /* Range.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Range.swift; sourceTree = "<group>"; };
+		24E1C2F21AFA58E300FB689B /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		24E1C2F31AFA58E300FB689B /* Synchronized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Synchronized.swift; sourceTree = "<group>"; };
+		24E1C3451AFA58F800FB689B /* BasenameSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasenameSpec.swift; sourceTree = "<group>"; };
+		24E1C3461AFA58F800FB689B /* ConfigurationProviderManagerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationProviderManagerSpec.swift; sourceTree = "<group>"; };
+		24E1C3471AFA58F800FB689B /* ConfigurationSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationSpec.swift; sourceTree = "<group>"; };
+		24E1C3481AFA58F800FB689B /* ConsoleMessageWriterSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleMessageWriterSpec.swift; sourceTree = "<group>"; };
+		24E1C3491AFA58F800FB689B /* DefaultMessageFormatterSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultMessageFormatterSpec.swift; sourceTree = "<group>"; };
+		24E1C34A1AFA58F800FB689B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24E1C34B1AFA58F800FB689B /* InMemoryDateFormatterPoolSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InMemoryDateFormatterPoolSpec.swift; sourceTree = "<group>"; };
+		24E1C34C1AFA58F800FB689B /* LevelSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelSpec.swift; sourceTree = "<group>"; };
+		24E1C34D1AFA58F800FB689B /* LoggerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerSpec.swift; sourceTree = "<group>"; };
+		24E1C34E1AFA58F800FB689B /* MessagePositionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagePositionSpec.swift; sourceTree = "<group>"; };
+		24E1C34F1AFA58F800FB689B /* MessageWriterManagerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageWriterManagerSpec.swift; sourceTree = "<group>"; };
+		24E1C3501AFA58F800FB689B /* PlistConfigurationProviderSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistConfigurationProviderSpec.swift; sourceTree = "<group>"; };
+		24E1C3821AFA591C00FB689B /* FormatSet.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FormatSet.plist; sourceTree = "<group>"; };
+		24E1C3831AFA591C00FB689B /* Levels.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Levels.plist; sourceTree = "<group>"; };
+		24E1C3841AFA591C00FB689B /* LevelSet.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LevelSet.plist; sourceTree = "<group>"; };
+		24E1C3851AFA591C00FB689B /* Named.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Named.plist; sourceTree = "<group>"; };
+		24E1C3861AFA591C00FB689B /* RootOnly.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RootOnly.plist; sourceTree = "<group>"; };
+		24E1C3921AFA59A600FB689B /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		24E1C3931AFA59A600FB689B /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		24E1C3961AFA59C900FB689B /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = "<group>"; };
+		24E1C3971AFA59C900FB689B /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,8 +222,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2484921B1AF6B386000151A2 /* LoggerLogger.framework in Frameworks */,
-				240E1C4C1AF797F900C93F4D /* Nimble.framework in Frameworks */,
-				240E1C4D1AF797F900C93F4D /* Quick.framework in Frameworks */,
+				24E1C3941AFA59A600FB689B /* Nimble.framework in Frameworks */,
+				24E1C3951AFA59A600FB689B /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,8 +239,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2484923B1AF6BA83000151A2 /* LoggerLogger.framework in Frameworks */,
-				240E1C501AF7980C00C93F4D /* Nimble.framework in Frameworks */,
-				240E1C511AF7980C00C93F4D /* Quick.framework in Frameworks */,
+				24E1C3981AFA59C900FB689B /* Nimble.framework in Frameworks */,
+				24E1C3991AFA59CA00FB689B /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +250,10 @@
 		248492051AF6B386000151A2 = {
 			isa = PBXGroup;
 			children = (
-				248492111AF6B386000151A2 /* LoggerLogger */,
-				2484921E1AF6B386000151A2 /* LoggerLoggerTests */,
+				24E1C2DF1AFA58E300FB689B /* Sources */,
+				24E1C3441AFA58F800FB689B /* Specs */,
+				24E1C3811AFA591C00FB689B /* Fixtures */,
+				24E1C3911AFA592700FB689B /* Frameworks */,
 				248492101AF6B386000151A2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -268,82 +262,80 @@
 			isa = PBXGroup;
 			children = (
 				2484920F1AF6B386000151A2 /* LoggerLogger.framework */,
-				2484921A1AF6B386000151A2 /* LoggerLoggerTests-iOS.xctest */,
+				2484921A1AF6B386000151A2 /* LoggerLoggerSpecs-iOS.xctest */,
 				248492301AF6BA83000151A2 /* LoggerLogger.framework */,
-				2484923A1AF6BA83000151A2 /* LoggerLoggerTests-Mac.xctest */,
+				2484923A1AF6BA83000151A2 /* LoggerLoggerSpecs-Mac.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		248492111AF6B386000151A2 /* LoggerLogger */ = {
+		24E1C2DF1AFA58E300FB689B /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				243A58951AF7B07500E4BB8F /* Basename.swift */,
-				241291B81AF79F45005DC415 /* Configuration.swift */,
-				241291BA1AF7A1E8005DC415 /* ConfigurationProvider.swift */,
-				243A58F01AF7CC1300E4BB8F /* ConfigurationProviderManager.swift */,
-				243A58971AF7B5BF00E4BB8F /* ConsoleMessageWriter.swift */,
-				241291C41AF7AB0B005DC415 /* DateFormatterPool.swift */,
-				241291C61AF7AB4E005DC415 /* DefaultMessageFormatter.swift */,
-				241291C21AF7A83F005DC415 /* InMemoryDateFormatterPool.swift */,
-				240E1C301AF6C3F400C93F4D /* Level.swift */,
-				243A58EB1AF7CB9D00E4BB8F /* Logger.swift */,
-				241291C01AF7A659005DC415 /* MessageFormatter.swift */,
-				240E1C421AF73DDB00C93F4D /* MessagePosition.swift */,
-				241291BE1AF7A3A4005DC415 /* MessageProvider.swift */,
-				241291BC1AF7A37F005DC415 /* MessageWriter.swift */,
-				243A58F51AF7CC9300E4BB8F /* MessageWriterManager.swift */,
-				243A589A1AF7B6EA00E4BB8F /* PlistConfigurationProvider.swift */,
-				24D5A0711AF89AB000C536C7 /* Range.swift */,
-				24D5A06C1AF897F000C536C7 /* String.swift */,
-				243A59111AF7F96A00E4BB8F /* Synchronized.swift */,
-				248492121AF6B386000151A2 /* Supporting Files */,
+				24E1C2E01AFA58E300FB689B /* Basename.swift */,
+				24E1C2E11AFA58E300FB689B /* Configuration.swift */,
+				24E1C2E21AFA58E300FB689B /* ConfigurationProvider.swift */,
+				24E1C2E31AFA58E300FB689B /* ConfigurationProviderManager.swift */,
+				24E1C2E41AFA58E300FB689B /* ConsoleMessageWriter.swift */,
+				24E1C2E51AFA58E300FB689B /* DateFormatterPool.swift */,
+				24E1C2E61AFA58E300FB689B /* DefaultMessageFormatter.swift */,
+				24E1C2E71AFA58E300FB689B /* Info.plist */,
+				24E1C2E81AFA58E300FB689B /* InMemoryDateFormatterPool.swift */,
+				24E1C2E91AFA58E300FB689B /* Level.swift */,
+				24E1C2EA1AFA58E300FB689B /* Logger.swift */,
+				24E1C2EB1AFA58E300FB689B /* MessageFormatter.swift */,
+				24E1C2EC1AFA58E300FB689B /* MessagePosition.swift */,
+				24E1C2ED1AFA58E300FB689B /* MessageProvider.swift */,
+				24E1C2EE1AFA58E300FB689B /* MessageWriter.swift */,
+				24E1C2EF1AFA58E300FB689B /* MessageWriterManager.swift */,
+				24E1C2F01AFA58E300FB689B /* PlistConfigurationProvider.swift */,
+				24E1C2F11AFA58E300FB689B /* Range.swift */,
+				24E1C2F21AFA58E300FB689B /* String.swift */,
+				24E1C2F31AFA58E300FB689B /* Synchronized.swift */,
 			);
-			path = LoggerLogger;
+			path = Sources;
 			sourceTree = "<group>";
 		};
-		248492121AF6B386000151A2 /* Supporting Files */ = {
+		24E1C3441AFA58F800FB689B /* Specs */ = {
 			isa = PBXGroup;
 			children = (
-				248492131AF6B386000151A2 /* Info.plist */,
+				24E1C3451AFA58F800FB689B /* BasenameSpec.swift */,
+				24E1C3461AFA58F800FB689B /* ConfigurationProviderManagerSpec.swift */,
+				24E1C3471AFA58F800FB689B /* ConfigurationSpec.swift */,
+				24E1C3481AFA58F800FB689B /* ConsoleMessageWriterSpec.swift */,
+				24E1C3491AFA58F800FB689B /* DefaultMessageFormatterSpec.swift */,
+				24E1C34A1AFA58F800FB689B /* Info.plist */,
+				24E1C34B1AFA58F800FB689B /* InMemoryDateFormatterPoolSpec.swift */,
+				24E1C34C1AFA58F800FB689B /* LevelSpec.swift */,
+				24E1C34D1AFA58F800FB689B /* LoggerSpec.swift */,
+				24E1C34E1AFA58F800FB689B /* MessagePositionSpec.swift */,
+				24E1C34F1AFA58F800FB689B /* MessageWriterManagerSpec.swift */,
+				24E1C3501AFA58F800FB689B /* PlistConfigurationProviderSpec.swift */,
 			);
-			name = "Supporting Files";
+			path = Specs;
 			sourceTree = "<group>";
 		};
-		2484921E1AF6B386000151A2 /* LoggerLoggerTests */ = {
+		24E1C3811AFA591C00FB689B /* Fixtures */ = {
 			isa = PBXGroup;
 			children = (
-				243A59021AF7D36000E4BB8F /* BasenameSpec.swift */,
-				243A59081AF7D3CF00E4BB8F /* ConfigurationSpec.swift */,
-				243A59051AF7D39000E4BB8F /* ConfigurationProviderManagerSpec.swift */,
-				243A590B1AF7EE5500E4BB8F /* ConsoleMessageWriterSpec.swift */,
-				243A590E1AF7F3E600E4BB8F /* DefaultMessageFormatterSpec.swift */,
-				243A59161AF7FC2300E4BB8F /* InMemoryDateFormatterPoolSpec.swift */,
-				243A59191AF7FD7400E4BB8F /* LevelSpec.swift */,
-				243A591C1AF7FDAA00E4BB8F /* LoggerSpec.swift */,
-				240E1C481AF7972500C93F4D /* MessagePositionSpec.swift */,
-				243A58FF1AF7D33300E4BB8F /* MessageWriterManagerSpec.swift */,
-				243A591F1AF8004D00E4BB8F /* PlistConfigurationProviderSpec.swift */,
-				2484921F1AF6B386000151A2 /* Supporting Files */,
+				24E1C3821AFA591C00FB689B /* FormatSet.plist */,
+				24E1C3831AFA591C00FB689B /* Levels.plist */,
+				24E1C3841AFA591C00FB689B /* LevelSet.plist */,
+				24E1C3851AFA591C00FB689B /* Named.plist */,
+				24E1C3861AFA591C00FB689B /* RootOnly.plist */,
 			);
-			path = LoggerLoggerTests;
+			path = Fixtures;
 			sourceTree = "<group>";
 		};
-		2484921F1AF6B386000151A2 /* Supporting Files */ = {
+		24E1C3911AFA592700FB689B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				243A59221AF8019600E4BB8F /* FormatSet.plist */,
-				248492201AF6B386000151A2 /* Info.plist */,
-				243A592E1AF802B800E4BB8F /* Levels.plist */,
-				243A59231AF8019600E4BB8F /* LevelSet.plist */,
-				243A59241AF8019600E4BB8F /* Named.plist */,
-				243A59251AF8019600E4BB8F /* RootOnly.plist */,
-				240E1C4E1AF7980C00C93F4D /* Nimble.framework */,
-				240E1C4A1AF797F900C93F4D /* Nimble.framework */,
-				240E1C4F1AF7980C00C93F4D /* Quick.framework */,
-				240E1C4B1AF797F900C93F4D /* Quick.framework */,
+				24E1C3921AFA59A600FB689B /* Nimble.framework */,
+				24E1C3931AFA59A600FB689B /* Quick.framework */,
+				24E1C3961AFA59C900FB689B /* Nimble.framework */,
+				24E1C3971AFA59C900FB689B /* Quick.framework */,
 			);
-			name = "Supporting Files";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -384,9 +376,9 @@
 			productReference = 2484920F1AF6B386000151A2 /* LoggerLogger.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		248492191AF6B386000151A2 /* LoggerLoggerTests-iOS */ = {
+		248492191AF6B386000151A2 /* LoggerLoggerSpecs-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 248492281AF6B386000151A2 /* Build configuration list for PBXNativeTarget "LoggerLoggerTests-iOS" */;
+			buildConfigurationList = 248492281AF6B386000151A2 /* Build configuration list for PBXNativeTarget "LoggerLoggerSpecs-iOS" */;
 			buildPhases = (
 				248492161AF6B386000151A2 /* Sources */,
 				248492171AF6B386000151A2 /* Frameworks */,
@@ -398,9 +390,9 @@
 			dependencies = (
 				2484921D1AF6B386000151A2 /* PBXTargetDependency */,
 			);
-			name = "LoggerLoggerTests-iOS";
+			name = "LoggerLoggerSpecs-iOS";
 			productName = LoggerLoggerTests;
-			productReference = 2484921A1AF6B386000151A2 /* LoggerLoggerTests-iOS.xctest */;
+			productReference = 2484921A1AF6B386000151A2 /* LoggerLoggerSpecs-iOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		2484922F1AF6BA83000151A2 /* LoggerLogger-Mac */ = {
@@ -421,9 +413,9 @@
 			productReference = 248492301AF6BA83000151A2 /* LoggerLogger.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		248492391AF6BA83000151A2 /* LoggerLoggerTests-Mac */ = {
+		248492391AF6BA83000151A2 /* LoggerLoggerSpecs-Mac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 248492461AF6BA83000151A2 /* Build configuration list for PBXNativeTarget "LoggerLoggerTests-Mac" */;
+			buildConfigurationList = 248492461AF6BA83000151A2 /* Build configuration list for PBXNativeTarget "LoggerLoggerSpecs-Mac" */;
 			buildPhases = (
 				248492361AF6BA83000151A2 /* Sources */,
 				248492371AF6BA83000151A2 /* Frameworks */,
@@ -435,9 +427,9 @@
 			dependencies = (
 				2484923D1AF6BA83000151A2 /* PBXTargetDependency */,
 			);
-			name = "LoggerLoggerTests-Mac";
+			name = "LoggerLoggerSpecs-Mac";
 			productName = LoggerLoggerTests;
-			productReference = 2484923A1AF6BA83000151A2 /* LoggerLoggerTests-Mac.xctest */;
+			productReference = 2484923A1AF6BA83000151A2 /* LoggerLoggerSpecs-Mac.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -476,9 +468,9 @@
 			projectRoot = "";
 			targets = (
 				2484920E1AF6B386000151A2 /* LoggerLogger-iOS */,
-				248492191AF6B386000151A2 /* LoggerLoggerTests-iOS */,
+				248492191AF6B386000151A2 /* LoggerLoggerSpecs-iOS */,
 				2484922F1AF6BA83000151A2 /* LoggerLogger-Mac */,
-				248492391AF6BA83000151A2 /* LoggerLoggerTests-Mac */,
+				248492391AF6BA83000151A2 /* LoggerLoggerSpecs-Mac */,
 			);
 		};
 /* End PBXProject section */
@@ -495,11 +487,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				243A59281AF8019600E4BB8F /* LevelSet.plist in Resources */,
-				243A592F1AF802B800E4BB8F /* Levels.plist in Resources */,
-				243A592A1AF8019600E4BB8F /* Named.plist in Resources */,
-				243A592C1AF8019600E4BB8F /* RootOnly.plist in Resources */,
-				243A59261AF8019600E4BB8F /* FormatSet.plist in Resources */,
+				24E1C39F1AFA5A5C00FB689B /* FormatSet.plist in Resources */,
+				24E1C3A11AFA5A5C00FB689B /* LevelSet.plist in Resources */,
+				24E1C3A21AFA5A5C00FB689B /* Named.plist in Resources */,
+				24E1C3A31AFA5A5C00FB689B /* RootOnly.plist in Resources */,
+				24E1C3A01AFA5A5C00FB689B /* Levels.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,11 +506,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				243A59291AF8019600E4BB8F /* LevelSet.plist in Resources */,
-				243A59301AF802B800E4BB8F /* Levels.plist in Resources */,
-				243A592B1AF8019600E4BB8F /* Named.plist in Resources */,
-				243A592D1AF8019600E4BB8F /* RootOnly.plist in Resources */,
-				243A59271AF8019600E4BB8F /* FormatSet.plist in Resources */,
+				24E1C39A1AFA5A5B00FB689B /* FormatSet.plist in Resources */,
+				24E1C39C1AFA5A5B00FB689B /* LevelSet.plist in Resources */,
+				24E1C39D1AFA5A5B00FB689B /* Named.plist in Resources */,
+				24E1C39E1AFA5A5B00FB689B /* RootOnly.plist in Resources */,
+				24E1C39B1AFA5A5B00FB689B /* Levels.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,25 +521,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				241291B91AF79F45005DC415 /* Configuration.swift in Sources */,
-				241291BB1AF7A1E8005DC415 /* ConfigurationProvider.swift in Sources */,
-				241291C51AF7AB0B005DC415 /* DateFormatterPool.swift in Sources */,
-				243A58F11AF7CC1300E4BB8F /* ConfigurationProviderManager.swift in Sources */,
-				24D5A0721AF89AB000C536C7 /* Range.swift in Sources */,
-				243A58EC1AF7CB9E00E4BB8F /* Logger.swift in Sources */,
-				243A58F61AF7CC9300E4BB8F /* MessageWriterManager.swift in Sources */,
-				241291C71AF7AB4E005DC415 /* DefaultMessageFormatter.swift in Sources */,
-				241291C31AF7A83F005DC415 /* InMemoryDateFormatterPool.swift in Sources */,
-				243A59141AF7F96E00E4BB8F /* Synchronized.swift in Sources */,
-				240E1C311AF6C3F400C93F4D /* Level.swift in Sources */,
-				241291C11AF7A659005DC415 /* MessageFormatter.swift in Sources */,
-				243A589B1AF7B6EA00E4BB8F /* PlistConfigurationProvider.swift in Sources */,
-				24D5A06D1AF897F000C536C7 /* String.swift in Sources */,
-				240E1C431AF73DDB00C93F4D /* MessagePosition.swift in Sources */,
-				241291BF1AF7A3A4005DC415 /* MessageProvider.swift in Sources */,
-				243A58961AF7B07500E4BB8F /* Basename.swift in Sources */,
-				243A58981AF7B5BF00E4BB8F /* ConsoleMessageWriter.swift in Sources */,
-				241291BD1AF7A37F005DC415 /* MessageWriter.swift in Sources */,
+				24E1C3081AFA58E300FB689B /* DateFormatterPool.swift in Sources */,
+				24E1C3401AFA58E300FB689B /* Synchronized.swift in Sources */,
+				24E1C2F81AFA58E300FB689B /* Configuration.swift in Sources */,
+				24E1C3381AFA58E300FB689B /* Range.swift in Sources */,
+				24E1C3241AFA58E300FB689B /* MessagePosition.swift in Sources */,
+				24E1C2F41AFA58E300FB689B /* Basename.swift in Sources */,
+				24E1C3341AFA58E300FB689B /* PlistConfigurationProvider.swift in Sources */,
+				24E1C3181AFA58E300FB689B /* Level.swift in Sources */,
+				24E1C3041AFA58E300FB689B /* ConsoleMessageWriter.swift in Sources */,
+				24E1C3301AFA58E300FB689B /* MessageWriterManager.swift in Sources */,
+				24E1C31C1AFA58E300FB689B /* Logger.swift in Sources */,
+				24E1C30C1AFA58E300FB689B /* DefaultMessageFormatter.swift in Sources */,
+				24E1C3201AFA58E300FB689B /* MessageFormatter.swift in Sources */,
+				24E1C33C1AFA58E300FB689B /* String.swift in Sources */,
+				24E1C2FC1AFA58E300FB689B /* ConfigurationProvider.swift in Sources */,
+				24E1C32C1AFA58E300FB689B /* MessageWriter.swift in Sources */,
+				24E1C3141AFA58E300FB689B /* InMemoryDateFormatterPool.swift in Sources */,
+				24E1C3281AFA58E300FB689B /* MessageProvider.swift in Sources */,
+				24E1C3001AFA58E300FB689B /* ConfigurationProviderManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,36 +547,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24D5A0701AF8998100C536C7 /* String.swift in Sources */,
-				241291B11AF799F6005DC415 /* Level.swift in Sources */,
-				243A59171AF7FC2300E4BB8F /* InMemoryDateFormatterPoolSpec.swift in Sources */,
-				243A590F1AF7F3E600E4BB8F /* DefaultMessageFormatterSpec.swift in Sources */,
-				243A591A1AF7FD7400E4BB8F /* LevelSpec.swift in Sources */,
-				243A589E1AF7B6F700E4BB8F /* Configuration.swift in Sources */,
-				243A58F71AF7CC9300E4BB8F /* MessageWriterManager.swift in Sources */,
-				243A58A21AF7B6F700E4BB8F /* DefaultMessageFormatter.swift in Sources */,
-				243A589D1AF7B6F700E4BB8F /* Basename.swift in Sources */,
-				24D5A0751AF89AF200C536C7 /* Range.swift in Sources */,
-				243A58A61AF7B6F700E4BB8F /* MessageWriter.swift in Sources */,
-				243A58A51AF7B6F700E4BB8F /* MessageProvider.swift in Sources */,
-				243A58EF1AF7CBA200E4BB8F /* Logger.swift in Sources */,
-				243A59091AF7D3CF00E4BB8F /* ConfigurationSpec.swift in Sources */,
-				243A58F41AF7CC6800E4BB8F /* ConfigurationProviderManager.swift in Sources */,
-				243A59121AF7F96A00E4BB8F /* Synchronized.swift in Sources */,
-				241291AF1AF799E6005DC415 /* MessagePosition.swift in Sources */,
-				241291AA1AF799C5005DC415 /* MessagePositionSpec.swift in Sources */,
-				243A590C1AF7EE5500E4BB8F /* ConsoleMessageWriterSpec.swift in Sources */,
-				243A59201AF8004D00E4BB8F /* PlistConfigurationProviderSpec.swift in Sources */,
-				243A59031AF7D36000E4BB8F /* BasenameSpec.swift in Sources */,
-				243A58B21AF7B6FC00E4BB8F /* PlistConfigurationProvider.swift in Sources */,
-				243A58A31AF7B6F700E4BB8F /* InMemoryDateFormatterPool.swift in Sources */,
-				243A58A41AF7B6F700E4BB8F /* MessageFormatter.swift in Sources */,
-				243A589F1AF7B6F700E4BB8F /* ConfigurationProvider.swift in Sources */,
-				243A58A11AF7B6F700E4BB8F /* DateFormatterPool.swift in Sources */,
-				243A59061AF7D39000E4BB8F /* ConfigurationProviderManagerSpec.swift in Sources */,
-				243A59001AF7D33300E4BB8F /* MessageWriterManagerSpec.swift in Sources */,
-				243A591D1AF7FDAA00E4BB8F /* LoggerSpec.swift in Sources */,
-				243A58A01AF7B6F700E4BB8F /* ConsoleMessageWriter.swift in Sources */,
+				24E1C3091AFA58E300FB689B /* DateFormatterPool.swift in Sources */,
+				24E1C3411AFA58E300FB689B /* Synchronized.swift in Sources */,
+				24E1C37A1AFA58F800FB689B /* MessageWriterManagerSpec.swift in Sources */,
+				24E1C2F91AFA58E300FB689B /* Configuration.swift in Sources */,
+				24E1C3391AFA58E300FB689B /* Range.swift in Sources */,
+				24E1C3521AFA58F800FB689B /* BasenameSpec.swift in Sources */,
+				24E1C36E1AFA58F800FB689B /* LevelSpec.swift in Sources */,
+				24E1C3251AFA58E300FB689B /* MessagePosition.swift in Sources */,
+				24E1C2F51AFA58E300FB689B /* Basename.swift in Sources */,
+				24E1C3351AFA58E300FB689B /* PlistConfigurationProvider.swift in Sources */,
+				24E1C3191AFA58E300FB689B /* Level.swift in Sources */,
+				24E1C3051AFA58E300FB689B /* ConsoleMessageWriter.swift in Sources */,
+				24E1C3311AFA58E300FB689B /* MessageWriterManager.swift in Sources */,
+				24E1C31D1AFA58E300FB689B /* Logger.swift in Sources */,
+				24E1C30D1AFA58E300FB689B /* DefaultMessageFormatter.swift in Sources */,
+				24E1C36A1AFA58F800FB689B /* InMemoryDateFormatterPoolSpec.swift in Sources */,
+				24E1C3211AFA58E300FB689B /* MessageFormatter.swift in Sources */,
+				24E1C33D1AFA58E300FB689B /* String.swift in Sources */,
+				24E1C3621AFA58F800FB689B /* DefaultMessageFormatterSpec.swift in Sources */,
+				24E1C37E1AFA58F800FB689B /* PlistConfigurationProviderSpec.swift in Sources */,
+				24E1C2FD1AFA58E300FB689B /* ConfigurationProvider.swift in Sources */,
+				24E1C32D1AFA58E300FB689B /* MessageWriter.swift in Sources */,
+				24E1C35A1AFA58F800FB689B /* ConfigurationSpec.swift in Sources */,
+				24E1C3561AFA58F800FB689B /* ConfigurationProviderManagerSpec.swift in Sources */,
+				24E1C3151AFA58E300FB689B /* InMemoryDateFormatterPool.swift in Sources */,
+				24E1C3291AFA58E300FB689B /* MessageProvider.swift in Sources */,
+				24E1C35E1AFA58F800FB689B /* ConsoleMessageWriterSpec.swift in Sources */,
+				24E1C3761AFA58F800FB689B /* MessagePositionSpec.swift in Sources */,
+				24E1C3011AFA58E300FB689B /* ConfigurationProviderManager.swift in Sources */,
+				24E1C3721AFA58F800FB689B /* LoggerSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,25 +584,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				241291D01AF7AE3E005DC415 /* Configuration.swift in Sources */,
-				243A58991AF7B5BF00E4BB8F /* ConsoleMessageWriter.swift in Sources */,
-				241291D11AF7AE3E005DC415 /* ConfigurationProvider.swift in Sources */,
-				243A58F31AF7CC6700E4BB8F /* ConfigurationProviderManager.swift in Sources */,
-				24D5A0741AF89AF100C536C7 /* Range.swift in Sources */,
-				243A58EE1AF7CBA200E4BB8F /* Logger.swift in Sources */,
-				243A58F81AF7CC9300E4BB8F /* MessageWriterManager.swift in Sources */,
-				241291D21AF7AE3E005DC415 /* DateFormatterPool.swift in Sources */,
-				241291D31AF7AE3E005DC415 /* DefaultMessageFormatter.swift in Sources */,
-				243A59151AF7F96F00E4BB8F /* Synchronized.swift in Sources */,
-				243A589C1AF7B6EA00E4BB8F /* PlistConfigurationProvider.swift in Sources */,
-				241291D41AF7AE3E005DC415 /* InMemoryDateFormatterPool.swift in Sources */,
-				241291AC1AF799CE005DC415 /* Level.swift in Sources */,
-				24D5A06F1AF8998000C536C7 /* String.swift in Sources */,
-				241291D51AF7AE3E005DC415 /* MessageFormatter.swift in Sources */,
-				241291AD1AF799D1005DC415 /* MessagePosition.swift in Sources */,
-				241291D61AF7AE3E005DC415 /* MessageProvider.swift in Sources */,
-				243A58A71AF7B6F800E4BB8F /* Basename.swift in Sources */,
-				241291D71AF7AE3E005DC415 /* MessageWriter.swift in Sources */,
+				24E1C30A1AFA58E300FB689B /* DateFormatterPool.swift in Sources */,
+				24E1C3421AFA58E300FB689B /* Synchronized.swift in Sources */,
+				24E1C2FA1AFA58E300FB689B /* Configuration.swift in Sources */,
+				24E1C33A1AFA58E300FB689B /* Range.swift in Sources */,
+				24E1C3261AFA58E300FB689B /* MessagePosition.swift in Sources */,
+				24E1C2F61AFA58E300FB689B /* Basename.swift in Sources */,
+				24E1C3361AFA58E300FB689B /* PlistConfigurationProvider.swift in Sources */,
+				24E1C31A1AFA58E300FB689B /* Level.swift in Sources */,
+				24E1C3061AFA58E300FB689B /* ConsoleMessageWriter.swift in Sources */,
+				24E1C3321AFA58E300FB689B /* MessageWriterManager.swift in Sources */,
+				24E1C31E1AFA58E300FB689B /* Logger.swift in Sources */,
+				24E1C30E1AFA58E300FB689B /* DefaultMessageFormatter.swift in Sources */,
+				24E1C3221AFA58E300FB689B /* MessageFormatter.swift in Sources */,
+				24E1C33E1AFA58E300FB689B /* String.swift in Sources */,
+				24E1C2FE1AFA58E300FB689B /* ConfigurationProvider.swift in Sources */,
+				24E1C32E1AFA58E300FB689B /* MessageWriter.swift in Sources */,
+				24E1C3161AFA58E300FB689B /* InMemoryDateFormatterPool.swift in Sources */,
+				24E1C32A1AFA58E300FB689B /* MessageProvider.swift in Sources */,
+				24E1C3021AFA58E300FB689B /* ConfigurationProviderManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -618,36 +610,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24D5A06E1AF8997F00C536C7 /* String.swift in Sources */,
-				241291B01AF799F6005DC415 /* Level.swift in Sources */,
-				243A59181AF7FC2300E4BB8F /* InMemoryDateFormatterPoolSpec.swift in Sources */,
-				243A59101AF7F3E600E4BB8F /* DefaultMessageFormatterSpec.swift in Sources */,
-				243A591B1AF7FD7400E4BB8F /* LevelSpec.swift in Sources */,
-				243A58A91AF7B6F800E4BB8F /* Configuration.swift in Sources */,
-				243A58F91AF7CC9300E4BB8F /* MessageWriterManager.swift in Sources */,
-				243A58AD1AF7B6F800E4BB8F /* DefaultMessageFormatter.swift in Sources */,
-				243A58A81AF7B6F800E4BB8F /* Basename.swift in Sources */,
-				24D5A0731AF89AF100C536C7 /* Range.swift in Sources */,
-				243A58B11AF7B6F800E4BB8F /* MessageWriter.swift in Sources */,
-				243A58B01AF7B6F800E4BB8F /* MessageProvider.swift in Sources */,
-				243A58ED1AF7CBA100E4BB8F /* Logger.swift in Sources */,
-				243A590A1AF7D3CF00E4BB8F /* ConfigurationSpec.swift in Sources */,
-				243A58F21AF7CC6600E4BB8F /* ConfigurationProviderManager.swift in Sources */,
-				243A59131AF7F96A00E4BB8F /* Synchronized.swift in Sources */,
-				241291AE1AF799E4005DC415 /* MessagePosition.swift in Sources */,
-				241291AB1AF799C8005DC415 /* MessagePositionSpec.swift in Sources */,
-				243A590D1AF7EE5500E4BB8F /* ConsoleMessageWriterSpec.swift in Sources */,
-				243A59211AF8004D00E4BB8F /* PlistConfigurationProviderSpec.swift in Sources */,
-				243A59041AF7D36000E4BB8F /* BasenameSpec.swift in Sources */,
-				243A58B31AF7B6FC00E4BB8F /* PlistConfigurationProvider.swift in Sources */,
-				243A58AE1AF7B6F800E4BB8F /* InMemoryDateFormatterPool.swift in Sources */,
-				243A58AF1AF7B6F800E4BB8F /* MessageFormatter.swift in Sources */,
-				243A58AA1AF7B6F800E4BB8F /* ConfigurationProvider.swift in Sources */,
-				243A58AC1AF7B6F800E4BB8F /* DateFormatterPool.swift in Sources */,
-				243A59071AF7D39000E4BB8F /* ConfigurationProviderManagerSpec.swift in Sources */,
-				243A59011AF7D33300E4BB8F /* MessageWriterManagerSpec.swift in Sources */,
-				243A591E1AF7FDAA00E4BB8F /* LoggerSpec.swift in Sources */,
-				243A58AB1AF7B6F800E4BB8F /* ConsoleMessageWriter.swift in Sources */,
+				24E1C30B1AFA58E300FB689B /* DateFormatterPool.swift in Sources */,
+				24E1C3431AFA58E300FB689B /* Synchronized.swift in Sources */,
+				24E1C37C1AFA58F800FB689B /* MessageWriterManagerSpec.swift in Sources */,
+				24E1C2FB1AFA58E300FB689B /* Configuration.swift in Sources */,
+				24E1C33B1AFA58E300FB689B /* Range.swift in Sources */,
+				24E1C3541AFA58F800FB689B /* BasenameSpec.swift in Sources */,
+				24E1C3701AFA58F800FB689B /* LevelSpec.swift in Sources */,
+				24E1C3271AFA58E300FB689B /* MessagePosition.swift in Sources */,
+				24E1C2F71AFA58E300FB689B /* Basename.swift in Sources */,
+				24E1C3371AFA58E300FB689B /* PlistConfigurationProvider.swift in Sources */,
+				24E1C31B1AFA58E300FB689B /* Level.swift in Sources */,
+				24E1C3071AFA58E300FB689B /* ConsoleMessageWriter.swift in Sources */,
+				24E1C3331AFA58E300FB689B /* MessageWriterManager.swift in Sources */,
+				24E1C31F1AFA58E300FB689B /* Logger.swift in Sources */,
+				24E1C30F1AFA58E300FB689B /* DefaultMessageFormatter.swift in Sources */,
+				24E1C36C1AFA58F800FB689B /* InMemoryDateFormatterPoolSpec.swift in Sources */,
+				24E1C3231AFA58E300FB689B /* MessageFormatter.swift in Sources */,
+				24E1C33F1AFA58E300FB689B /* String.swift in Sources */,
+				24E1C3641AFA58F800FB689B /* DefaultMessageFormatterSpec.swift in Sources */,
+				24E1C3801AFA58F800FB689B /* PlistConfigurationProviderSpec.swift in Sources */,
+				24E1C2FF1AFA58E300FB689B /* ConfigurationProvider.swift in Sources */,
+				24E1C32F1AFA58E300FB689B /* MessageWriter.swift in Sources */,
+				24E1C35C1AFA58F800FB689B /* ConfigurationSpec.swift in Sources */,
+				24E1C3581AFA58F800FB689B /* ConfigurationProviderManagerSpec.swift in Sources */,
+				24E1C3171AFA58E300FB689B /* InMemoryDateFormatterPool.swift in Sources */,
+				24E1C32B1AFA58E300FB689B /* MessageProvider.swift in Sources */,
+				24E1C3601AFA58F800FB689B /* ConsoleMessageWriterSpec.swift in Sources */,
+				24E1C3781AFA58F800FB689B /* MessagePositionSpec.swift in Sources */,
+				24E1C3031AFA58E300FB689B /* ConfigurationProviderManager.swift in Sources */,
+				24E1C3741AFA58F800FB689B /* LoggerSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -770,7 +762,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = LoggerLogger/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
@@ -791,7 +783,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = LoggerLogger/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
@@ -811,7 +803,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = LoggerLoggerTests/Info.plist;
+				INFOPLIST_FILE = Specs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -825,7 +817,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = LoggerLoggerTests/Info.plist;
+				INFOPLIST_FILE = Specs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -849,7 +841,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = LoggerLogger/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
@@ -871,7 +863,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = LoggerLogger/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
@@ -894,7 +886,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = LoggerLoggerTests/Info.plist;
+				INFOPLIST_FILE = Specs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -911,7 +903,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
-				INFOPLIST_FILE = LoggerLoggerTests/Info.plist;
+				INFOPLIST_FILE = Specs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -940,7 +932,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		248492281AF6B386000151A2 /* Build configuration list for PBXNativeTarget "LoggerLoggerTests-iOS" */ = {
+		248492281AF6B386000151A2 /* Build configuration list for PBXNativeTarget "LoggerLoggerSpecs-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				248492291AF6B386000151A2 /* Debug */,
@@ -958,7 +950,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		248492461AF6BA83000151A2 /* Build configuration list for PBXNativeTarget "LoggerLoggerTests-Mac" */ = {
+		248492461AF6BA83000151A2 /* Build configuration list for PBXNativeTarget "LoggerLoggerSpecs-Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				248492471AF6BA83000151A2 /* Debug */,
