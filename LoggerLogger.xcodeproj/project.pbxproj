@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		2484921B1AF6B386000151A2 /* LoggerLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2484920F1AF6B386000151A2 /* LoggerLogger.framework */; };
 		2484923B1AF6BA83000151A2 /* LoggerLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248492301AF6BA83000151A2 /* LoggerLogger.framework */; };
+		249DA05C1B0F5C7B00387A97 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24E1C3961AFA59C900FB689B /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		249DA05D1B0F5C7B00387A97 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24E1C3971AFA59C900FB689B /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		249DA05F1B0F5C9B00387A97 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24E1C3921AFA59A600FB689B /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		249DA0601B0F5C9B00387A97 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24E1C3931AFA59A600FB689B /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		24E1C2F41AFA58E300FB689B /* Basename.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E01AFA58E300FB689B /* Basename.swift */; };
 		24E1C2F51AFA58E300FB689B /* Basename.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E01AFA58E300FB689B /* Basename.swift */; };
 		24E1C2F61AFA58E300FB689B /* Basename.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E01AFA58E300FB689B /* Basename.swift */; };
@@ -141,21 +145,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		241291B21AF79A95005DC415 /* CopyFiles */ = {
+		249DA0591B0F5C6800387A97 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				249DA05C1B0F5C7B00387A97 /* Nimble.framework in CopyFiles */,
+				249DA05D1B0F5C7B00387A97 /* Quick.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		241291B51AF79AB6005DC415 /* CopyFiles */ = {
+		249DA05E1B0F5C9000387A97 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				249DA05F1B0F5C9B00387A97 /* Nimble.framework in CopyFiles */,
+				249DA0601B0F5C9B00387A97 /* Quick.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,7 +391,7 @@
 				248492161AF6B386000151A2 /* Sources */,
 				248492171AF6B386000151A2 /* Frameworks */,
 				248492181AF6B386000151A2 /* Resources */,
-				241291B51AF79AB6005DC415 /* CopyFiles */,
+				249DA05E1B0F5C9000387A97 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -420,7 +428,7 @@
 				248492361AF6BA83000151A2 /* Sources */,
 				248492371AF6BA83000151A2 /* Frameworks */,
 				248492381AF6BA83000151A2 /* Resources */,
-				241291B21AF79A95005DC415 /* CopyFiles */,
+				249DA0591B0F5C6800387A97 /* CopyFiles */,
 			);
 			buildRules = (
 			);

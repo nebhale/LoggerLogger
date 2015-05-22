@@ -4,7 +4,7 @@
 LoggerLogger is intented to be a simple, lightweight, and fast logging framework for Swift-based applications.
 
 ## Installation
-[Carthage][c] is the easiest way to use this framework.  [Follow the Carthage instructions][a] to add a framework to your application.  The proper declaration for your `Carfile` is:
+[Carthage][c] is the easiest way to use this framework.  [Follow the Carthage instructions][a] to add a framework to your application.  The proper declaration for your `Cartfile` is:
 
 ```cartfile
 github "nebhale/LoggerLogger"
@@ -109,7 +109,7 @@ In order to configure a named `Logger`, the same keys are used, they are instead
 [Pull requests][p] are welcome.
 
 ## License
-This buildpack is released under version 2.0 of the [Apache License][l].
+This project is released under version 2.0 of the [Apache License][l].
 
 
 [a]: https://github.com/Carthage/Carthage#adding-frameworks-to-an-application
