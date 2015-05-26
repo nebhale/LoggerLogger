@@ -1,14 +1,30 @@
 language: objective-c
+osx_image: beta-xcode6.3
+
+xcode_scheme:
+- LoggerLogger-iOS
+- LoggerLogger-Mac
+xcode_sdk:
+- iphoneos8.3 # iphonesimulator8.3
+- macosx10.9
+- macosx10.10
+
+matrix:
+  exclude:
+  - xcode_scheme: LoggerLogger-iOS
+    xcode_sdk: macosx10.9
+  - xcode_scheme: LoggerLogger-iOS
+    xcode_sdk: macosx10.10
+  - xcode_scheme: LoggerLogger-Mac
+    xcode_sdk: iphoneos8.3 # iphonesimulator8.3
+  - xcode_scheme: ExSwift-OSX
+    xcode_sdk: iphonesimulator8.1
 
 before_install:
 - brew update
 - brew outdated xctool || brew upgrade xctool
 - brew install carthage
-install: carthage build
-
-cache:
-  directories:
-  - Carthage/Build
+install: carthage bootstrap
 
 notifications:
   email: false
