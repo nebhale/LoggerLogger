@@ -1,6 +1,7 @@
 language: objective-c
 osx_image: beta-xcode6.3
 
+xcode_project: LoggerLogger.xcodeproj
 xcode_scheme:
 - LoggerLogger-iOS
 - LoggerLogger-Mac
@@ -17,8 +18,6 @@ matrix:
     xcode_sdk: macosx10.10
   - xcode_scheme: LoggerLogger-Mac
     xcode_sdk: iphoneos8.3 # iphonesimulator8.3
-  - xcode_scheme: ExSwift-OSX
-    xcode_sdk: iphonesimulator8.1
 
 before_install:
 - brew update
