@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2407DB4F1B15A42200C1C851 /* LoggerLogger.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2484920F1AF6B386000151A2 /* LoggerLogger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2484921B1AF6B386000151A2 /* LoggerLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2484920F1AF6B386000151A2 /* LoggerLogger.framework */; };
 		2484923B1AF6BA83000151A2 /* LoggerLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248492301AF6BA83000151A2 /* LoggerLogger.framework */; };
 		249DA05C1B0F5C7B00387A97 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24E1C3961AFA59C900FB689B /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -162,6 +163,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				2407DB4F1B15A42200C1C851 /* LoggerLogger.framework in CopyFiles */,
 				249DA05F1B0F5C9B00387A97 /* Nimble.framework in CopyFiles */,
 				249DA0601B0F5C9B00387A97 /* Quick.framework in CopyFiles */,
 			);
