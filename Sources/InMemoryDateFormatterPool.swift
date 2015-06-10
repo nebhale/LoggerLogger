@@ -15,18 +15,18 @@
 
 import Foundation
 
-/// An in-memory implementation of ``DateFormatterPool``.
+/// An in-memory implementation of `DateFormatterPool`.
 public final class InMemoryDateFormatterPool: DateFormatterPool {
 
     private let monitor = Monitor()
 
     private var dateFormatters = [String : NSDateFormatter]()
 
-    /// Returns an ``NSDateFormatter`` for a given ``format``.  Implementations should return the *same* instance for all subsequent calls that pass the same ``format``.
+    /// Returns an `NSDateFormatter` for a given `format`.  Implementations should return the **same** instance for all subsequent calls that pass the same `format`.
     ///
-    /// :param: format The format to return an ``NSDateFormatter`` for
+    /// - parameter format: The format to return an `NSDateFormatter` for
     ///
-    /// :returns: A new or previously created ``NSDateFormatter`` for this ``format``
+    /// - returns: A new or previously created `NSDateFormatter` for this `format`
     public func get(format: String) -> NSDateFormatter {
         return syncronized(self.monitor) {
             if let candidate = self.dateFormatters[format] {

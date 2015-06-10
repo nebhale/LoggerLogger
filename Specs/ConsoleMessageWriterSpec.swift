@@ -13,6 +13,7 @@
 // limitations under the License.
 
 
+@testable import LoggerLogger
 import Nimble
 import Quick
 
@@ -23,7 +24,7 @@ final class ConsoleMessageWriterSpec: QuickSpec {
 
             var called = false
 
-            func format(#configuration: Configuration, level: Level, messagePosition: MessagePosition, @noescape messageProvider: MessageProvider) -> String {
+            func format(configuration configuration: LoggerLogger.Configuration, level: Level, messagePosition: MessagePosition, @noescape messageProvider: MessageProvider) -> String {
                 self.called = true
                 return "test-formatted-message"
             }

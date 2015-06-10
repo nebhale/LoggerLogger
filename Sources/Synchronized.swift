@@ -17,7 +17,7 @@ import Foundation
 
 final class Monitor {}
 
-func syncronized<T>(lock: Monitor, @noescape f: () -> Void) {
+func syncronized(lock: Monitor, @noescape f: () -> Void) {
     objc_sync_enter(lock)
     f()
     objc_sync_exit(lock)

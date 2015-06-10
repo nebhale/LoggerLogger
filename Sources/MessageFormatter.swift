@@ -15,11 +15,11 @@
 /// An instance that formats the contents of a message.  Implementations are free to determine how the messages should be formatted.
 public protocol MessageFormatter {
 
-    /// Formats the contents of a message.  Implementations can assume that if this method is called, the message *should* be formatted.
+    /// Formats the contents of a message.  Implementations can assume that if this method is called, the message _should_ be formatted.
     ///
-    /// :param: configuration   The configuration of the ``Logger`` generating the message
-    /// :param: level           The level that the message was generated at
-    /// :param: messagePosition The position that the log message was generated at
-    /// :param: messageProvider The ``MessageProvider`` to be evaluated
-    func format(#configuration: Configuration, level: Level, messagePosition: MessagePosition, @noescape messageProvider: MessageProvider) -> String
+    /// - parameter configuration:   The configuration of the `Logger` generating the message
+    /// - parameter level:           The level that the message was generated at
+    /// - parameter messagePosition: The position that the log message was generated at
+    /// - parameter messageProvider: The `MessageProvider` to be evaluated
+    func format(configuration configuration: Configuration, level: Level, messagePosition: MessagePosition, @noescape messageProvider: MessageProvider) -> String
 }

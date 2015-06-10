@@ -15,13 +15,13 @@
 
 import Foundation
 
-/// An instance that provides an ``NSDateFormatter`` instance for a given format.  This is used to improve performance when formatting log messages.
+/// An instance that provides an `NSDateFormatter` instance for a given format.  This is used to improve performance when formatting log messages.
 public protocol DateFormatterPool {
 
-    /// Returns an ``NSDateFormatter`` for a given ``format``.  Implementations should return the *same* instance for all subsequent calls that pass the same ``format``.
+    /// Returns an `NSDateFormatter` for a given `format`.  Implementations should return the **same** instance for all subsequent calls that pass the same `format`.
     ///
-    /// :param: format The format to return an ``NSDateFormatter`` for
+    /// - parameter format: The format to return an `NSDateFormatter` for
     ///
-    /// :returns: A new or previously created ``NSDateFormatter`` for this ``format``
+    /// - returns: A new or previously created `NSDateFormatter` for this `format`
     func get(format: String) -> NSDateFormatter
 }

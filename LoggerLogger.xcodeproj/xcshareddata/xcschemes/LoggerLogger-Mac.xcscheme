@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0630"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -17,20 +17,6 @@
                BlueprintIdentifier = "2484922F1AF6BA83000151A2"
                BuildableName = "LoggerLogger.framework"
                BlueprintName = "LoggerLogger-Mac"
-               ReferencedContainer = "container:LoggerLogger.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "248492391AF6BA83000151A2"
-               BuildableName = "LoggerLoggerSpecs-Mac.xctest"
-               BlueprintName = "LoggerLoggerSpecs-Mac"
                ReferencedContainer = "container:LoggerLogger.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -62,6 +48,8 @@
             ReferencedContainer = "container:LoggerLogger.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -71,6 +59,7 @@
       buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
       <MacroExpansion>
          <BuildableReference

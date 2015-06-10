@@ -13,13 +13,13 @@
 // limitations under the License.
 
 
-/// An instance that provides a ``Configuration`` instance for a given ``Logger``.  Implementations a free to determine where the configuration should be sourced from.
+/// An instance that provides a `Configuration` instance for a given `Logger`.  Implementations a free to determine where the configuration should be sourced from.
 public protocol ConfigurationProvider {
-    
-    /// Returns the ``Configuration`` instance for a ``Logger``
+
+    /// Returns the `Configuration` instance for a `Logger`
     ///
-    /// :param: name The name of the ``Logger``
+    /// - parameter name: The name of the `Logger`
     ///
-    /// :returns: The ``Configuration`` instance for the ``Logger``
+    /// - returns: The `Configuration` instance for the `Logger`
     func configuration(name: String) -> Configuration
 }

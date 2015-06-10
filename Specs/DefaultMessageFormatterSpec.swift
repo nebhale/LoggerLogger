@@ -13,6 +13,7 @@
 // limitations under the License.
 
 
+@testable import LoggerLogger
 import Nimble
 import Quick
 
@@ -74,7 +75,7 @@ final class DefaultMessageFormatterSpec: QuickSpec {
         }
     }
 
-    private func configurationWithFormat(format: String) -> Configuration {
+    private func configurationWithFormat(format: String) -> LoggerLogger.Configuration {
         return Configuration(name: "test-name", level: Level.Debug, format: format)
     }
 }

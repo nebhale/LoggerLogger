@@ -28,12 +28,12 @@ public struct MessagePosition {
     /// The line the log message was generated at
     public let line: Int
 
-    /// Creates a new instance of ``MessagePosition``
+    /// Creates a new instance of `MessagePosition`
     ///
-    /// :param: column   The column the log message was generated at
-    /// :param: file     The file the log message was generated in
-    /// :param: function The function the log message was generated in
-    /// :param: line     The line the log message was generated at
+    /// - parameter column:   The column the log message was generated at
+    /// - parameter file:     The file the log message was generated in
+    /// - parameter function: The function the log message was generated in
+    /// - parameter line:     The line the log message was generated at
     public init(column: Int, file: String, function: String, line: Int) {
         self.column = column
         self.file = file
@@ -42,9 +42,9 @@ public struct MessagePosition {
     }
 }
 
-// MARK: - Printable
-extension MessagePosition: Printable {
-    
-    /// A textual representation of the ``MessagePosition``
+// MARK: - CustomStringConvertable
+extension MessagePosition: CustomStringConvertible {
+
+    /// A textual representation of the `MessagePosition`
     public var description: String { return "<MessagePosition: column=\(self.column), file=\(self.file), function=\(self.function), line=\(self.line)>"}
 }

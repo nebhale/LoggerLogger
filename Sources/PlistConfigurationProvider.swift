@@ -15,7 +15,7 @@
 
 import Foundation
 
-/// An implementation of ``ConfigurationProvider`` that reads configuration values from a plist
+/// An implementation of `ConfigurationProvider` that reads configuration values from a plist
 public final class PlistConfigurationProvider: ConfigurationProvider {
 
     private static let DEFAULT_FORMAT = "%date{HH:mm:ss} %level %message"
@@ -26,10 +26,10 @@ public final class PlistConfigurationProvider: ConfigurationProvider {
 
     private let rootConfiguration: Configuration
 
-    /// Creates a new instance of ``PlistConfigurationProvider``
+    /// Creates a new instance of `PlistConfigurationProvider`
     ///
-    /// :param: file   The name of the plist file to read
-    /// :param: bundle The bundle to read the plist from.  Defaults to ``NSBundle.mainBundle()``
+    /// - parameter file:   The name of the plist file to read
+    /// - parameter bundle: The bundle to read the plist from.  Defaults to `NSBundle.mainBundle()`
     public init(file: String = "Logging", bundle: NSBundle = NSBundle.mainBundle()) {
         let source = PlistConfigurationProvider.readSource(file, bundle: bundle)
         rootConfiguration = PlistConfigurationProvider.toConfiguration("ROOT", source: source)
@@ -41,11 +41,11 @@ public final class PlistConfigurationProvider: ConfigurationProvider {
         }
     }
 
-    /// Returns the ``Configuration`` instance for a ``Logger``
+    /// Returns the `Configuration` instance for a `Logger`
     ///
-    /// :param: name The name of the ``Logger``
+    /// - parameter name: The name of the `Logger`
     ///
-    /// :returns: The ``Configuration`` instance for the ``Logger``
+    /// - returns: The `Configuration` instance for the `Logger`
     public func configuration(name: String) -> Configuration {
         if let configuration = self.configurations[name] {
             return configuration

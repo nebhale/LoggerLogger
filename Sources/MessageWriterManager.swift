@@ -13,9 +13,9 @@
 // limitations under the License.
 
 
-/// A singleton that for the default ``MessageWriter``
+/// A singleton that for the default `MessageWriter`
 public final class MessageWriterManager {
 
-    /// The singleton default ``MessageWriter``.  The default implemenation is a ``ConsoleMessageWriter``.
+    /// The singleton default `MessageWriter`.  The default implemenation is a `ConsoleMessageWriter`.
     public static let defaultInstance: MessageWriter = ConsoleMessageWriter()
 }

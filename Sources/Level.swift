@@ -42,9 +42,9 @@ public enum Level: Int {
     }
 }
 
-// MARK: - Printable
-extension Level: Printable {
+// MARK: - CustomStringConvertible
+extension Level: CustomStringConvertible {
 
-    /// A textual representation of the ``Level``
+    /// A textual representation of the `Level`
     public var description: String { return "<Level: \(self.rawValue)>" }
 }

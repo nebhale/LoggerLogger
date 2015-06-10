@@ -13,9 +13,9 @@
 // limitations under the License.
 
 
-/// A singleton that for the default ``ConfigurationProvider``
+/// A singleton that for the default `ConfigurationProvider`
 public final class ConfigurationProviderManager {
 
-    /// The singleton default ``ConfigurationProvider``.  The default implemenation is a ``PlistConfigurationProvider``.
+    /// The singleton default `ConfigurationProvider`.  The default implemenation is a `PlistConfigurationProvider`.
     public static let defaultInstance: ConfigurationProvider = PlistConfigurationProvider()
 }

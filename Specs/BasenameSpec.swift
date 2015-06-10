@@ -13,6 +13,7 @@
 // limitations under the License.
 
 
+@testable import LoggerLogger
 import Nimble
 import Quick
 

@@ -13,6 +13,7 @@
 // limitations under the License.
 
 
+@testable import LoggerLogger
 import Nimble
 import Quick
 
@@ -27,14 +28,14 @@ final class LoggerSpec: QuickSpec {
                 self.level = level
             }
 
-            private func configuration(name: String) -> Configuration {
+            private func configuration(name: String) -> LoggerLogger.Configuration {
                 return Configuration(name: name, level: self.level, format: "test-format")
             }
         }
 
         class StubMessageWriter: MessageWriter {
 
-            var configuration: Configuration?
+            var configuration: LoggerLogger.Configuration?
 
             var level: Level?
 
@@ -42,7 +43,7 @@ final class LoggerSpec: QuickSpec {
 
             var message: String?
 
-            private func write(#configuration: Configuration, level: Level, messagePosition: MessagePosition, @noescape messageProvider: MessageProvider) {
+            private func write(configuration configuration: LoggerLogger.Configuration, level: Level, messagePosition: MessagePosition, @noescape messageProvider: MessageProvider) {
                 self.configuration = configuration
                 self.level = level
                 self.messagePosition = messagePosition

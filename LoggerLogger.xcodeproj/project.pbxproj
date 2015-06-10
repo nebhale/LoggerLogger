@@ -15,81 +15,43 @@
 		249DA05F1B0F5C9B00387A97 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24E1C3921AFA59A600FB689B /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		249DA0601B0F5C9B00387A97 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24E1C3931AFA59A600FB689B /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		24E1C2F41AFA58E300FB689B /* Basename.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E01AFA58E300FB689B /* Basename.swift */; };
-		24E1C2F51AFA58E300FB689B /* Basename.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E01AFA58E300FB689B /* Basename.swift */; };
 		24E1C2F61AFA58E300FB689B /* Basename.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E01AFA58E300FB689B /* Basename.swift */; };
-		24E1C2F71AFA58E300FB689B /* Basename.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E01AFA58E300FB689B /* Basename.swift */; };
 		24E1C2F81AFA58E300FB689B /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E11AFA58E300FB689B /* Configuration.swift */; };
-		24E1C2F91AFA58E300FB689B /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E11AFA58E300FB689B /* Configuration.swift */; };
 		24E1C2FA1AFA58E300FB689B /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E11AFA58E300FB689B /* Configuration.swift */; };
-		24E1C2FB1AFA58E300FB689B /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E11AFA58E300FB689B /* Configuration.swift */; };
 		24E1C2FC1AFA58E300FB689B /* ConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E21AFA58E300FB689B /* ConfigurationProvider.swift */; };
-		24E1C2FD1AFA58E300FB689B /* ConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E21AFA58E300FB689B /* ConfigurationProvider.swift */; };
 		24E1C2FE1AFA58E300FB689B /* ConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E21AFA58E300FB689B /* ConfigurationProvider.swift */; };
-		24E1C2FF1AFA58E300FB689B /* ConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E21AFA58E300FB689B /* ConfigurationProvider.swift */; };
 		24E1C3001AFA58E300FB689B /* ConfigurationProviderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E31AFA58E300FB689B /* ConfigurationProviderManager.swift */; };
-		24E1C3011AFA58E300FB689B /* ConfigurationProviderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E31AFA58E300FB689B /* ConfigurationProviderManager.swift */; };
 		24E1C3021AFA58E300FB689B /* ConfigurationProviderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E31AFA58E300FB689B /* ConfigurationProviderManager.swift */; };
-		24E1C3031AFA58E300FB689B /* ConfigurationProviderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E31AFA58E300FB689B /* ConfigurationProviderManager.swift */; };
 		24E1C3041AFA58E300FB689B /* ConsoleMessageWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E41AFA58E300FB689B /* ConsoleMessageWriter.swift */; };
-		24E1C3051AFA58E300FB689B /* ConsoleMessageWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E41AFA58E300FB689B /* ConsoleMessageWriter.swift */; };
 		24E1C3061AFA58E300FB689B /* ConsoleMessageWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E41AFA58E300FB689B /* ConsoleMessageWriter.swift */; };
-		24E1C3071AFA58E300FB689B /* ConsoleMessageWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E41AFA58E300FB689B /* ConsoleMessageWriter.swift */; };
 		24E1C3081AFA58E300FB689B /* DateFormatterPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E51AFA58E300FB689B /* DateFormatterPool.swift */; };
-		24E1C3091AFA58E300FB689B /* DateFormatterPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E51AFA58E300FB689B /* DateFormatterPool.swift */; };
 		24E1C30A1AFA58E300FB689B /* DateFormatterPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E51AFA58E300FB689B /* DateFormatterPool.swift */; };
-		24E1C30B1AFA58E300FB689B /* DateFormatterPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E51AFA58E300FB689B /* DateFormatterPool.swift */; };
 		24E1C30C1AFA58E300FB689B /* DefaultMessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E61AFA58E300FB689B /* DefaultMessageFormatter.swift */; };
-		24E1C30D1AFA58E300FB689B /* DefaultMessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E61AFA58E300FB689B /* DefaultMessageFormatter.swift */; };
 		24E1C30E1AFA58E300FB689B /* DefaultMessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E61AFA58E300FB689B /* DefaultMessageFormatter.swift */; };
-		24E1C30F1AFA58E300FB689B /* DefaultMessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E61AFA58E300FB689B /* DefaultMessageFormatter.swift */; };
 		24E1C3141AFA58E300FB689B /* InMemoryDateFormatterPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E81AFA58E300FB689B /* InMemoryDateFormatterPool.swift */; };
-		24E1C3151AFA58E300FB689B /* InMemoryDateFormatterPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E81AFA58E300FB689B /* InMemoryDateFormatterPool.swift */; };
 		24E1C3161AFA58E300FB689B /* InMemoryDateFormatterPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E81AFA58E300FB689B /* InMemoryDateFormatterPool.swift */; };
-		24E1C3171AFA58E300FB689B /* InMemoryDateFormatterPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E81AFA58E300FB689B /* InMemoryDateFormatterPool.swift */; };
 		24E1C3181AFA58E300FB689B /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E91AFA58E300FB689B /* Level.swift */; };
-		24E1C3191AFA58E300FB689B /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E91AFA58E300FB689B /* Level.swift */; };
 		24E1C31A1AFA58E300FB689B /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E91AFA58E300FB689B /* Level.swift */; };
-		24E1C31B1AFA58E300FB689B /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E91AFA58E300FB689B /* Level.swift */; };
 		24E1C31C1AFA58E300FB689B /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EA1AFA58E300FB689B /* Logger.swift */; };
-		24E1C31D1AFA58E300FB689B /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EA1AFA58E300FB689B /* Logger.swift */; };
 		24E1C31E1AFA58E300FB689B /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EA1AFA58E300FB689B /* Logger.swift */; };
-		24E1C31F1AFA58E300FB689B /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EA1AFA58E300FB689B /* Logger.swift */; };
 		24E1C3201AFA58E300FB689B /* MessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EB1AFA58E300FB689B /* MessageFormatter.swift */; };
-		24E1C3211AFA58E300FB689B /* MessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EB1AFA58E300FB689B /* MessageFormatter.swift */; };
 		24E1C3221AFA58E300FB689B /* MessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EB1AFA58E300FB689B /* MessageFormatter.swift */; };
-		24E1C3231AFA58E300FB689B /* MessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EB1AFA58E300FB689B /* MessageFormatter.swift */; };
 		24E1C3241AFA58E300FB689B /* MessagePosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EC1AFA58E300FB689B /* MessagePosition.swift */; };
-		24E1C3251AFA58E300FB689B /* MessagePosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EC1AFA58E300FB689B /* MessagePosition.swift */; };
 		24E1C3261AFA58E300FB689B /* MessagePosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EC1AFA58E300FB689B /* MessagePosition.swift */; };
-		24E1C3271AFA58E300FB689B /* MessagePosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EC1AFA58E300FB689B /* MessagePosition.swift */; };
 		24E1C3281AFA58E300FB689B /* MessageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2ED1AFA58E300FB689B /* MessageProvider.swift */; };
-		24E1C3291AFA58E300FB689B /* MessageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2ED1AFA58E300FB689B /* MessageProvider.swift */; };
 		24E1C32A1AFA58E300FB689B /* MessageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2ED1AFA58E300FB689B /* MessageProvider.swift */; };
-		24E1C32B1AFA58E300FB689B /* MessageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2ED1AFA58E300FB689B /* MessageProvider.swift */; };
 		24E1C32C1AFA58E300FB689B /* MessageWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EE1AFA58E300FB689B /* MessageWriter.swift */; };
-		24E1C32D1AFA58E300FB689B /* MessageWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EE1AFA58E300FB689B /* MessageWriter.swift */; };
 		24E1C32E1AFA58E300FB689B /* MessageWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EE1AFA58E300FB689B /* MessageWriter.swift */; };
-		24E1C32F1AFA58E300FB689B /* MessageWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EE1AFA58E300FB689B /* MessageWriter.swift */; };
 		24E1C3301AFA58E300FB689B /* MessageWriterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EF1AFA58E300FB689B /* MessageWriterManager.swift */; };
-		24E1C3311AFA58E300FB689B /* MessageWriterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EF1AFA58E300FB689B /* MessageWriterManager.swift */; };
 		24E1C3321AFA58E300FB689B /* MessageWriterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EF1AFA58E300FB689B /* MessageWriterManager.swift */; };
-		24E1C3331AFA58E300FB689B /* MessageWriterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EF1AFA58E300FB689B /* MessageWriterManager.swift */; };
 		24E1C3341AFA58E300FB689B /* PlistConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F01AFA58E300FB689B /* PlistConfigurationProvider.swift */; };
-		24E1C3351AFA58E300FB689B /* PlistConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F01AFA58E300FB689B /* PlistConfigurationProvider.swift */; };
 		24E1C3361AFA58E300FB689B /* PlistConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F01AFA58E300FB689B /* PlistConfigurationProvider.swift */; };
-		24E1C3371AFA58E300FB689B /* PlistConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F01AFA58E300FB689B /* PlistConfigurationProvider.swift */; };
 		24E1C3381AFA58E300FB689B /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F11AFA58E300FB689B /* Range.swift */; };
-		24E1C3391AFA58E300FB689B /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F11AFA58E300FB689B /* Range.swift */; };
 		24E1C33A1AFA58E300FB689B /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F11AFA58E300FB689B /* Range.swift */; };
-		24E1C33B1AFA58E300FB689B /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F11AFA58E300FB689B /* Range.swift */; };
 		24E1C33C1AFA58E300FB689B /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F21AFA58E300FB689B /* String.swift */; };
-		24E1C33D1AFA58E300FB689B /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F21AFA58E300FB689B /* String.swift */; };
 		24E1C33E1AFA58E300FB689B /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F21AFA58E300FB689B /* String.swift */; };
-		24E1C33F1AFA58E300FB689B /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F21AFA58E300FB689B /* String.swift */; };
 		24E1C3401AFA58E300FB689B /* Synchronized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F31AFA58E300FB689B /* Synchronized.swift */; };
-		24E1C3411AFA58E300FB689B /* Synchronized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F31AFA58E300FB689B /* Synchronized.swift */; };
 		24E1C3421AFA58E300FB689B /* Synchronized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F31AFA58E300FB689B /* Synchronized.swift */; };
-		24E1C3431AFA58E300FB689B /* Synchronized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F31AFA58E300FB689B /* Synchronized.swift */; };
 		24E1C3521AFA58F800FB689B /* BasenameSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C3451AFA58F800FB689B /* BasenameSpec.swift */; };
 		24E1C3541AFA58F800FB689B /* BasenameSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C3451AFA58F800FB689B /* BasenameSpec.swift */; };
 		24E1C3561AFA58F800FB689B /* ConfigurationProviderManagerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C3461AFA58F800FB689B /* ConfigurationProviderManagerSpec.swift */; };
@@ -448,7 +410,8 @@
 		248492061AF6B386000151A2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Ben Hale";
 				TargetAttributes = {
 					2484920E1AF6B386000151A2 = {
@@ -557,35 +520,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24E1C3091AFA58E300FB689B /* DateFormatterPool.swift in Sources */,
-				24E1C3411AFA58E300FB689B /* Synchronized.swift in Sources */,
 				24E1C37A1AFA58F800FB689B /* MessageWriterManagerSpec.swift in Sources */,
-				24E1C2F91AFA58E300FB689B /* Configuration.swift in Sources */,
-				24E1C3391AFA58E300FB689B /* Range.swift in Sources */,
 				24E1C3521AFA58F800FB689B /* BasenameSpec.swift in Sources */,
 				24E1C36E1AFA58F800FB689B /* LevelSpec.swift in Sources */,
-				24E1C3251AFA58E300FB689B /* MessagePosition.swift in Sources */,
-				24E1C2F51AFA58E300FB689B /* Basename.swift in Sources */,
-				24E1C3351AFA58E300FB689B /* PlistConfigurationProvider.swift in Sources */,
-				24E1C3191AFA58E300FB689B /* Level.swift in Sources */,
-				24E1C3051AFA58E300FB689B /* ConsoleMessageWriter.swift in Sources */,
-				24E1C3311AFA58E300FB689B /* MessageWriterManager.swift in Sources */,
-				24E1C31D1AFA58E300FB689B /* Logger.swift in Sources */,
-				24E1C30D1AFA58E300FB689B /* DefaultMessageFormatter.swift in Sources */,
 				24E1C36A1AFA58F800FB689B /* InMemoryDateFormatterPoolSpec.swift in Sources */,
-				24E1C3211AFA58E300FB689B /* MessageFormatter.swift in Sources */,
-				24E1C33D1AFA58E300FB689B /* String.swift in Sources */,
 				24E1C3621AFA58F800FB689B /* DefaultMessageFormatterSpec.swift in Sources */,
 				24E1C37E1AFA58F800FB689B /* PlistConfigurationProviderSpec.swift in Sources */,
-				24E1C2FD1AFA58E300FB689B /* ConfigurationProvider.swift in Sources */,
-				24E1C32D1AFA58E300FB689B /* MessageWriter.swift in Sources */,
 				24E1C35A1AFA58F800FB689B /* ConfigurationSpec.swift in Sources */,
 				24E1C3561AFA58F800FB689B /* ConfigurationProviderManagerSpec.swift in Sources */,
-				24E1C3151AFA58E300FB689B /* InMemoryDateFormatterPool.swift in Sources */,
-				24E1C3291AFA58E300FB689B /* MessageProvider.swift in Sources */,
 				24E1C35E1AFA58F800FB689B /* ConsoleMessageWriterSpec.swift in Sources */,
 				24E1C3761AFA58F800FB689B /* MessagePositionSpec.swift in Sources */,
-				24E1C3011AFA58E300FB689B /* ConfigurationProviderManager.swift in Sources */,
 				24E1C3721AFA58F800FB689B /* LoggerSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -620,35 +564,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24E1C30B1AFA58E300FB689B /* DateFormatterPool.swift in Sources */,
-				24E1C3431AFA58E300FB689B /* Synchronized.swift in Sources */,
 				24E1C37C1AFA58F800FB689B /* MessageWriterManagerSpec.swift in Sources */,
-				24E1C2FB1AFA58E300FB689B /* Configuration.swift in Sources */,
-				24E1C33B1AFA58E300FB689B /* Range.swift in Sources */,
 				24E1C3541AFA58F800FB689B /* BasenameSpec.swift in Sources */,
 				24E1C3701AFA58F800FB689B /* LevelSpec.swift in Sources */,
-				24E1C3271AFA58E300FB689B /* MessagePosition.swift in Sources */,
-				24E1C2F71AFA58E300FB689B /* Basename.swift in Sources */,
-				24E1C3371AFA58E300FB689B /* PlistConfigurationProvider.swift in Sources */,
-				24E1C31B1AFA58E300FB689B /* Level.swift in Sources */,
-				24E1C3071AFA58E300FB689B /* ConsoleMessageWriter.swift in Sources */,
-				24E1C3331AFA58E300FB689B /* MessageWriterManager.swift in Sources */,
-				24E1C31F1AFA58E300FB689B /* Logger.swift in Sources */,
-				24E1C30F1AFA58E300FB689B /* DefaultMessageFormatter.swift in Sources */,
 				24E1C36C1AFA58F800FB689B /* InMemoryDateFormatterPoolSpec.swift in Sources */,
-				24E1C3231AFA58E300FB689B /* MessageFormatter.swift in Sources */,
-				24E1C33F1AFA58E300FB689B /* String.swift in Sources */,
 				24E1C3641AFA58F800FB689B /* DefaultMessageFormatterSpec.swift in Sources */,
 				24E1C3801AFA58F800FB689B /* PlistConfigurationProviderSpec.swift in Sources */,
-				24E1C2FF1AFA58E300FB689B /* ConfigurationProvider.swift in Sources */,
-				24E1C32F1AFA58E300FB689B /* MessageWriter.swift in Sources */,
 				24E1C35C1AFA58F800FB689B /* ConfigurationSpec.swift in Sources */,
 				24E1C3581AFA58F800FB689B /* ConfigurationProviderManagerSpec.swift in Sources */,
-				24E1C3171AFA58E300FB689B /* InMemoryDateFormatterPool.swift in Sources */,
-				24E1C32B1AFA58E300FB689B /* MessageProvider.swift in Sources */,
 				24E1C3601AFA58F800FB689B /* ConsoleMessageWriterSpec.swift in Sources */,
 				24E1C3781AFA58F800FB689B /* MessagePositionSpec.swift in Sources */,
-				24E1C3031AFA58E300FB689B /* ConfigurationProviderManager.swift in Sources */,
 				24E1C3741AFA58F800FB689B /* LoggerSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -691,6 +616,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -775,6 +701,7 @@
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nebhale.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -796,6 +723,7 @@
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nebhale.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -815,6 +743,7 @@
 				);
 				INFOPLIST_FILE = Specs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nebhale.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -829,6 +758,7 @@
 				);
 				INFOPLIST_FILE = Specs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nebhale.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -854,6 +784,7 @@
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nebhale.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -876,6 +807,7 @@
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nebhale.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -899,6 +831,7 @@
 				INFOPLIST_FILE = Specs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nebhale.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
@@ -916,6 +849,7 @@
 				INFOPLIST_FILE = Specs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nebhale.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};

@@ -13,5 +13,5 @@
 // limitations under the License.
 
 
-/// A ``typealias`` that encapsulates nearly anything.  This allows the ``Logger`` methods to treat *all* input as a closure for lazy evaluation.
+/// A `typealias` that encapsulates nearly anything.  This allows the `Logger` methods to treat **all** input as a closure for lazy evaluation.
 public typealias MessageProvider = () -> AnyObject

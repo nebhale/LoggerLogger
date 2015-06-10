@@ -17,7 +17,7 @@ import Foundation
 
 extension String {
 
-    private var length: Int { return count(self) }
+    private var length: Int { return self.characters.count }
 
     subscript(range: Range<Int>) -> String? {
         if range.startIndex < 0 || range.endIndex > self.length {
@@ -31,7 +31,7 @@ extension String {
 
     func matches(pattern: String, ignoreCase: Bool = false) -> [NSTextCheckingResult]? {
         if let regex = regex(pattern, ignoreCase: ignoreCase) {
-            return regex.matchesInString(self, options: nil, range: NSMakeRange(0, length)).map { $0 as! NSTextCheckingResult }
+            return regex.matchesInString(self, options: [], range: NSMakeRange(0, length))
         }
 
         return nil
@@ -43,7 +43,7 @@ infix operator =~ {}
 
 func =~(string: String, pattern: String) -> Bool {
     if let regex = regex(pattern, ignoreCase: false) {
-        let matches = regex.numberOfMatchesInString(string, options: nil, range: NSMakeRange(0, string.length))
+        let matches = regex.numberOfMatchesInString(string, options: [], range: NSMakeRange(0, string.length))
         return matches > 0
     }
 
@@ -51,7 +51,7 @@ func =~(string: String, pattern: String) -> Bool {
 }
 
 func =~(string: String, options: (pattern: String, ignoreCase: Bool)) -> Bool {
-    if let matches = regex(options.pattern, ignoreCase: options.ignoreCase)?.numberOfMatchesInString(string, options: nil, range: NSMakeRange(0, string.length)) {
+    if let matches = regex(options.pattern, ignoreCase: options.ignoreCase)?.numberOfMatchesInString(string, options: [], range: NSMakeRange(0, string.length)) {
         return matches > 0
     }
 
@@ -65,8 +65,9 @@ private func regex(pattern: String, ignoreCase: Bool = false) -> NSRegularExpres
         options = NSRegularExpressionOptions.CaseInsensitive.rawValue | options
     }
 
-    var error: NSError? = nil
-    let regex = NSRegularExpression(pattern: pattern, options: NSRegularExpressionOptions(rawValue: options), error: &error)
-    
-    return (error == nil) ? regex : nil
+    do {
+        return try NSRegularExpression(pattern: pattern, options: NSRegularExpressionOptions(rawValue: options))
+    } catch {
+        return nil
+    }
 }

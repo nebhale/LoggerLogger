@@ -16,11 +16,11 @@
 /// An instance that writes the contents of a message.  Implementations are free to determine where the messages should be written to.
 public protocol MessageWriter {
 
-    /// Write the contents of a message.  Implementations can assume that if this method is called, the message *should* be written.
+    /// Write the contents of a message.  Implementations can assume that if this method is called, the message _should_ be written.
     ///
-    /// :param: configuration   The configuration of the ``Logger`` generating the message
-    /// :param: level           The level that the message was generated at
-    /// :param: messagePosition The position that the log message was generated at
-    /// :param: messageProvider The ``MessageProvider`` to be evaluated
-    func write(#configuration: Configuration, level: Level, messagePosition: MessagePosition, @noescape messageProvider: MessageProvider)
+    /// - parameter configuration:   The configuration of the `Logger` generating the message
+    /// - parameter level:           The level that the message was generated at
+    /// - parameter messagePosition: The position that the log message was generated at
+    /// - parameter messageProvider: The `MessageProvider` to be evaluated
+    func write(configuration configuration: Configuration, level: Level, messagePosition: MessagePosition, @noescape messageProvider: MessageProvider)
 }

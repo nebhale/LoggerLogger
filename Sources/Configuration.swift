@@ -13,10 +13,10 @@
 // limitations under the License.
 
 
-/// The configuration definition for a ``Logger``
+/// The configuration definition for a `Logger`
 public struct Configuration {
 
-    /// The name of the ``Logger``
+    /// The name of the `Logger`
     public let name: String
 
     /// The lowest severity of messages to be printed
@@ -25,11 +25,11 @@ public struct Configuration {
     /// The format of the log message when printed
     public let format: String
 
-    /// Creates a new instance of ``Configuration``
+    /// Creates a new instance of `Configuration`
     ///
-    /// :param: name   The name of the ``Logger``
-    /// :param: level  The lowest severity of messages to be printed
-    /// :param: format The format of the log message when printed
+    /// - parameter name:   The name of the `Logger`
+    /// - parameter level:  The lowest severity of messages to be printed
+    /// - parameter format: The format of the log message when printed
     public init(name: String, level: Level, format: String) {
         self.name = name
         self.level = level
@@ -40,12 +40,12 @@ public struct Configuration {
 // MARK: - Equatable
 extension Configuration: Equatable {}
 
-/// Returns the equality of two ``Configuration``s.
+/// Returns the equality of two `Configuration`s.
 ///
-/// :param: x The first ``Configuration``
-/// :param: y The second ``Configuration``
+/// - parameter x: The first `Configuration`
+/// - parameter y: The second `Configuration`
 ///
-/// :returns: ``true`` if the ``name``s of the two ``Configuration``s match, ``false`` otherwise
+/// - returns: `true` if the `name`s of the two `Configuration`s match, `false` otherwise
 public func ==(x: Configuration, y: Configuration) -> Bool {
     return x.name == y.name
 }
@@ -53,13 +53,13 @@ public func ==(x: Configuration, y: Configuration) -> Bool {
 // MARK: - Hashable
 extension Configuration: Hashable {
 
-    /// A hash value for the ``Configuration``
+    /// A hash value for the `Configuration`
     public var hashValue: Int { return self.name.hashValue }
 }
 
-// MARK: - Printable
-extension Configuration: Printable {
-    
-    /// A textual representation of the ``Configuration``
+// MARK: - CustomStringConvertible
+extension Configuration: CustomStringConvertible {
+
+    /// A textual representation of the `Configuration`
     public var description: String { return "<Configuration: \(self.name); level=\(self.level), format=\(self.format)>"}
 }
