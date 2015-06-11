@@ -32,7 +32,7 @@ public final class PlistConfigurationProvider: ConfigurationProvider {
     /// - parameter bundle: The bundle to read the plist from.  Defaults to `NSBundle.mainBundle()`
     public init(file: String = "Logging", bundle: NSBundle = NSBundle.mainBundle()) {
         let source = PlistConfigurationProvider.readSource(file, bundle: bundle)
-        rootConfiguration = PlistConfigurationProvider.toConfiguration("ROOT", source: source)
+        self.rootConfiguration = PlistConfigurationProvider.toConfiguration("ROOT", source: source)
 
         for (key, value) in source {
             if let value = value as? [String : AnyObject] {
