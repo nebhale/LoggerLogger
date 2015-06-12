@@ -1,21 +1,25 @@
-// Copyright 2015 the original author or authors.
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//      http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
+/*
+Copyright 2015 the original author or authors.
 
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+*/
 
 import Foundation
 
-/// An implementation of `ConfigurationProvider` that reads configuration values from a plist
+
+/**
+An implementation of `ConfigurationProvider` that reads configuration values from a plist
+*/
 public final class PlistConfigurationProvider: ConfigurationProvider {
 
     private static let DEFAULT_FORMAT = "%date{HH:mm:ss} %level %message"
@@ -26,10 +30,12 @@ public final class PlistConfigurationProvider: ConfigurationProvider {
 
     private let rootConfiguration: Configuration
 
-    /// Creates a new instance of `PlistConfigurationProvider`
-    ///
-    /// - parameter file:   The name of the plist file to read
-    /// - parameter bundle: The bundle to read the plist from.  Defaults to `NSBundle.mainBundle()`
+    /**
+    Creates a new instance of `PlistConfigurationProvider`
+
+    - parameter file:   The name of the plist file to read
+    - parameter bundle: The bundle to read the plist from.  Defaults to `NSBundle.mainBundle()`
+    */
     public init(file: String = "Logging", bundle: NSBundle = NSBundle.mainBundle()) {
         let source = PlistConfigurationProvider.readSource(file, bundle: bundle)
         self.rootConfiguration = PlistConfigurationProvider.toConfiguration("ROOT", source: source)
@@ -41,11 +47,13 @@ public final class PlistConfigurationProvider: ConfigurationProvider {
         }
     }
 
-    /// Returns the `Configuration` instance for a `Logger`
-    ///
-    /// - parameter name: The name of the `Logger`
-    ///
-    /// - returns: The `Configuration` instance for the `Logger`
+    /**
+    Returns the `Configuration` instance for a `Logger`
+
+    - parameter name: The name of the `Logger`
+
+    - returns: The `Configuration` instance for the `Logger`
+    */
     public func configuration(name: String) -> Configuration {
         if let configuration = self.configurations[name] {
             return configuration
