@@ -7,320 +7,321 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2407DB4F1B15A42200C1C851 /* LoggerLogger.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2484920F1AF6B386000151A2 /* LoggerLogger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		2484921B1AF6B386000151A2 /* LoggerLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2484920F1AF6B386000151A2 /* LoggerLogger.framework */; };
-		2484923B1AF6BA83000151A2 /* LoggerLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248492301AF6BA83000151A2 /* LoggerLogger.framework */; };
-		249DA05C1B0F5C7B00387A97 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24E1C3961AFA59C900FB689B /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		249DA05D1B0F5C7B00387A97 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24E1C3971AFA59C900FB689B /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		249DA05F1B0F5C9B00387A97 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24E1C3921AFA59A600FB689B /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		249DA0601B0F5C9B00387A97 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24E1C3931AFA59A600FB689B /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		24E1C2F41AFA58E300FB689B /* Basename.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E01AFA58E300FB689B /* Basename.swift */; };
-		24E1C2F61AFA58E300FB689B /* Basename.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E01AFA58E300FB689B /* Basename.swift */; };
-		24E1C2F81AFA58E300FB689B /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E11AFA58E300FB689B /* Configuration.swift */; };
-		24E1C2FA1AFA58E300FB689B /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E11AFA58E300FB689B /* Configuration.swift */; };
-		24E1C2FC1AFA58E300FB689B /* ConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E21AFA58E300FB689B /* ConfigurationProvider.swift */; };
-		24E1C2FE1AFA58E300FB689B /* ConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E21AFA58E300FB689B /* ConfigurationProvider.swift */; };
-		24E1C3001AFA58E300FB689B /* ConfigurationProviderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E31AFA58E300FB689B /* ConfigurationProviderManager.swift */; };
-		24E1C3021AFA58E300FB689B /* ConfigurationProviderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E31AFA58E300FB689B /* ConfigurationProviderManager.swift */; };
-		24E1C3041AFA58E300FB689B /* ConsoleMessageWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E41AFA58E300FB689B /* ConsoleMessageWriter.swift */; };
-		24E1C3061AFA58E300FB689B /* ConsoleMessageWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E41AFA58E300FB689B /* ConsoleMessageWriter.swift */; };
-		24E1C3081AFA58E300FB689B /* DateFormatterPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E51AFA58E300FB689B /* DateFormatterPool.swift */; };
-		24E1C30A1AFA58E300FB689B /* DateFormatterPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E51AFA58E300FB689B /* DateFormatterPool.swift */; };
-		24E1C30C1AFA58E300FB689B /* DefaultMessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E61AFA58E300FB689B /* DefaultMessageFormatter.swift */; };
-		24E1C30E1AFA58E300FB689B /* DefaultMessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E61AFA58E300FB689B /* DefaultMessageFormatter.swift */; };
-		24E1C3141AFA58E300FB689B /* InMemoryDateFormatterPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E81AFA58E300FB689B /* InMemoryDateFormatterPool.swift */; };
-		24E1C3161AFA58E300FB689B /* InMemoryDateFormatterPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E81AFA58E300FB689B /* InMemoryDateFormatterPool.swift */; };
-		24E1C3181AFA58E300FB689B /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E91AFA58E300FB689B /* Level.swift */; };
-		24E1C31A1AFA58E300FB689B /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2E91AFA58E300FB689B /* Level.swift */; };
-		24E1C31C1AFA58E300FB689B /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EA1AFA58E300FB689B /* Logger.swift */; };
-		24E1C31E1AFA58E300FB689B /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EA1AFA58E300FB689B /* Logger.swift */; };
-		24E1C3201AFA58E300FB689B /* MessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EB1AFA58E300FB689B /* MessageFormatter.swift */; };
-		24E1C3221AFA58E300FB689B /* MessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EB1AFA58E300FB689B /* MessageFormatter.swift */; };
-		24E1C3241AFA58E300FB689B /* MessagePosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EC1AFA58E300FB689B /* MessagePosition.swift */; };
-		24E1C3261AFA58E300FB689B /* MessagePosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EC1AFA58E300FB689B /* MessagePosition.swift */; };
-		24E1C3281AFA58E300FB689B /* MessageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2ED1AFA58E300FB689B /* MessageProvider.swift */; };
-		24E1C32A1AFA58E300FB689B /* MessageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2ED1AFA58E300FB689B /* MessageProvider.swift */; };
-		24E1C32C1AFA58E300FB689B /* MessageWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EE1AFA58E300FB689B /* MessageWriter.swift */; };
-		24E1C32E1AFA58E300FB689B /* MessageWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EE1AFA58E300FB689B /* MessageWriter.swift */; };
-		24E1C3301AFA58E300FB689B /* MessageWriterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EF1AFA58E300FB689B /* MessageWriterManager.swift */; };
-		24E1C3321AFA58E300FB689B /* MessageWriterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2EF1AFA58E300FB689B /* MessageWriterManager.swift */; };
-		24E1C3341AFA58E300FB689B /* PlistConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F01AFA58E300FB689B /* PlistConfigurationProvider.swift */; };
-		24E1C3361AFA58E300FB689B /* PlistConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F01AFA58E300FB689B /* PlistConfigurationProvider.swift */; };
-		24E1C3381AFA58E300FB689B /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F11AFA58E300FB689B /* Range.swift */; };
-		24E1C33A1AFA58E300FB689B /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F11AFA58E300FB689B /* Range.swift */; };
-		24E1C33C1AFA58E300FB689B /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F21AFA58E300FB689B /* String.swift */; };
-		24E1C33E1AFA58E300FB689B /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F21AFA58E300FB689B /* String.swift */; };
-		24E1C3401AFA58E300FB689B /* Synchronized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F31AFA58E300FB689B /* Synchronized.swift */; };
-		24E1C3421AFA58E300FB689B /* Synchronized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C2F31AFA58E300FB689B /* Synchronized.swift */; };
-		24E1C3521AFA58F800FB689B /* BasenameSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C3451AFA58F800FB689B /* BasenameSpec.swift */; };
-		24E1C3541AFA58F800FB689B /* BasenameSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C3451AFA58F800FB689B /* BasenameSpec.swift */; };
-		24E1C3561AFA58F800FB689B /* ConfigurationProviderManagerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C3461AFA58F800FB689B /* ConfigurationProviderManagerSpec.swift */; };
-		24E1C3581AFA58F800FB689B /* ConfigurationProviderManagerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C3461AFA58F800FB689B /* ConfigurationProviderManagerSpec.swift */; };
-		24E1C35A1AFA58F800FB689B /* ConfigurationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C3471AFA58F800FB689B /* ConfigurationSpec.swift */; };
-		24E1C35C1AFA58F800FB689B /* ConfigurationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C3471AFA58F800FB689B /* ConfigurationSpec.swift */; };
-		24E1C35E1AFA58F800FB689B /* ConsoleMessageWriterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C3481AFA58F800FB689B /* ConsoleMessageWriterSpec.swift */; };
-		24E1C3601AFA58F800FB689B /* ConsoleMessageWriterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C3481AFA58F800FB689B /* ConsoleMessageWriterSpec.swift */; };
-		24E1C3621AFA58F800FB689B /* DefaultMessageFormatterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C3491AFA58F800FB689B /* DefaultMessageFormatterSpec.swift */; };
-		24E1C3641AFA58F800FB689B /* DefaultMessageFormatterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C3491AFA58F800FB689B /* DefaultMessageFormatterSpec.swift */; };
-		24E1C36A1AFA58F800FB689B /* InMemoryDateFormatterPoolSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C34B1AFA58F800FB689B /* InMemoryDateFormatterPoolSpec.swift */; };
-		24E1C36C1AFA58F800FB689B /* InMemoryDateFormatterPoolSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C34B1AFA58F800FB689B /* InMemoryDateFormatterPoolSpec.swift */; };
-		24E1C36E1AFA58F800FB689B /* LevelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C34C1AFA58F800FB689B /* LevelSpec.swift */; };
-		24E1C3701AFA58F800FB689B /* LevelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C34C1AFA58F800FB689B /* LevelSpec.swift */; };
-		24E1C3721AFA58F800FB689B /* LoggerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C34D1AFA58F800FB689B /* LoggerSpec.swift */; };
-		24E1C3741AFA58F800FB689B /* LoggerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C34D1AFA58F800FB689B /* LoggerSpec.swift */; };
-		24E1C3761AFA58F800FB689B /* MessagePositionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C34E1AFA58F800FB689B /* MessagePositionSpec.swift */; };
-		24E1C3781AFA58F800FB689B /* MessagePositionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C34E1AFA58F800FB689B /* MessagePositionSpec.swift */; };
-		24E1C37A1AFA58F800FB689B /* MessageWriterManagerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C34F1AFA58F800FB689B /* MessageWriterManagerSpec.swift */; };
-		24E1C37C1AFA58F800FB689B /* MessageWriterManagerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C34F1AFA58F800FB689B /* MessageWriterManagerSpec.swift */; };
-		24E1C37E1AFA58F800FB689B /* PlistConfigurationProviderSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C3501AFA58F800FB689B /* PlistConfigurationProviderSpec.swift */; };
-		24E1C3801AFA58F800FB689B /* PlistConfigurationProviderSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1C3501AFA58F800FB689B /* PlistConfigurationProviderSpec.swift */; };
-		24E1C3941AFA59A600FB689B /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E1C3921AFA59A600FB689B /* Nimble.framework */; };
-		24E1C3951AFA59A600FB689B /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E1C3931AFA59A600FB689B /* Quick.framework */; };
-		24E1C3981AFA59C900FB689B /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E1C3961AFA59C900FB689B /* Nimble.framework */; };
-		24E1C3991AFA59CA00FB689B /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E1C3971AFA59C900FB689B /* Quick.framework */; };
-		24E1C39A1AFA5A5B00FB689B /* FormatSet.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24E1C3821AFA591C00FB689B /* FormatSet.plist */; };
-		24E1C39B1AFA5A5B00FB689B /* Levels.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24E1C3831AFA591C00FB689B /* Levels.plist */; };
-		24E1C39C1AFA5A5B00FB689B /* LevelSet.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24E1C3841AFA591C00FB689B /* LevelSet.plist */; };
-		24E1C39D1AFA5A5B00FB689B /* Named.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24E1C3851AFA591C00FB689B /* Named.plist */; };
-		24E1C39E1AFA5A5B00FB689B /* RootOnly.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24E1C3861AFA591C00FB689B /* RootOnly.plist */; };
-		24E1C39F1AFA5A5C00FB689B /* FormatSet.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24E1C3821AFA591C00FB689B /* FormatSet.plist */; };
-		24E1C3A01AFA5A5C00FB689B /* Levels.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24E1C3831AFA591C00FB689B /* Levels.plist */; };
-		24E1C3A11AFA5A5C00FB689B /* LevelSet.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24E1C3841AFA591C00FB689B /* LevelSet.plist */; };
-		24E1C3A21AFA5A5C00FB689B /* Named.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24E1C3851AFA591C00FB689B /* Named.plist */; };
-		24E1C3A31AFA5A5C00FB689B /* RootOnly.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24E1C3861AFA591C00FB689B /* RootOnly.plist */; };
+		240C8E651B2FF19800108C7A /* LoggerLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 240C8E5B1B2FF19700108C7A /* LoggerLogger.framework */; };
+		240C8E721B2FF1E000108C7A /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246072E61B2F44210096D54C /* Level.swift */; };
+		240C8E731B2FF1E300108C7A /* LevelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246072E81B2F44420096D54C /* LevelSpec.swift */; };
+		240C8E7A1B2FF2C300108C7A /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 240C8E771B2FF28300108C7A /* Quick.framework */; };
+		240C8E7B1B2FF2CA00108C7A /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 240C8E761B2FF28300108C7A /* Nimble.framework */; };
+		240C8E7D1B2FF35000108C7A /* Nimble.framework in Copy Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 240C8E761B2FF28300108C7A /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		240C8E7E1B2FF35000108C7A /* Quick.framework in Copy Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 240C8E771B2FF28300108C7A /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		240C8E801B2FF38900108C7A /* Basename.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8E7F1B2FF38900108C7A /* Basename.swift */; };
+		240C8E811B2FF38900108C7A /* Basename.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8E7F1B2FF38900108C7A /* Basename.swift */; };
+		240C8E831B2FF3D700108C7A /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8E821B2FF3D700108C7A /* Configuration.swift */; };
+		240C8E841B2FF3D700108C7A /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8E821B2FF3D700108C7A /* Configuration.swift */; };
+		240C8E861B2FF3E800108C7A /* ConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8E851B2FF3E800108C7A /* ConfigurationProvider.swift */; };
+		240C8E871B2FF3E800108C7A /* ConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8E851B2FF3E800108C7A /* ConfigurationProvider.swift */; };
+		240C8E891B2FF3FA00108C7A /* ConfigurationProviderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8E881B2FF3FA00108C7A /* ConfigurationProviderManager.swift */; };
+		240C8E8A1B2FF3FA00108C7A /* ConfigurationProviderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8E881B2FF3FA00108C7A /* ConfigurationProviderManager.swift */; };
+		240C8E8C1B2FF40900108C7A /* ConsoleMessageWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8E8B1B2FF40900108C7A /* ConsoleMessageWriter.swift */; };
+		240C8E8D1B2FF40900108C7A /* ConsoleMessageWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8E8B1B2FF40900108C7A /* ConsoleMessageWriter.swift */; };
+		240C8E8F1B2FF41600108C7A /* DateFormatterPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8E8E1B2FF41600108C7A /* DateFormatterPool.swift */; };
+		240C8E901B2FF41600108C7A /* DateFormatterPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8E8E1B2FF41600108C7A /* DateFormatterPool.swift */; };
+		240C8E921B2FF42300108C7A /* DefaultMessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8E911B2FF42300108C7A /* DefaultMessageFormatter.swift */; };
+		240C8E931B2FF42300108C7A /* DefaultMessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8E911B2FF42300108C7A /* DefaultMessageFormatter.swift */; };
+		240C8E951B2FF46100108C7A /* InMemoryDateFormatterPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8E941B2FF46100108C7A /* InMemoryDateFormatterPool.swift */; };
+		240C8E961B2FF46100108C7A /* InMemoryDateFormatterPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8E941B2FF46100108C7A /* InMemoryDateFormatterPool.swift */; };
+		240C8E981B2FF47600108C7A /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8E971B2FF47600108C7A /* Logger.swift */; };
+		240C8E991B2FF47600108C7A /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8E971B2FF47600108C7A /* Logger.swift */; };
+		240C8E9B1B2FF48A00108C7A /* MessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8E9A1B2FF48A00108C7A /* MessageFormatter.swift */; };
+		240C8E9C1B2FF48A00108C7A /* MessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8E9A1B2FF48A00108C7A /* MessageFormatter.swift */; };
+		240C8E9E1B2FF49600108C7A /* MessagePosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8E9D1B2FF49600108C7A /* MessagePosition.swift */; };
+		240C8E9F1B2FF49600108C7A /* MessagePosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8E9D1B2FF49600108C7A /* MessagePosition.swift */; };
+		240C8EA11B2FF4A200108C7A /* MessageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8EA01B2FF4A200108C7A /* MessageProvider.swift */; };
+		240C8EA21B2FF4A200108C7A /* MessageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8EA01B2FF4A200108C7A /* MessageProvider.swift */; };
+		240C8EA41B2FF4AF00108C7A /* MessageWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8EA31B2FF4AF00108C7A /* MessageWriter.swift */; };
+		240C8EA51B2FF4AF00108C7A /* MessageWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8EA31B2FF4AF00108C7A /* MessageWriter.swift */; };
+		240C8EA71B2FF4C000108C7A /* MessageWriterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8EA61B2FF4C000108C7A /* MessageWriterManager.swift */; };
+		240C8EA81B2FF4C000108C7A /* MessageWriterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8EA61B2FF4C000108C7A /* MessageWriterManager.swift */; };
+		240C8EAA1B2FF4CD00108C7A /* PlistConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8EA91B2FF4CD00108C7A /* PlistConfigurationProvider.swift */; };
+		240C8EAB1B2FF4CD00108C7A /* PlistConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8EA91B2FF4CD00108C7A /* PlistConfigurationProvider.swift */; };
+		240C8EAD1B2FF4D800108C7A /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8EAC1B2FF4D800108C7A /* Range.swift */; };
+		240C8EAE1B2FF4D800108C7A /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8EAC1B2FF4D800108C7A /* Range.swift */; };
+		240C8EB01B2FF4F200108C7A /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8EAF1B2FF4F200108C7A /* String.swift */; };
+		240C8EB11B2FF4F200108C7A /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8EAF1B2FF4F200108C7A /* String.swift */; };
+		240C8EB31B2FF4FE00108C7A /* Synchronized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8EB21B2FF4FE00108C7A /* Synchronized.swift */; };
+		240C8EB41B2FF4FE00108C7A /* Synchronized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8EB21B2FF4FE00108C7A /* Synchronized.swift */; };
+		240C8EB61B2FF5D200108C7A /* BasenameSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8EB51B2FF5D200108C7A /* BasenameSpec.swift */; };
+		240C8EB71B2FF5D200108C7A /* BasenameSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8EB51B2FF5D200108C7A /* BasenameSpec.swift */; };
+		240C8EB91B2FF5E500108C7A /* ConfigurationProviderSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8EB81B2FF5E500108C7A /* ConfigurationProviderSpec.swift */; };
+		240C8EBA1B2FF5E500108C7A /* ConfigurationProviderSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8EB81B2FF5E500108C7A /* ConfigurationProviderSpec.swift */; };
+		240C8EBC1B2FF5F400108C7A /* ConfigurationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8EBB1B2FF5F400108C7A /* ConfigurationSpec.swift */; };
+		240C8EBD1B2FF5F400108C7A /* ConfigurationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8EBB1B2FF5F400108C7A /* ConfigurationSpec.swift */; };
+		240C8EBF1B2FF60300108C7A /* ConsoleMessageWriterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8EBE1B2FF60300108C7A /* ConsoleMessageWriterSpec.swift */; };
+		240C8EC01B2FF60300108C7A /* ConsoleMessageWriterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8EBE1B2FF60300108C7A /* ConsoleMessageWriterSpec.swift */; };
+		240C8EC21B2FF63D00108C7A /* DefaultMessageFormatterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8EC11B2FF63D00108C7A /* DefaultMessageFormatterSpec.swift */; };
+		240C8EC31B2FF63D00108C7A /* DefaultMessageFormatterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8EC11B2FF63D00108C7A /* DefaultMessageFormatterSpec.swift */; };
+		240C8EC51B2FF65500108C7A /* InMemoryDateFormatterPoolSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8EC41B2FF65500108C7A /* InMemoryDateFormatterPoolSpec.swift */; };
+		240C8EC61B2FF65500108C7A /* InMemoryDateFormatterPoolSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8EC41B2FF65500108C7A /* InMemoryDateFormatterPoolSpec.swift */; };
+		240C8EC91B2FF6C800108C7A /* LoggerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8EC71B2FF6C200108C7A /* LoggerSpec.swift */; };
+		240C8ECA1B2FF6C900108C7A /* LoggerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8EC71B2FF6C200108C7A /* LoggerSpec.swift */; };
+		240C8ECC1B2FF71900108C7A /* MessagePositionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8ECB1B2FF71900108C7A /* MessagePositionSpec.swift */; };
+		240C8ECD1B2FF71900108C7A /* MessagePositionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8ECB1B2FF71900108C7A /* MessagePositionSpec.swift */; };
+		240C8ECF1B2FF72700108C7A /* MessageWriterManagerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8ECE1B2FF72700108C7A /* MessageWriterManagerSpec.swift */; };
+		240C8ED01B2FF72700108C7A /* MessageWriterManagerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8ECE1B2FF72700108C7A /* MessageWriterManagerSpec.swift */; };
+		240C8ED21B2FF75F00108C7A /* PlistConfigurationProviderSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8ED11B2FF75F00108C7A /* PlistConfigurationProviderSpec.swift */; };
+		240C8ED31B2FF75F00108C7A /* PlistConfigurationProviderSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C8ED11B2FF75F00108C7A /* PlistConfigurationProviderSpec.swift */; };
+		240C8ED61B2FF7A500108C7A /* FormatSet.plist in Resources */ = {isa = PBXBuildFile; fileRef = 240C8ED51B2FF7A500108C7A /* FormatSet.plist */; };
+		240C8ED71B2FF7A500108C7A /* FormatSet.plist in Resources */ = {isa = PBXBuildFile; fileRef = 240C8ED51B2FF7A500108C7A /* FormatSet.plist */; };
+		240C8ED91B2FF7D400108C7A /* Levels.plist in Resources */ = {isa = PBXBuildFile; fileRef = 240C8ED81B2FF7D400108C7A /* Levels.plist */; };
+		240C8EDA1B2FF7D400108C7A /* Levels.plist in Resources */ = {isa = PBXBuildFile; fileRef = 240C8ED81B2FF7D400108C7A /* Levels.plist */; };
+		240C8EDC1B2FF7EC00108C7A /* LevelSet.plist in Resources */ = {isa = PBXBuildFile; fileRef = 240C8EDB1B2FF7EC00108C7A /* LevelSet.plist */; };
+		240C8EDD1B2FF7EC00108C7A /* LevelSet.plist in Resources */ = {isa = PBXBuildFile; fileRef = 240C8EDB1B2FF7EC00108C7A /* LevelSet.plist */; };
+		240C8EDF1B2FF80400108C7A /* Named.plist in Resources */ = {isa = PBXBuildFile; fileRef = 240C8EDE1B2FF80400108C7A /* Named.plist */; };
+		240C8EE01B2FF80400108C7A /* Named.plist in Resources */ = {isa = PBXBuildFile; fileRef = 240C8EDE1B2FF80400108C7A /* Named.plist */; };
+		240C8EE21B2FF81B00108C7A /* RootOnly.plist in Resources */ = {isa = PBXBuildFile; fileRef = 240C8EE11B2FF81B00108C7A /* RootOnly.plist */; };
+		240C8EE31B2FF81B00108C7A /* RootOnly.plist in Resources */ = {isa = PBXBuildFile; fileRef = 240C8EE11B2FF81B00108C7A /* RootOnly.plist */; };
+		246072D21B2F428E0096D54C /* LoggerLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 246072C71B2F428E0096D54C /* LoggerLogger.framework */; };
+		246072E41B2F43A60096D54C /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 246072E21B2F43A60096D54C /* Nimble.framework */; };
+		246072E51B2F43A60096D54C /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 246072E31B2F43A60096D54C /* Quick.framework */; };
+		246072E71B2F44210096D54C /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246072E61B2F44210096D54C /* Level.swift */; };
+		246072E91B2F44420096D54C /* LevelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246072E81B2F44420096D54C /* LevelSpec.swift */; };
+		24E947831B2F4661007D4472 /* Nimble.framework in Copy Files (2 items) */ = {isa = PBXBuildFile; fileRef = 246072E21B2F43A60096D54C /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		24E947841B2F4661007D4472 /* Quick.framework in Copy Files (2 items) */ = {isa = PBXBuildFile; fileRef = 246072E31B2F43A60096D54C /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2484921C1AF6B386000151A2 /* PBXContainerItemProxy */ = {
+		240C8E661B2FF19800108C7A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 248492061AF6B386000151A2 /* Project object */;
+			containerPortal = 246072BE1B2F428E0096D54C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2484920E1AF6B386000151A2;
+			remoteGlobalIDString = 240C8E5A1B2FF19700108C7A;
 			remoteInfo = LoggerLogger;
 		};
-		2484923C1AF6BA83000151A2 /* PBXContainerItemProxy */ = {
+		246072D31B2F428E0096D54C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 248492061AF6B386000151A2 /* Project object */;
+			containerPortal = 246072BE1B2F428E0096D54C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2484922F1AF6BA83000151A2;
+			remoteGlobalIDString = 246072C61B2F428E0096D54C;
 			remoteInfo = LoggerLogger;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		249DA0591B0F5C6800387A97 /* CopyFiles */ = {
+		240C8E7C1B2FF33100108C7A /* Copy Carthage Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				249DA05C1B0F5C7B00387A97 /* Nimble.framework in CopyFiles */,
-				249DA05D1B0F5C7B00387A97 /* Quick.framework in CopyFiles */,
+				240C8E7D1B2FF35000108C7A /* Nimble.framework in Copy Carthage Frameworks */,
+				240C8E7E1B2FF35000108C7A /* Quick.framework in Copy Carthage Frameworks */,
 			);
+			name = "Copy Carthage Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		249DA05E1B0F5C9000387A97 /* CopyFiles */ = {
+		24E947821B2F4653007D4472 /* Copy Files (2 items) */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				2407DB4F1B15A42200C1C851 /* LoggerLogger.framework in CopyFiles */,
-				249DA05F1B0F5C9B00387A97 /* Nimble.framework in CopyFiles */,
-				249DA0601B0F5C9B00387A97 /* Quick.framework in CopyFiles */,
+				24E947831B2F4661007D4472 /* Nimble.framework in Copy Files (2 items) */,
+				24E947841B2F4661007D4472 /* Quick.framework in Copy Files (2 items) */,
 			);
+			name = "Copy Files (2 items)";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2484920F1AF6B386000151A2 /* LoggerLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoggerLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2484921A1AF6B386000151A2 /* LoggerLoggerSpecs-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LoggerLoggerSpecs-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		248492301AF6BA83000151A2 /* LoggerLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoggerLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2484923A1AF6BA83000151A2 /* LoggerLoggerSpecs-Mac.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LoggerLoggerSpecs-Mac.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		24E1C2E01AFA58E300FB689B /* Basename.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Basename.swift; sourceTree = "<group>"; };
-		24E1C2E11AFA58E300FB689B /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
-		24E1C2E21AFA58E300FB689B /* ConfigurationProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationProvider.swift; sourceTree = "<group>"; };
-		24E1C2E31AFA58E300FB689B /* ConfigurationProviderManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationProviderManager.swift; sourceTree = "<group>"; };
-		24E1C2E41AFA58E300FB689B /* ConsoleMessageWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleMessageWriter.swift; sourceTree = "<group>"; };
-		24E1C2E51AFA58E300FB689B /* DateFormatterPool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatterPool.swift; sourceTree = "<group>"; };
-		24E1C2E61AFA58E300FB689B /* DefaultMessageFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultMessageFormatter.swift; sourceTree = "<group>"; };
-		24E1C2E71AFA58E300FB689B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		24E1C2E81AFA58E300FB689B /* InMemoryDateFormatterPool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InMemoryDateFormatterPool.swift; sourceTree = "<group>"; };
-		24E1C2E91AFA58E300FB689B /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
-		24E1C2EA1AFA58E300FB689B /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
-		24E1C2EB1AFA58E300FB689B /* MessageFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageFormatter.swift; sourceTree = "<group>"; };
-		24E1C2EC1AFA58E300FB689B /* MessagePosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagePosition.swift; sourceTree = "<group>"; };
-		24E1C2ED1AFA58E300FB689B /* MessageProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageProvider.swift; sourceTree = "<group>"; };
-		24E1C2EE1AFA58E300FB689B /* MessageWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageWriter.swift; sourceTree = "<group>"; };
-		24E1C2EF1AFA58E300FB689B /* MessageWriterManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageWriterManager.swift; sourceTree = "<group>"; };
-		24E1C2F01AFA58E300FB689B /* PlistConfigurationProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistConfigurationProvider.swift; sourceTree = "<group>"; };
-		24E1C2F11AFA58E300FB689B /* Range.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Range.swift; sourceTree = "<group>"; };
-		24E1C2F21AFA58E300FB689B /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
-		24E1C2F31AFA58E300FB689B /* Synchronized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Synchronized.swift; sourceTree = "<group>"; };
-		24E1C3451AFA58F800FB689B /* BasenameSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasenameSpec.swift; sourceTree = "<group>"; };
-		24E1C3461AFA58F800FB689B /* ConfigurationProviderManagerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationProviderManagerSpec.swift; sourceTree = "<group>"; };
-		24E1C3471AFA58F800FB689B /* ConfigurationSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationSpec.swift; sourceTree = "<group>"; };
-		24E1C3481AFA58F800FB689B /* ConsoleMessageWriterSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleMessageWriterSpec.swift; sourceTree = "<group>"; };
-		24E1C3491AFA58F800FB689B /* DefaultMessageFormatterSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultMessageFormatterSpec.swift; sourceTree = "<group>"; };
-		24E1C34A1AFA58F800FB689B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		24E1C34B1AFA58F800FB689B /* InMemoryDateFormatterPoolSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InMemoryDateFormatterPoolSpec.swift; sourceTree = "<group>"; };
-		24E1C34C1AFA58F800FB689B /* LevelSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelSpec.swift; sourceTree = "<group>"; };
-		24E1C34D1AFA58F800FB689B /* LoggerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerSpec.swift; sourceTree = "<group>"; };
-		24E1C34E1AFA58F800FB689B /* MessagePositionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagePositionSpec.swift; sourceTree = "<group>"; };
-		24E1C34F1AFA58F800FB689B /* MessageWriterManagerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageWriterManagerSpec.swift; sourceTree = "<group>"; };
-		24E1C3501AFA58F800FB689B /* PlistConfigurationProviderSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistConfigurationProviderSpec.swift; sourceTree = "<group>"; };
-		24E1C3821AFA591C00FB689B /* FormatSet.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FormatSet.plist; sourceTree = "<group>"; };
-		24E1C3831AFA591C00FB689B /* Levels.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Levels.plist; sourceTree = "<group>"; };
-		24E1C3841AFA591C00FB689B /* LevelSet.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LevelSet.plist; sourceTree = "<group>"; };
-		24E1C3851AFA591C00FB689B /* Named.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Named.plist; sourceTree = "<group>"; };
-		24E1C3861AFA591C00FB689B /* RootOnly.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RootOnly.plist; sourceTree = "<group>"; };
-		24E1C3921AFA59A600FB689B /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
-		24E1C3931AFA59A600FB689B /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
-		24E1C3961AFA59C900FB689B /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = "<group>"; };
-		24E1C3971AFA59C900FB689B /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = "<group>"; };
+		240C8E5B1B2FF19700108C7A /* LoggerLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoggerLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		240C8E641B2FF19800108C7A /* LoggerLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoggerLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		240C8E761B2FF28300108C7A /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = ../Carthage/Build/Mac/Nimble.framework; sourceTree = "<group>"; };
+		240C8E771B2FF28300108C7A /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = ../Carthage/Build/Mac/Quick.framework; sourceTree = "<group>"; };
+		240C8E7F1B2FF38900108C7A /* Basename.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Basename.swift; sourceTree = "<group>"; };
+		240C8E821B2FF3D700108C7A /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		240C8E851B2FF3E800108C7A /* ConfigurationProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationProvider.swift; sourceTree = "<group>"; };
+		240C8E881B2FF3FA00108C7A /* ConfigurationProviderManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationProviderManager.swift; sourceTree = "<group>"; };
+		240C8E8B1B2FF40900108C7A /* ConsoleMessageWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleMessageWriter.swift; sourceTree = "<group>"; };
+		240C8E8E1B2FF41600108C7A /* DateFormatterPool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatterPool.swift; sourceTree = "<group>"; };
+		240C8E911B2FF42300108C7A /* DefaultMessageFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultMessageFormatter.swift; sourceTree = "<group>"; };
+		240C8E941B2FF46100108C7A /* InMemoryDateFormatterPool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InMemoryDateFormatterPool.swift; sourceTree = "<group>"; };
+		240C8E971B2FF47600108C7A /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		240C8E9A1B2FF48A00108C7A /* MessageFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageFormatter.swift; sourceTree = "<group>"; };
+		240C8E9D1B2FF49600108C7A /* MessagePosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagePosition.swift; sourceTree = "<group>"; };
+		240C8EA01B2FF4A200108C7A /* MessageProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageProvider.swift; sourceTree = "<group>"; };
+		240C8EA31B2FF4AF00108C7A /* MessageWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageWriter.swift; sourceTree = "<group>"; };
+		240C8EA61B2FF4C000108C7A /* MessageWriterManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageWriterManager.swift; sourceTree = "<group>"; };
+		240C8EA91B2FF4CD00108C7A /* PlistConfigurationProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistConfigurationProvider.swift; sourceTree = "<group>"; };
+		240C8EAC1B2FF4D800108C7A /* Range.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Range.swift; sourceTree = "<group>"; };
+		240C8EAF1B2FF4F200108C7A /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		240C8EB21B2FF4FE00108C7A /* Synchronized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Synchronized.swift; sourceTree = "<group>"; };
+		240C8EB51B2FF5D200108C7A /* BasenameSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasenameSpec.swift; sourceTree = "<group>"; };
+		240C8EB81B2FF5E500108C7A /* ConfigurationProviderSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationProviderSpec.swift; sourceTree = "<group>"; };
+		240C8EBB1B2FF5F400108C7A /* ConfigurationSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationSpec.swift; sourceTree = "<group>"; };
+		240C8EBE1B2FF60300108C7A /* ConsoleMessageWriterSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleMessageWriterSpec.swift; sourceTree = "<group>"; };
+		240C8EC11B2FF63D00108C7A /* DefaultMessageFormatterSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultMessageFormatterSpec.swift; sourceTree = "<group>"; };
+		240C8EC41B2FF65500108C7A /* InMemoryDateFormatterPoolSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InMemoryDateFormatterPoolSpec.swift; sourceTree = "<group>"; };
+		240C8EC71B2FF6C200108C7A /* LoggerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerSpec.swift; sourceTree = "<group>"; };
+		240C8ECB1B2FF71900108C7A /* MessagePositionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagePositionSpec.swift; sourceTree = "<group>"; };
+		240C8ECE1B2FF72700108C7A /* MessageWriterManagerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageWriterManagerSpec.swift; sourceTree = "<group>"; };
+		240C8ED11B2FF75F00108C7A /* PlistConfigurationProviderSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistConfigurationProviderSpec.swift; sourceTree = "<group>"; };
+		240C8ED51B2FF7A500108C7A /* FormatSet.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FormatSet.plist; sourceTree = "<group>"; };
+		240C8ED81B2FF7D400108C7A /* Levels.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Levels.plist; sourceTree = "<group>"; };
+		240C8EDB1B2FF7EC00108C7A /* LevelSet.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LevelSet.plist; sourceTree = "<group>"; };
+		240C8EDE1B2FF80400108C7A /* Named.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Named.plist; sourceTree = "<group>"; };
+		240C8EE11B2FF81B00108C7A /* RootOnly.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RootOnly.plist; sourceTree = "<group>"; };
+		246072C71B2F428E0096D54C /* LoggerLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoggerLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		246072CC1B2F428E0096D54C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		246072D11B2F428E0096D54C /* LoggerLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoggerLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		246072D81B2F428E0096D54C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		246072E21B2F43A60096D54C /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = ../Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		246072E31B2F43A60096D54C /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = ../Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		246072E61B2F44210096D54C /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		246072E81B2F44420096D54C /* LevelSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelSpec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2484920B1AF6B386000151A2 /* Frameworks */ = {
+		240C8E571B2FF19700108C7A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		248492171AF6B386000151A2 /* Frameworks */ = {
+		240C8E611B2FF19800108C7A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2484921B1AF6B386000151A2 /* LoggerLogger.framework in Frameworks */,
-				24E1C3941AFA59A600FB689B /* Nimble.framework in Frameworks */,
-				24E1C3951AFA59A600FB689B /* Quick.framework in Frameworks */,
+				240C8E651B2FF19800108C7A /* LoggerLogger.framework in Frameworks */,
+				240C8E7B1B2FF2CA00108C7A /* Nimble.framework in Frameworks */,
+				240C8E7A1B2FF2C300108C7A /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2484922C1AF6BA83000151A2 /* Frameworks */ = {
+		246072C31B2F428E0096D54C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		248492371AF6BA83000151A2 /* Frameworks */ = {
+		246072CE1B2F428E0096D54C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2484923B1AF6BA83000151A2 /* LoggerLogger.framework in Frameworks */,
-				24E1C3981AFA59C900FB689B /* Nimble.framework in Frameworks */,
-				24E1C3991AFA59CA00FB689B /* Quick.framework in Frameworks */,
+				246072D21B2F428E0096D54C /* LoggerLogger.framework in Frameworks */,
+				246072E41B2F43A60096D54C /* Nimble.framework in Frameworks */,
+				246072E51B2F43A60096D54C /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		248492051AF6B386000151A2 = {
+		240C8ED41B2FF78200108C7A /* Fixtures */ = {
 			isa = PBXGroup;
 			children = (
-				24E1C2DF1AFA58E300FB689B /* Sources */,
-				24E1C3441AFA58F800FB689B /* Specs */,
-				24E1C3811AFA591C00FB689B /* Fixtures */,
-				24E1C3911AFA592700FB689B /* Frameworks */,
-				248492101AF6B386000151A2 /* Products */,
+				240C8ED51B2FF7A500108C7A /* FormatSet.plist */,
+				240C8ED81B2FF7D400108C7A /* Levels.plist */,
+				240C8EDB1B2FF7EC00108C7A /* LevelSet.plist */,
+				240C8EDE1B2FF80400108C7A /* Named.plist */,
+				240C8EE11B2FF81B00108C7A /* RootOnly.plist */,
+			);
+			name = Fixtures;
+			sourceTree = "<group>";
+		};
+		246072BD1B2F428E0096D54C = {
+			isa = PBXGroup;
+			children = (
+				246072C91B2F428E0096D54C /* LoggerLogger */,
+				246072D51B2F428E0096D54C /* LoggerLoggerTests */,
+				246072E11B2F43810096D54C /* Frameworks */,
+				246072C81B2F428E0096D54C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		248492101AF6B386000151A2 /* Products */ = {
+		246072C81B2F428E0096D54C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2484920F1AF6B386000151A2 /* LoggerLogger.framework */,
-				2484921A1AF6B386000151A2 /* LoggerLoggerSpecs-iOS.xctest */,
-				248492301AF6BA83000151A2 /* LoggerLogger.framework */,
-				2484923A1AF6BA83000151A2 /* LoggerLoggerSpecs-Mac.xctest */,
+				246072C71B2F428E0096D54C /* LoggerLogger.framework */,
+				246072D11B2F428E0096D54C /* LoggerLoggerTests.xctest */,
+				240C8E5B1B2FF19700108C7A /* LoggerLogger.framework */,
+				240C8E641B2FF19800108C7A /* LoggerLoggerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		24E1C2DF1AFA58E300FB689B /* Sources */ = {
+		246072C91B2F428E0096D54C /* LoggerLogger */ = {
 			isa = PBXGroup;
 			children = (
-				24E1C2E01AFA58E300FB689B /* Basename.swift */,
-				24E1C2E11AFA58E300FB689B /* Configuration.swift */,
-				24E1C2E21AFA58E300FB689B /* ConfigurationProvider.swift */,
-				24E1C2E31AFA58E300FB689B /* ConfigurationProviderManager.swift */,
-				24E1C2E41AFA58E300FB689B /* ConsoleMessageWriter.swift */,
-				24E1C2E51AFA58E300FB689B /* DateFormatterPool.swift */,
-				24E1C2E61AFA58E300FB689B /* DefaultMessageFormatter.swift */,
-				24E1C2E71AFA58E300FB689B /* Info.plist */,
-				24E1C2E81AFA58E300FB689B /* InMemoryDateFormatterPool.swift */,
-				24E1C2E91AFA58E300FB689B /* Level.swift */,
-				24E1C2EA1AFA58E300FB689B /* Logger.swift */,
-				24E1C2EB1AFA58E300FB689B /* MessageFormatter.swift */,
-				24E1C2EC1AFA58E300FB689B /* MessagePosition.swift */,
-				24E1C2ED1AFA58E300FB689B /* MessageProvider.swift */,
-				24E1C2EE1AFA58E300FB689B /* MessageWriter.swift */,
-				24E1C2EF1AFA58E300FB689B /* MessageWriterManager.swift */,
-				24E1C2F01AFA58E300FB689B /* PlistConfigurationProvider.swift */,
-				24E1C2F11AFA58E300FB689B /* Range.swift */,
-				24E1C2F21AFA58E300FB689B /* String.swift */,
-				24E1C2F31AFA58E300FB689B /* Synchronized.swift */,
+				240C8E7F1B2FF38900108C7A /* Basename.swift */,
+				240C8E821B2FF3D700108C7A /* Configuration.swift */,
+				240C8E851B2FF3E800108C7A /* ConfigurationProvider.swift */,
+				240C8E881B2FF3FA00108C7A /* ConfigurationProviderManager.swift */,
+				240C8E8B1B2FF40900108C7A /* ConsoleMessageWriter.swift */,
+				240C8E8E1B2FF41600108C7A /* DateFormatterPool.swift */,
+				240C8E911B2FF42300108C7A /* DefaultMessageFormatter.swift */,
+				246072CC1B2F428E0096D54C /* Info.plist */,
+				240C8E941B2FF46100108C7A /* InMemoryDateFormatterPool.swift */,
+				246072E61B2F44210096D54C /* Level.swift */,
+				240C8E971B2FF47600108C7A /* Logger.swift */,
+				240C8E9A1B2FF48A00108C7A /* MessageFormatter.swift */,
+				240C8E9D1B2FF49600108C7A /* MessagePosition.swift */,
+				240C8EA01B2FF4A200108C7A /* MessageProvider.swift */,
+				240C8EA31B2FF4AF00108C7A /* MessageWriter.swift */,
+				240C8EA61B2FF4C000108C7A /* MessageWriterManager.swift */,
+				240C8EA91B2FF4CD00108C7A /* PlistConfigurationProvider.swift */,
+				240C8EAC1B2FF4D800108C7A /* Range.swift */,
+				240C8EAF1B2FF4F200108C7A /* String.swift */,
+				240C8EB21B2FF4FE00108C7A /* Synchronized.swift */,
 			);
-			path = Sources;
+			path = LoggerLogger;
 			sourceTree = "<group>";
 		};
-		24E1C3441AFA58F800FB689B /* Specs */ = {
+		246072D51B2F428E0096D54C /* LoggerLoggerTests */ = {
 			isa = PBXGroup;
 			children = (
-				24E1C3451AFA58F800FB689B /* BasenameSpec.swift */,
-				24E1C3461AFA58F800FB689B /* ConfigurationProviderManagerSpec.swift */,
-				24E1C3471AFA58F800FB689B /* ConfigurationSpec.swift */,
-				24E1C3481AFA58F800FB689B /* ConsoleMessageWriterSpec.swift */,
-				24E1C3491AFA58F800FB689B /* DefaultMessageFormatterSpec.swift */,
-				24E1C34A1AFA58F800FB689B /* Info.plist */,
-				24E1C34B1AFA58F800FB689B /* InMemoryDateFormatterPoolSpec.swift */,
-				24E1C34C1AFA58F800FB689B /* LevelSpec.swift */,
-				24E1C34D1AFA58F800FB689B /* LoggerSpec.swift */,
-				24E1C34E1AFA58F800FB689B /* MessagePositionSpec.swift */,
-				24E1C34F1AFA58F800FB689B /* MessageWriterManagerSpec.swift */,
-				24E1C3501AFA58F800FB689B /* PlistConfigurationProviderSpec.swift */,
+				240C8ED41B2FF78200108C7A /* Fixtures */,
+				240C8EB51B2FF5D200108C7A /* BasenameSpec.swift */,
+				240C8EB81B2FF5E500108C7A /* ConfigurationProviderSpec.swift */,
+				240C8EBB1B2FF5F400108C7A /* ConfigurationSpec.swift */,
+				240C8EBE1B2FF60300108C7A /* ConsoleMessageWriterSpec.swift */,
+				240C8EC11B2FF63D00108C7A /* DefaultMessageFormatterSpec.swift */,
+				246072D81B2F428E0096D54C /* Info.plist */,
+				240C8EC41B2FF65500108C7A /* InMemoryDateFormatterPoolSpec.swift */,
+				246072E81B2F44420096D54C /* LevelSpec.swift */,
+				240C8EC71B2FF6C200108C7A /* LoggerSpec.swift */,
+				240C8ECB1B2FF71900108C7A /* MessagePositionSpec.swift */,
+				240C8ECE1B2FF72700108C7A /* MessageWriterManagerSpec.swift */,
+				240C8ED11B2FF75F00108C7A /* PlistConfigurationProviderSpec.swift */,
 			);
-			path = Specs;
+			path = LoggerLoggerTests;
 			sourceTree = "<group>";
 		};
-		24E1C3811AFA591C00FB689B /* Fixtures */ = {
+		246072E11B2F43810096D54C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				24E1C3821AFA591C00FB689B /* FormatSet.plist */,
-				24E1C3831AFA591C00FB689B /* Levels.plist */,
-				24E1C3841AFA591C00FB689B /* LevelSet.plist */,
-				24E1C3851AFA591C00FB689B /* Named.plist */,
-				24E1C3861AFA591C00FB689B /* RootOnly.plist */,
-			);
-			path = Fixtures;
-			sourceTree = "<group>";
-		};
-		24E1C3911AFA592700FB689B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				24E1C3921AFA59A600FB689B /* Nimble.framework */,
-				24E1C3931AFA59A600FB689B /* Quick.framework */,
-				24E1C3961AFA59C900FB689B /* Nimble.framework */,
-				24E1C3971AFA59C900FB689B /* Quick.framework */,
+				246072E21B2F43A60096D54C /* Nimble.framework */,
+				240C8E761B2FF28300108C7A /* Nimble.framework */,
+				246072E31B2F43A60096D54C /* Quick.framework */,
+				240C8E771B2FF28300108C7A /* Quick.framework */,
 			);
 			name = Frameworks;
+			path = LoggerLoggerTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2484920C1AF6B386000151A2 /* Headers */ = {
+		240C8E581B2FF19700108C7A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2484922D1AF6BA83000151A2 /* Headers */ = {
+		246072C41B2F428E0096D54C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -330,51 +331,14 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2484920E1AF6B386000151A2 /* LoggerLogger-iOS */ = {
+		240C8E5A1B2FF19700108C7A /* LoggerLogger-Mac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 248492251AF6B386000151A2 /* Build configuration list for PBXNativeTarget "LoggerLogger-iOS" */;
+			buildConfigurationList = 240C8E701B2FF19800108C7A /* Build configuration list for PBXNativeTarget "LoggerLogger-Mac" */;
 			buildPhases = (
-				2484920A1AF6B386000151A2 /* Sources */,
-				2484920B1AF6B386000151A2 /* Frameworks */,
-				2484920C1AF6B386000151A2 /* Headers */,
-				2484920D1AF6B386000151A2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "LoggerLogger-iOS";
-			productName = LoggerLogger;
-			productReference = 2484920F1AF6B386000151A2 /* LoggerLogger.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		248492191AF6B386000151A2 /* LoggerLoggerSpecs-iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 248492281AF6B386000151A2 /* Build configuration list for PBXNativeTarget "LoggerLoggerSpecs-iOS" */;
-			buildPhases = (
-				248492161AF6B386000151A2 /* Sources */,
-				248492171AF6B386000151A2 /* Frameworks */,
-				248492181AF6B386000151A2 /* Resources */,
-				249DA05E1B0F5C9000387A97 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2484921D1AF6B386000151A2 /* PBXTargetDependency */,
-			);
-			name = "LoggerLoggerSpecs-iOS";
-			productName = LoggerLoggerTests;
-			productReference = 2484921A1AF6B386000151A2 /* LoggerLoggerSpecs-iOS.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		2484922F1AF6BA83000151A2 /* LoggerLogger-Mac */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 248492431AF6BA83000151A2 /* Build configuration list for PBXNativeTarget "LoggerLogger-Mac" */;
-			buildPhases = (
-				2484922B1AF6BA83000151A2 /* Sources */,
-				2484922C1AF6BA83000151A2 /* Frameworks */,
-				2484922D1AF6BA83000151A2 /* Headers */,
-				2484922E1AF6BA83000151A2 /* Resources */,
+				240C8E561B2FF19700108C7A /* Sources */,
+				240C8E571B2FF19700108C7A /* Frameworks */,
+				240C8E581B2FF19700108C7A /* Headers */,
+				240C8E591B2FF19700108C7A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -382,219 +346,328 @@
 			);
 			name = "LoggerLogger-Mac";
 			productName = LoggerLogger;
-			productReference = 248492301AF6BA83000151A2 /* LoggerLogger.framework */;
+			productReference = 240C8E5B1B2FF19700108C7A /* LoggerLogger.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		248492391AF6BA83000151A2 /* LoggerLoggerSpecs-Mac */ = {
+		240C8E631B2FF19800108C7A /* LoggerLoggerTests-Mac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 248492461AF6BA83000151A2 /* Build configuration list for PBXNativeTarget "LoggerLoggerSpecs-Mac" */;
+			buildConfigurationList = 240C8E711B2FF19800108C7A /* Build configuration list for PBXNativeTarget "LoggerLoggerTests-Mac" */;
 			buildPhases = (
-				248492361AF6BA83000151A2 /* Sources */,
-				248492371AF6BA83000151A2 /* Frameworks */,
-				248492381AF6BA83000151A2 /* Resources */,
-				249DA0591B0F5C6800387A97 /* CopyFiles */,
+				240C8E601B2FF19800108C7A /* Sources */,
+				240C8E611B2FF19800108C7A /* Frameworks */,
+				240C8E621B2FF19800108C7A /* Resources */,
+				240C8E7C1B2FF33100108C7A /* Copy Carthage Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2484923D1AF6BA83000151A2 /* PBXTargetDependency */,
+				240C8E671B2FF19800108C7A /* PBXTargetDependency */,
 			);
-			name = "LoggerLoggerSpecs-Mac";
+			name = "LoggerLoggerTests-Mac";
 			productName = LoggerLoggerTests;
-			productReference = 2484923A1AF6BA83000151A2 /* LoggerLoggerSpecs-Mac.xctest */;
+			productReference = 240C8E641B2FF19800108C7A /* LoggerLoggerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		246072C61B2F428E0096D54C /* LoggerLogger-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 246072DB1B2F428E0096D54C /* Build configuration list for PBXNativeTarget "LoggerLogger-iOS" */;
+			buildPhases = (
+				246072C21B2F428E0096D54C /* Sources */,
+				246072C31B2F428E0096D54C /* Frameworks */,
+				246072C41B2F428E0096D54C /* Headers */,
+				246072C51B2F428E0096D54C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LoggerLogger-iOS";
+			productName = LoggerLogger;
+			productReference = 246072C71B2F428E0096D54C /* LoggerLogger.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		246072D01B2F428E0096D54C /* LoggerLoggerTests-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 246072DE1B2F428E0096D54C /* Build configuration list for PBXNativeTarget "LoggerLoggerTests-iOS" */;
+			buildPhases = (
+				246072CD1B2F428E0096D54C /* Sources */,
+				246072CE1B2F428E0096D54C /* Frameworks */,
+				246072CF1B2F428E0096D54C /* Resources */,
+				24E947821B2F4653007D4472 /* Copy Files (2 items) */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				246072D41B2F428E0096D54C /* PBXTargetDependency */,
+			);
+			name = "LoggerLoggerTests-iOS";
+			productName = LoggerLoggerTests;
+			productReference = 246072D11B2F428E0096D54C /* LoggerLoggerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		248492061AF6B386000151A2 /* Project object */ = {
+		246072BE1B2F428E0096D54C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Ben Hale";
 				TargetAttributes = {
-					2484920E1AF6B386000151A2 = {
-						CreatedOnToolsVersion = 6.3.1;
+					240C8E5A1B2FF19700108C7A = {
+						CreatedOnToolsVersion = 7.0;
 					};
-					248492191AF6B386000151A2 = {
-						CreatedOnToolsVersion = 6.3.1;
+					240C8E631B2FF19800108C7A = {
+						CreatedOnToolsVersion = 7.0;
 					};
-					2484922F1AF6BA83000151A2 = {
-						CreatedOnToolsVersion = 6.3.1;
+					246072C61B2F428E0096D54C = {
+						CreatedOnToolsVersion = 7.0;
 					};
-					248492391AF6BA83000151A2 = {
-						CreatedOnToolsVersion = 6.3.1;
+					246072D01B2F428E0096D54C = {
+						CreatedOnToolsVersion = 7.0;
 					};
 				};
 			};
-			buildConfigurationList = 248492091AF6B386000151A2 /* Build configuration list for PBXProject "LoggerLogger" */;
+			buildConfigurationList = 246072C11B2F428E0096D54C /* Build configuration list for PBXProject "LoggerLogger" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 248492051AF6B386000151A2;
-			productRefGroup = 248492101AF6B386000151A2 /* Products */;
+			mainGroup = 246072BD1B2F428E0096D54C;
+			productRefGroup = 246072C81B2F428E0096D54C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2484920E1AF6B386000151A2 /* LoggerLogger-iOS */,
-				248492191AF6B386000151A2 /* LoggerLoggerSpecs-iOS */,
-				2484922F1AF6BA83000151A2 /* LoggerLogger-Mac */,
-				248492391AF6BA83000151A2 /* LoggerLoggerSpecs-Mac */,
+				246072C61B2F428E0096D54C /* LoggerLogger-iOS */,
+				246072D01B2F428E0096D54C /* LoggerLoggerTests-iOS */,
+				240C8E5A1B2FF19700108C7A /* LoggerLogger-Mac */,
+				240C8E631B2FF19800108C7A /* LoggerLoggerTests-Mac */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2484920D1AF6B386000151A2 /* Resources */ = {
+		240C8E591B2FF19700108C7A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		248492181AF6B386000151A2 /* Resources */ = {
+		240C8E621B2FF19800108C7A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24E1C39F1AFA5A5C00FB689B /* FormatSet.plist in Resources */,
-				24E1C3A11AFA5A5C00FB689B /* LevelSet.plist in Resources */,
-				24E1C3A21AFA5A5C00FB689B /* Named.plist in Resources */,
-				24E1C3A31AFA5A5C00FB689B /* RootOnly.plist in Resources */,
-				24E1C3A01AFA5A5C00FB689B /* Levels.plist in Resources */,
+				240C8ED71B2FF7A500108C7A /* FormatSet.plist in Resources */,
+				240C8EDD1B2FF7EC00108C7A /* LevelSet.plist in Resources */,
+				240C8EE01B2FF80400108C7A /* Named.plist in Resources */,
+				240C8EE31B2FF81B00108C7A /* RootOnly.plist in Resources */,
+				240C8EDA1B2FF7D400108C7A /* Levels.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2484922E1AF6BA83000151A2 /* Resources */ = {
+		246072C51B2F428E0096D54C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		248492381AF6BA83000151A2 /* Resources */ = {
+		246072CF1B2F428E0096D54C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24E1C39A1AFA5A5B00FB689B /* FormatSet.plist in Resources */,
-				24E1C39C1AFA5A5B00FB689B /* LevelSet.plist in Resources */,
-				24E1C39D1AFA5A5B00FB689B /* Named.plist in Resources */,
-				24E1C39E1AFA5A5B00FB689B /* RootOnly.plist in Resources */,
-				24E1C39B1AFA5A5B00FB689B /* Levels.plist in Resources */,
+				240C8ED61B2FF7A500108C7A /* FormatSet.plist in Resources */,
+				240C8EDC1B2FF7EC00108C7A /* LevelSet.plist in Resources */,
+				240C8EDF1B2FF80400108C7A /* Named.plist in Resources */,
+				240C8EE21B2FF81B00108C7A /* RootOnly.plist in Resources */,
+				240C8ED91B2FF7D400108C7A /* Levels.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2484920A1AF6B386000151A2 /* Sources */ = {
+		240C8E561B2FF19700108C7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24E1C3081AFA58E300FB689B /* DateFormatterPool.swift in Sources */,
-				24E1C3401AFA58E300FB689B /* Synchronized.swift in Sources */,
-				24E1C2F81AFA58E300FB689B /* Configuration.swift in Sources */,
-				24E1C3381AFA58E300FB689B /* Range.swift in Sources */,
-				24E1C3241AFA58E300FB689B /* MessagePosition.swift in Sources */,
-				24E1C2F41AFA58E300FB689B /* Basename.swift in Sources */,
-				24E1C3341AFA58E300FB689B /* PlistConfigurationProvider.swift in Sources */,
-				24E1C3181AFA58E300FB689B /* Level.swift in Sources */,
-				24E1C3041AFA58E300FB689B /* ConsoleMessageWriter.swift in Sources */,
-				24E1C3301AFA58E300FB689B /* MessageWriterManager.swift in Sources */,
-				24E1C31C1AFA58E300FB689B /* Logger.swift in Sources */,
-				24E1C30C1AFA58E300FB689B /* DefaultMessageFormatter.swift in Sources */,
-				24E1C3201AFA58E300FB689B /* MessageFormatter.swift in Sources */,
-				24E1C33C1AFA58E300FB689B /* String.swift in Sources */,
-				24E1C2FC1AFA58E300FB689B /* ConfigurationProvider.swift in Sources */,
-				24E1C32C1AFA58E300FB689B /* MessageWriter.swift in Sources */,
-				24E1C3141AFA58E300FB689B /* InMemoryDateFormatterPool.swift in Sources */,
-				24E1C3281AFA58E300FB689B /* MessageProvider.swift in Sources */,
-				24E1C3001AFA58E300FB689B /* ConfigurationProviderManager.swift in Sources */,
+				240C8E841B2FF3D700108C7A /* Configuration.swift in Sources */,
+				240C8EB41B2FF4FE00108C7A /* Synchronized.swift in Sources */,
+				240C8E871B2FF3E800108C7A /* ConfigurationProvider.swift in Sources */,
+				240C8E9F1B2FF49600108C7A /* MessagePosition.swift in Sources */,
+				240C8E8D1B2FF40900108C7A /* ConsoleMessageWriter.swift in Sources */,
+				240C8EAB1B2FF4CD00108C7A /* PlistConfigurationProvider.swift in Sources */,
+				240C8E8A1B2FF3FA00108C7A /* ConfigurationProviderManager.swift in Sources */,
+				240C8E721B2FF1E000108C7A /* Level.swift in Sources */,
+				240C8EAE1B2FF4D800108C7A /* Range.swift in Sources */,
+				240C8EA81B2FF4C000108C7A /* MessageWriterManager.swift in Sources */,
+				240C8E991B2FF47600108C7A /* Logger.swift in Sources */,
+				240C8E901B2FF41600108C7A /* DateFormatterPool.swift in Sources */,
+				240C8E9C1B2FF48A00108C7A /* MessageFormatter.swift in Sources */,
+				240C8EB11B2FF4F200108C7A /* String.swift in Sources */,
+				240C8E931B2FF42300108C7A /* DefaultMessageFormatter.swift in Sources */,
+				240C8EA51B2FF4AF00108C7A /* MessageWriter.swift in Sources */,
+				240C8E811B2FF38900108C7A /* Basename.swift in Sources */,
+				240C8EA21B2FF4A200108C7A /* MessageProvider.swift in Sources */,
+				240C8E961B2FF46100108C7A /* InMemoryDateFormatterPool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		248492161AF6B386000151A2 /* Sources */ = {
+		240C8E601B2FF19800108C7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24E1C37A1AFA58F800FB689B /* MessageWriterManagerSpec.swift in Sources */,
-				24E1C3521AFA58F800FB689B /* BasenameSpec.swift in Sources */,
-				24E1C36E1AFA58F800FB689B /* LevelSpec.swift in Sources */,
-				24E1C36A1AFA58F800FB689B /* InMemoryDateFormatterPoolSpec.swift in Sources */,
-				24E1C3621AFA58F800FB689B /* DefaultMessageFormatterSpec.swift in Sources */,
-				24E1C37E1AFA58F800FB689B /* PlistConfigurationProviderSpec.swift in Sources */,
-				24E1C35A1AFA58F800FB689B /* ConfigurationSpec.swift in Sources */,
-				24E1C3561AFA58F800FB689B /* ConfigurationProviderManagerSpec.swift in Sources */,
-				24E1C35E1AFA58F800FB689B /* ConsoleMessageWriterSpec.swift in Sources */,
-				24E1C3761AFA58F800FB689B /* MessagePositionSpec.swift in Sources */,
-				24E1C3721AFA58F800FB689B /* LoggerSpec.swift in Sources */,
+				240C8EBA1B2FF5E500108C7A /* ConfigurationProviderSpec.swift in Sources */,
+				240C8EC01B2FF60300108C7A /* ConsoleMessageWriterSpec.swift in Sources */,
+				240C8EC61B2FF65500108C7A /* InMemoryDateFormatterPoolSpec.swift in Sources */,
+				240C8EBD1B2FF5F400108C7A /* ConfigurationSpec.swift in Sources */,
+				240C8EC31B2FF63D00108C7A /* DefaultMessageFormatterSpec.swift in Sources */,
+				240C8EB71B2FF5D200108C7A /* BasenameSpec.swift in Sources */,
+				240C8ECD1B2FF71900108C7A /* MessagePositionSpec.swift in Sources */,
+				240C8ED31B2FF75F00108C7A /* PlistConfigurationProviderSpec.swift in Sources */,
+				240C8ECA1B2FF6C900108C7A /* LoggerSpec.swift in Sources */,
+				240C8E731B2FF1E300108C7A /* LevelSpec.swift in Sources */,
+				240C8ED01B2FF72700108C7A /* MessageWriterManagerSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2484922B1AF6BA83000151A2 /* Sources */ = {
+		246072C21B2F428E0096D54C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24E1C30A1AFA58E300FB689B /* DateFormatterPool.swift in Sources */,
-				24E1C3421AFA58E300FB689B /* Synchronized.swift in Sources */,
-				24E1C2FA1AFA58E300FB689B /* Configuration.swift in Sources */,
-				24E1C33A1AFA58E300FB689B /* Range.swift in Sources */,
-				24E1C3261AFA58E300FB689B /* MessagePosition.swift in Sources */,
-				24E1C2F61AFA58E300FB689B /* Basename.swift in Sources */,
-				24E1C3361AFA58E300FB689B /* PlistConfigurationProvider.swift in Sources */,
-				24E1C31A1AFA58E300FB689B /* Level.swift in Sources */,
-				24E1C3061AFA58E300FB689B /* ConsoleMessageWriter.swift in Sources */,
-				24E1C3321AFA58E300FB689B /* MessageWriterManager.swift in Sources */,
-				24E1C31E1AFA58E300FB689B /* Logger.swift in Sources */,
-				24E1C30E1AFA58E300FB689B /* DefaultMessageFormatter.swift in Sources */,
-				24E1C3221AFA58E300FB689B /* MessageFormatter.swift in Sources */,
-				24E1C33E1AFA58E300FB689B /* String.swift in Sources */,
-				24E1C2FE1AFA58E300FB689B /* ConfigurationProvider.swift in Sources */,
-				24E1C32E1AFA58E300FB689B /* MessageWriter.swift in Sources */,
-				24E1C3161AFA58E300FB689B /* InMemoryDateFormatterPool.swift in Sources */,
-				24E1C32A1AFA58E300FB689B /* MessageProvider.swift in Sources */,
-				24E1C3021AFA58E300FB689B /* ConfigurationProviderManager.swift in Sources */,
+				240C8E831B2FF3D700108C7A /* Configuration.swift in Sources */,
+				240C8EB31B2FF4FE00108C7A /* Synchronized.swift in Sources */,
+				240C8E861B2FF3E800108C7A /* ConfigurationProvider.swift in Sources */,
+				240C8E9E1B2FF49600108C7A /* MessagePosition.swift in Sources */,
+				240C8E8C1B2FF40900108C7A /* ConsoleMessageWriter.swift in Sources */,
+				240C8EAA1B2FF4CD00108C7A /* PlistConfigurationProvider.swift in Sources */,
+				240C8E891B2FF3FA00108C7A /* ConfigurationProviderManager.swift in Sources */,
+				246072E71B2F44210096D54C /* Level.swift in Sources */,
+				240C8EAD1B2FF4D800108C7A /* Range.swift in Sources */,
+				240C8EA71B2FF4C000108C7A /* MessageWriterManager.swift in Sources */,
+				240C8E981B2FF47600108C7A /* Logger.swift in Sources */,
+				240C8E8F1B2FF41600108C7A /* DateFormatterPool.swift in Sources */,
+				240C8E9B1B2FF48A00108C7A /* MessageFormatter.swift in Sources */,
+				240C8EB01B2FF4F200108C7A /* String.swift in Sources */,
+				240C8E921B2FF42300108C7A /* DefaultMessageFormatter.swift in Sources */,
+				240C8EA41B2FF4AF00108C7A /* MessageWriter.swift in Sources */,
+				240C8E801B2FF38900108C7A /* Basename.swift in Sources */,
+				240C8EA11B2FF4A200108C7A /* MessageProvider.swift in Sources */,
+				240C8E951B2FF46100108C7A /* InMemoryDateFormatterPool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		248492361AF6BA83000151A2 /* Sources */ = {
+		246072CD1B2F428E0096D54C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24E1C37C1AFA58F800FB689B /* MessageWriterManagerSpec.swift in Sources */,
-				24E1C3541AFA58F800FB689B /* BasenameSpec.swift in Sources */,
-				24E1C3701AFA58F800FB689B /* LevelSpec.swift in Sources */,
-				24E1C36C1AFA58F800FB689B /* InMemoryDateFormatterPoolSpec.swift in Sources */,
-				24E1C3641AFA58F800FB689B /* DefaultMessageFormatterSpec.swift in Sources */,
-				24E1C3801AFA58F800FB689B /* PlistConfigurationProviderSpec.swift in Sources */,
-				24E1C35C1AFA58F800FB689B /* ConfigurationSpec.swift in Sources */,
-				24E1C3581AFA58F800FB689B /* ConfigurationProviderManagerSpec.swift in Sources */,
-				24E1C3601AFA58F800FB689B /* ConsoleMessageWriterSpec.swift in Sources */,
-				24E1C3781AFA58F800FB689B /* MessagePositionSpec.swift in Sources */,
-				24E1C3741AFA58F800FB689B /* LoggerSpec.swift in Sources */,
+				240C8EB91B2FF5E500108C7A /* ConfigurationProviderSpec.swift in Sources */,
+				240C8EBF1B2FF60300108C7A /* ConsoleMessageWriterSpec.swift in Sources */,
+				240C8EC51B2FF65500108C7A /* InMemoryDateFormatterPoolSpec.swift in Sources */,
+				240C8EBC1B2FF5F400108C7A /* ConfigurationSpec.swift in Sources */,
+				240C8EC21B2FF63D00108C7A /* DefaultMessageFormatterSpec.swift in Sources */,
+				240C8EB61B2FF5D200108C7A /* BasenameSpec.swift in Sources */,
+				240C8ECC1B2FF71900108C7A /* MessagePositionSpec.swift in Sources */,
+				240C8ED21B2FF75F00108C7A /* PlistConfigurationProviderSpec.swift in Sources */,
+				240C8EC91B2FF6C800108C7A /* LoggerSpec.swift in Sources */,
+				246072E91B2F44420096D54C /* LevelSpec.swift in Sources */,
+				240C8ECF1B2FF72700108C7A /* MessageWriterManagerSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2484921D1AF6B386000151A2 /* PBXTargetDependency */ = {
+		240C8E671B2FF19800108C7A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2484920E1AF6B386000151A2 /* LoggerLogger-iOS */;
-			targetProxy = 2484921C1AF6B386000151A2 /* PBXContainerItemProxy */;
+			target = 240C8E5A1B2FF19700108C7A /* LoggerLogger-Mac */;
+			targetProxy = 240C8E661B2FF19800108C7A /* PBXContainerItemProxy */;
 		};
-		2484923D1AF6BA83000151A2 /* PBXTargetDependency */ = {
+		246072D41B2F428E0096D54C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2484922F1AF6BA83000151A2 /* LoggerLogger-Mac */;
-			targetProxy = 2484923C1AF6BA83000151A2 /* PBXContainerItemProxy */;
+			target = 246072C61B2F428E0096D54C /* LoggerLogger-iOS */;
+			targetProxy = 246072D31B2F428E0096D54C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		248492231AF6B386000151A2 /* Debug */ = {
+		240C8E6C1B2FF19800108C7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = LoggerLogger/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nebhale.LoggerLogger;
+				PRODUCT_NAME = LoggerLogger;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		240C8E6D1B2FF19800108C7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = LoggerLogger/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nebhale.LoggerLogger;
+				PRODUCT_NAME = LoggerLogger;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		240C8E6E1B2FF19800108C7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = LoggerLoggerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nebhale.LoggerLoggerTests;
+				PRODUCT_NAME = LoggerLoggerTests;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		240C8E6F1B2FF19800108C7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = LoggerLoggerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nebhale.LoggerLoggerTests;
+				PRODUCT_NAME = LoggerLoggerTests;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		246072D91B2F428E0096D54C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -614,7 +687,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -625,7 +698,6 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -633,7 +705,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -644,7 +716,7 @@
 			};
 			name = Debug;
 		};
-		248492241AF6B386000151A2 /* Release */ = {
+		246072DA1B2F428E0096D54C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -676,7 +748,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -686,7 +758,7 @@
 			};
 			name = Release;
 		};
-		248492261AF6B386000151A2 /* Debug */ = {
+		246072DC1B2F428E0096D54C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -694,21 +766,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = LoggerLogger/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nebhale.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nebhale.LoggerLogger;
+				PRODUCT_NAME = LoggerLogger;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		248492271AF6B386000151A2 /* Release */ = {
+		246072DD1B2F428E0096D54C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -716,194 +784,92 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = LoggerLogger/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nebhale.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nebhale.LoggerLogger;
+				PRODUCT_NAME = LoggerLogger;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		248492291AF6B386000151A2 /* Debug */ = {
+		246072DF1B2F428E0096D54C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Specs/Info.plist;
+				INFOPLIST_FILE = LoggerLoggerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nebhale.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nebhale.LoggerLoggerTests;
+				PRODUCT_NAME = LoggerLoggerTests;
 			};
 			name = Debug;
 		};
-		2484922A1AF6B386000151A2 /* Release */ = {
+		246072E01B2F428E0096D54C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = Specs/Info.plist;
+				INFOPLIST_FILE = LoggerLoggerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nebhale.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		248492441AF6BA83000151A2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
-				FRAMEWORK_VERSION = A;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Sources/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nebhale.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(PROJECT_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		248492451AF6BA83000151A2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Sources/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nebhale.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(PROJECT_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		248492471AF6BA83000151A2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Specs/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nebhale.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-			};
-			name = Debug;
-		};
-		248492481AF6BA83000151A2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
-				INFOPLIST_FILE = Specs/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nebhale.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nebhale.LoggerLoggerTests;
+				PRODUCT_NAME = LoggerLoggerTests;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		248492091AF6B386000151A2 /* Build configuration list for PBXProject "LoggerLogger" */ = {
+		240C8E701B2FF19800108C7A /* Build configuration list for PBXNativeTarget "LoggerLogger-Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				248492231AF6B386000151A2 /* Debug */,
-				248492241AF6B386000151A2 /* Release */,
+				240C8E6C1B2FF19800108C7A /* Debug */,
+				240C8E6D1B2FF19800108C7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		248492251AF6B386000151A2 /* Build configuration list for PBXNativeTarget "LoggerLogger-iOS" */ = {
+		240C8E711B2FF19800108C7A /* Build configuration list for PBXNativeTarget "LoggerLoggerTests-Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				248492261AF6B386000151A2 /* Debug */,
-				248492271AF6B386000151A2 /* Release */,
+				240C8E6E1B2FF19800108C7A /* Debug */,
+				240C8E6F1B2FF19800108C7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		248492281AF6B386000151A2 /* Build configuration list for PBXNativeTarget "LoggerLoggerSpecs-iOS" */ = {
+		246072C11B2F428E0096D54C /* Build configuration list for PBXProject "LoggerLogger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				248492291AF6B386000151A2 /* Debug */,
-				2484922A1AF6B386000151A2 /* Release */,
+				246072D91B2F428E0096D54C /* Debug */,
+				246072DA1B2F428E0096D54C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		248492431AF6BA83000151A2 /* Build configuration list for PBXNativeTarget "LoggerLogger-Mac" */ = {
+		246072DB1B2F428E0096D54C /* Build configuration list for PBXNativeTarget "LoggerLogger-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				248492441AF6BA83000151A2 /* Debug */,
-				248492451AF6BA83000151A2 /* Release */,
+				246072DC1B2F428E0096D54C /* Debug */,
+				246072DD1B2F428E0096D54C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		248492461AF6BA83000151A2 /* Build configuration list for PBXNativeTarget "LoggerLoggerSpecs-Mac" */ = {
+		246072DE1B2F428E0096D54C /* Build configuration list for PBXNativeTarget "LoggerLoggerTests-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				248492471AF6BA83000151A2 /* Debug */,
-				248492481AF6BA83000151A2 /* Release */,
+				246072DF1B2F428E0096D54C /* Debug */,
+				246072E01B2F428E0096D54C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 248492061AF6B386000151A2 /* Project object */;
+	rootObject = 246072BE1B2F428E0096D54C /* Project object */;
 }
