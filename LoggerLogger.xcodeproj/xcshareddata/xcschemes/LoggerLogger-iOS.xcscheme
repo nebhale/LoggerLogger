@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2484920E1AF6B386000151A2"
+               BlueprintIdentifier = "246072C61B2F428E0096D54C"
                BuildableName = "LoggerLogger.framework"
                BlueprintName = "LoggerLogger-iOS"
                ReferencedContainer = "container:LoggerLogger.xcodeproj">
@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "248492191AF6B386000151A2"
-               BuildableName = "LoggerLoggerSpecs-iOS.xctest"
-               BlueprintName = "LoggerLoggerSpecs-iOS"
+               BlueprintIdentifier = "246072D01B2F428E0096D54C"
+               BuildableName = "LoggerLoggerTests.xctest"
+               BlueprintName = "LoggerLoggerTests-iOS"
                ReferencedContainer = "container:LoggerLogger.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2484920E1AF6B386000151A2"
+            BlueprintIdentifier = "246072C61B2F428E0096D54C"
             BuildableName = "LoggerLogger.framework"
             BlueprintName = "LoggerLogger-iOS"
             ReferencedContainer = "container:LoggerLogger.xcodeproj">
@@ -64,7 +64,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2484920E1AF6B386000151A2"
+            BlueprintIdentifier = "246072C61B2F428E0096D54C"
             BuildableName = "LoggerLogger.framework"
             BlueprintName = "LoggerLogger-iOS"
             ReferencedContainer = "container:LoggerLogger.xcodeproj">
@@ -82,7 +82,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2484920E1AF6B386000151A2"
+            BlueprintIdentifier = "246072C61B2F428E0096D54C"
             BuildableName = "LoggerLogger.framework"
             BlueprintName = "LoggerLogger-iOS"
             ReferencedContainer = "container:LoggerLogger.xcodeproj">
