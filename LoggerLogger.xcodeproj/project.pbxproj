@@ -85,8 +85,8 @@
 		246072E51B2F43A60096D54C /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 246072E31B2F43A60096D54C /* Quick.framework */; };
 		246072E71B2F44210096D54C /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246072E61B2F44210096D54C /* Level.swift */; };
 		246072E91B2F44420096D54C /* LevelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246072E81B2F44420096D54C /* LevelSpec.swift */; };
-		24E947831B2F4661007D4472 /* Nimble.framework in Copy Files (2 items) */ = {isa = PBXBuildFile; fileRef = 246072E21B2F43A60096D54C /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		24E947841B2F4661007D4472 /* Quick.framework in Copy Files (2 items) */ = {isa = PBXBuildFile; fileRef = 246072E31B2F43A60096D54C /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		24E947831B2F4661007D4472 /* Nimble.framework in Copy Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 246072E21B2F43A60096D54C /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		24E947841B2F4661007D4472 /* Quick.framework in Copy Carthage Frameworks */ = {isa = PBXBuildFile; fileRef = 246072E31B2F43A60096D54C /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,16 +119,16 @@
 			name = "Copy Carthage Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		24E947821B2F4653007D4472 /* Copy Files (2 items) */ = {
+		24E947821B2F4653007D4472 /* Copy Carthage Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				24E947831B2F4661007D4472 /* Nimble.framework in Copy Files (2 items) */,
-				24E947841B2F4661007D4472 /* Quick.framework in Copy Files (2 items) */,
+				24E947831B2F4661007D4472 /* Nimble.framework in Copy Carthage Frameworks */,
+				24E947841B2F4661007D4472 /* Quick.framework in Copy Carthage Frameworks */,
 			);
-			name = "Copy Files (2 items)";
+			name = "Copy Carthage Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -393,7 +393,7 @@
 				246072CD1B2F428E0096D54C /* Sources */,
 				246072CE1B2F428E0096D54C /* Frameworks */,
 				246072CF1B2F428E0096D54C /* Resources */,
-				24E947821B2F4653007D4472 /* Copy Files (2 items) */,
+				24E947821B2F4653007D4472 /* Copy Carthage Frameworks */,
 			);
 			buildRules = (
 			);
