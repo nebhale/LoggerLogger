@@ -630,6 +630,7 @@
 				PRODUCT_NAME = LoggerLogger;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
 		};
@@ -790,6 +791,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nebhale.LoggerLogger;
 				PRODUCT_NAME = LoggerLogger;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
 		};
