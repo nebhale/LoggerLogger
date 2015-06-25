@@ -31,6 +31,8 @@ final class PlistConfigurationProviderTests: XCTestCase {
         self.configurationProvider = PlistConfigurationProvider(file: "Levels", bundle: self.bundle)
     }
 
+    // MARK: - PlistConfigurationProvider
+
     func test_ReturnsRootIfFileDoesNotExist() {
         let configurationProvider = PlistConfigurationProvider(file: "NonExistent", bundle: self.bundle)
         expect(configurationProvider.configuration("Test").name).to(equal("ROOT"))
@@ -56,10 +58,9 @@ final class PlistConfigurationProviderTests: XCTestCase {
         expect(configurationProvider.configuration("Test").format).to(equal("test-format"))
     }
 
-    func test_ParsesLevelFromString() {
-    }
+    // MARK: - Level
 
-    func test_() {
+    func test_ParsesLevelFromString() {
         expect(self.configurationProvider.configuration("debug").level).to(equal(Level.Debug))
         expect(self.configurationProvider.configuration("DEBUG").level).to(equal(Level.Debug))
         expect(self.configurationProvider.configuration("Debug").level).to(equal(Level.Debug))
